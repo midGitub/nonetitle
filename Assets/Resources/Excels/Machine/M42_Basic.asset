@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M42_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M42.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 16,16,16
+  - key: HasSlide
+    val: 0
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: IsBonusValidOnNonPayline
+    val: 1
+  - key: ReelSkin
+    val: M42/M42_ReelBack
+  - key: Background
+    val: 
+  - key: BackgroundEffectPrefab
+    val: 
+  - key: BackgroundEffectStartOn
+    val: 
+  - key: PayLine
+    val: M42/M42_PayLine
+  - key: HighLight
+    val: 
+  - key: BackgroundPrefab
+    val: Game/BackgroundM42
+  - key: BackgroundUp
+    val: M42/M42_BackgroundUp
+  - key: BackgroundDown
+    val: M42/M42_BackgroundDown
+  - key: BackgroundLeft
+    val: M42/M42_BackgroundLeft
+  - key: BackgroundRight
+    val: M42/M42_BackgroundRight
+  - key: ReelShadowUp
+    val: M42/M42_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1;7;1;-42
+  - key: ReelShadowDown
+    val: M42/M42_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1;5
+  - key: SuperSymbolLightEffect
+    val: M42/FX_M42_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: TriggerType
+    val: Payout
+  - key: SmallGameTypes
+    val: SwitchSymbol
+  - key: SmallGameEffect
+    val: M42/FX_M42_SymbolSwitch
+  - key: SymbolSwitchTriggerCount
+    val: 1
+  - key: SymbolSwitchTriggerNames
+    val: BonusWild
+  - key: SymbolUnitDistanceFactor
+    val: 0.9
+  - key: NormalHitRate
+    val: 0.161
+  - key: LuckyHitRate
+    val: 0.21
+  - key: NormalRTP
+    val: 0.893
+  - key: LuckyRTP
+    val: 2.06
+  - key: IsJackpot
+    val: 0
+  - key: IsPaylineStrongSpecialEffect
+    val: 0
+  - key: NearHitProbs
+    val: 0.2,0.3,0.5
+  - key: BackgroundDecoratePrefab
+    val: Game/M42/M42_BackgroundDecorate
+  - key: BetWinFrameImage
+    val: M42/M42_Bar
+  - key: IsBetWinFrameSimpleMode
+    val: 1
+  - key: SpinReelSoundNumber
+    val: 3
+  - key: MachineBGM
+    val: M42_NormalBGM_Beginning,M42_NormalBGM_Loop
+  - key: SwitchSymbolEffectStartDelay
+    val: 0
+  - key: SwitchSymbolDelays
+    val: 4.06,3.9,3.6
+  - key: SwitchSymbolEffectEndDelay
+    val: 4.5
+  - key: ChangeAnim
+    val: Scale
+  - key: SwitchSymbolSound1
+    val: M42_GirlWild
+  - key: SwitchSymbolSound1Delay
+    val: 0
+  - key: SwitchSymbolSound2
+    val: M42_SantaClaus
+  - key: SwitchSymbolSound2Delay
+    val: 1
+  - key: SwitchSymbolSound3
+    val: M42_OpenGifts
+  - key: SwitchSymbolSound3Delay
+    val: 0
+  - key: NormalBlurFactor
+    val: 2

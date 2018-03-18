@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b2004b29564fab498506c8e983c5ff2, type: 3}
+  m_Name: GameSetting_PayRotaryTable
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Game/GameSetting.xls
+  WorksheetName: PayRotaryTable
+  dataArray:
+  - bonusID: 0
+    bonus: 40000
+    prob:
+    - 0.005
+    - 0.005
+    - 0.005
+    - 0.005
+    - 0.005
+    angle: 40
+  - bonusID: 1
+    bonus: 4000
+    prob:
+    - 0.04
+    - 0.04
+    - 0.04
+    - 0.04
+    - 0.04
+    angle: 20
+  - bonusID: 2
+    bonus: 6000
+    prob:
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    angle: 20
+  - bonusID: 3
+    bonus: 10000
+    prob:
+    - 0.09
+    - 0.09
+    - 0.09
+    - 0.09
+    - 0.09
+    angle: 20
+  - bonusID: 4
+    bonus: 8000
+    prob:
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    angle: 20
+  - bonusID: 5
+    bonus: 10000
+    prob:
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.08
+    - 0.08
+    angle: 20
+  - bonusID: 6
+    bonus: 8000
+    prob:
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    angle: 20
+  - bonusID: 7
+    bonus: 6000
+    prob:
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    angle: 20
+  - bonusID: 8
+    bonus: 40000
+    prob:
+    - 0.005
+    - 0.005
+    - 0.005
+    - 0.005
+    - 0.005
+    angle: 40
+  - bonusID: 9
+    bonus: 6000
+    prob:
+    - 0.09
+    - 0.09
+    - 0.09
+    - 0.09
+    - 0.09
+    angle: 20
+  - bonusID: 10
+    bonus: 20000
+    prob:
+    - 0.01
+    - 0.01
+    - 0.01
+    - 0.01
+    - 0.01
+    angle: 20
+  - bonusID: 11
+    bonus: 4000
+    prob:
+    - 0.04
+    - 0.04
+    - 0.04
+    - 0.04
+    - 0.04
+    angle: 20
+  - bonusID: 12
+    bonus: 8000
+    prob:
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    angle: 20
+  - bonusID: 13
+    bonus: 20000
+    prob:
+    - 0.01
+    - 0.01
+    - 0.01
+    - 0.01
+    - 0.01
+    angle: 20
+  - bonusID: 14
+    bonus: 10000
+    prob:
+    - 0.09
+    - 0.09
+    - 0.09
+    - 0.09
+    - 0.09
+    angle: 20
+  - bonusID: 15
+    bonus: 4000
+    prob:
+    - 0.04
+    - 0.04
+    - 0.04
+    - 0.04
+    - 0.04
+    angle: 20

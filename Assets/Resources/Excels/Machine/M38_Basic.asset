@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M38_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M38.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 6,8,6
+  - key: HasSlide
+    val: 0
+  - key: SmallGameTypes
+    val: FreeSpin
+  - key: FreeSpinType
+    val: SpinUntilLose
+  - key: IsFreeSpinFixBonus
+    val: 1
+  - key: FreeSpinTriggerCount
+    val: 1
+  - key: FreeSpinTriggerSymbolNames
+    val: BonusWild
+  - key: FreeSpinHitsNonWin
+    val: 1,0.9,0.8,0.6
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: IsBonusValidOnNonPayline
+    val: 1
+  - key: ReelSkin
+    val: M38/M38_ReelBack
+  - key: IsReelBackSlice
+    val: 1
+  - key: Background
+    val: 
+  - key: PayLine
+    val: M38/M38_PayLine
+  - key: HighLight
+    val: 
+  - key: BackgroundPrefab
+    val: Game/BackgroundM38
+  - key: BackgroundEffectPrefab
+    val: M38/FX_M38_SceneEffect
+  - key: BackgroundEffectStartOn
+    val: 1
+  - key: BackgroundUp
+    val: M38/M38_BackgroundUp
+  - key: BackgroundDown
+    val: M38/M38_BackgroundDown
+  - key: BackgroundLeft
+    val: M38/M38_BackgroundLeft
+  - key: BackgroundRight
+    val: M38/M38_BackgroundRight
+  - key: ReelShadowUp
+    val: M38/M38_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1;3;1;-42
+  - key: ReelShadowDown
+    val: M38/M38_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1;5;1;42
+  - key: SuperSymbolLightEffect
+    val: M38/FX_M38_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 1
+  - key: HasSpinReelSideEffect
+    val: 1
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: NormalHitRate
+    val: 0.1401
+  - key: LuckyHitRate
+    val: 0.211
+  - key: NormalRTP
+    val: 0.8485
+  - key: LuckyRTP
+    val: 2.8686
+  - key: NearHitProbs
+    val: 0.2,0.3,0.5
+  - key: UserBlurImage
+    val: 1

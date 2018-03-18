@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: MachineTemplate_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/MachineTemplate.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 4,5,4
+  - key: HasSlide
+    val: 0
+  - key: BetOptions
+    val: 5.010050010005E+44
+  - key: ReelSkin
+    val: M1/M1_ReelBack
+  - key: Background
+    val: M1/M1_Background
+  - key: PayLine
+    val: M1/M1_PayLine
+  - key: HypeMachineEffect
+    val: M2/M2_HypeMachineEffect
+  - key: HasIdleReelSideEffect
+    val: 1
+  - key: HasSpinReelSideEffect
+    val: 1
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: TriggerType
+    val: Collection
+  - key: CollectSymbols
+    val: Glass
+  - key: Count
+    val: 10
+  - key: NormalCollectRate
+    val: 0.05
+  - key: LuckyCollectRate
+    val: 0.1
+  - key: SmallGameTypes
+    val: FreeSpin
+  - key: FreeSpinType
+    val: FixTime
+  - key: FreeSpinFixTime
+    val: 10
+  - key: FreeSpinHits
+    val: 
+  - key: FreeSpinRatio
+    val: 1
+  - key: WheelSheet
+    val: Wheel,LuckyWheel

@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{BE87BF45-DA72-B105-CDC9-0AE7F71BE296}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;UNITY_PURCHASING;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_VIDEO;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;Trojan_FB;USE_iOS_IW;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;ENABLE_DUCK_TYPING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\BuildAssetBundles\BuildABTestHelper.cs" />
+     <Compile Include="Assets\Editor\BuildAssetBundles\BuildABTestWindow.cs" />
+     <Compile Include="Assets\Editor\BuildAssetBundles\BuildAssetBundleHelper.cs" />
+     <Compile Include="Assets\Editor\BuildAssetBundles\BuildAssetBundles.cs" />
+     <Compile Include="Assets\Editor\BuildAssetBundles\BuildExcelAssetBundles.cs" />
+     <Compile Include="Assets\Editor\BuildAssetBundles\BuildLiveUpdateWindow.cs" />
+     <Compile Include="Assets\Editor\BuildAssetBundles\BuildMachineAssetWindow.cs" />
+     <Compile Include="Assets\Editor\BuildAssetBundles\Config\BuildABTestAssetBundleConfig.cs" />
+     <Compile Include="Assets\Editor\BuildAssetBundles\Config\BuildLiveUpdateAssetBundleConfig.cs" />
+     <Compile Include="Assets\Editor\BuildAssetBundles\Config\BuildMachineAssetBundleConfig.cs" />
+     <Compile Include="Assets\Editor\BuildAssetBundles\RunProcessHelper.cs" />
+     <Compile Include="Assets\Editor\BuildProject\PerformBuild.cs" />
+     <Compile Include="Assets\Editor\CompleteCanvasAdaptor.cs" />
+     <Compile Include="Assets\Editor\EditorTester.cs" />
+     <Compile Include="Assets\Editor\FindProjectReferences.cs" />
+     <Compile Include="Assets\Editor\MachineTest\MachineTestAnalysisHelper.cs" />
+     <Compile Include="Assets\Editor\MachineTest\MachineTestAnalysisResult.cs" />
+     <Compile Include="Assets\Editor\MachineTest\MachineTestAnalysisResultPrinter.cs" />
+     <Compile Include="Assets\Editor\MachineTest\MachineTestChecker.cs" />
+     <Compile Include="Assets\Editor\MachineTest\MachineTestConfig.cs" />
+     <Compile Include="Assets\Editor\MachineTest\MachineTestEditor.cs" />
+     <Compile Include="Assets\Editor\MachineTest\MachineTestEngine.cs" />
+     <Compile Include="Assets\Editor\MachineTest\MachineTestIndieGameManager.cs" />
+     <Compile Include="Assets\Editor\MachineTest\MachineTestMachineResult.cs" />
+     <Compile Include="Assets\Editor\MachineTest\MachineTestRound.cs" />
+     <Compile Include="Assets\Editor\MachineTest\MachineTestUserResult.cs" />
+     <Compile Include="Assets\Editor\MachineTest\MachineTestUserResultPrinter.cs" />
+     <Compile Include="Assets\Editor\MachineTest\MachineTestUtility.cs" />
+     <Compile Include="Assets\Editor\MultiLineExport\MultiLineExportConfig.cs" />
+     <Compile Include="Assets\Editor\MultiLineExport\MultiLineExportData.cs" />
+     <Compile Include="Assets\Editor\MultiLineExport\MultiLineExportEditorWindow.cs" />
+     <Compile Include="Assets\Editor\PresetAssetsGenerator\GenPresetAssetConfig.cs" />
+     <Compile Include="Assets\Editor\PresetAssetsGenerator\GenPresetAssetWindow.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\Editor\BaseEditor.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\Editor\BaseMachine.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\Editor\BaseMachineEditor.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\Editor\CustomAssetUtility.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\Editor\GUIHelper.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\Editor\ScriptGenerator.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\Editor\ScriptPrescription.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\Editor\Util\Cloner.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\Editor\Util\CsvParser.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\Editor\Util\SerializableDict.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\Editor\Util\Singleton.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\Editor\Util\Util.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\ExcelPlugin\Editor\BaseExcelEditor.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\ExcelPlugin\Editor\ExcelMachine.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\ExcelPlugin\Editor\ExcelMachineEditor.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\ExcelPlugin\Editor\ExcelSettings.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\ExcelPlugin\Editor\ExcelSettingsEditor.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\ExcelQuery\ExcelQuery.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\ExcelQuery\ExcelQueryUtility.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\ExcelQuery\IExcelSheet.cs" />
+     <Compile Include="Assets\Editor\QuickSheet\Runtime\ExposePropertyAttribute.cs" />
+     <Compile Include="Assets\Editor\Resource-Checker\ResourceChecker.cs" />
+     <Compile Include="Assets\Editor\Vungle\VunglePostBuilder.cs" />
+     <Compile Include="Assets\Editor\VungleBuildHelper.cs" />
+     <Compile Include="Assets\Editor\XUPorter\MiniJSON\MiniJSON.cs" />
+     <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXBuildFile.cs" />
+     <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXBuildPhase.cs" />
+     <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXDictionary.cs" />
+     <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXFileReference.cs" />
+     <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXGroup.cs" />
+     <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXList.cs" />
+     <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXObject.cs" />
+     <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXParser.cs" />
+     <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXProject.cs" />
+     <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXSortedDictionary.cs" />
+     <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXVariantGroup.cs" />
+     <Compile Include="Assets\Editor\XUPorter\Plist\Plist.cs" />
+     <Compile Include="Assets\Editor\XUPorter\XCBuildConfiguration.cs" />
+     <Compile Include="Assets\Editor\XUPorter\XCConfigurationList.cs" />
+     <Compile Include="Assets\Editor\XUPorter\XCMod.cs" />
+     <Compile Include="Assets\Editor\XUPorter\XCPlist.cs" />
+     <Compile Include="Assets\Editor\XUPorter\XCPlistCustom.cs" />
+     <Compile Include="Assets\Editor\XUPorter\XCProject.cs" />
+     <Compile Include="Assets\Editor\XUPorter\XClass.cs" />
+     <Compile Include="Assets\Editor\XUPorter\XCodePostProcess.cs" />
+     <Compile Include="Assets\Fabric\Editor\CommonBuild\FabricCommonBuild.cs" />
+     <Compile Include="Assets\Fabric\Editor\FabricSetup.cs" />
+     <Compile Include="Assets\Fabric\Editor\FabricUtils.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\API\AsyncV1.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\API\Parser.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\API\V1.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Controller\KitController.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Controller\KitInstallationChecker.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Controller\KitUtils.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Controller\PluginController.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Detail\AsyncTaskRunner.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Detail\AsyncTaskRunnerBuilder.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Detail\Runner.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Detail\Strings.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Detail\TimeUtils.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Editor.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Images\Loader.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Model\App.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Model\ImportedKit.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Model\KitStatus.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Model\Organization.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Model\Settings.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Net\Constants.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Net\OAuth\Client.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Net\Utils.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\Resources\Manager.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\Animation\Driver.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\ConflictResolutionPage.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\KitSelectionPage.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\LoginPage.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\ManualInitializationPage.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\OrganizationsPage.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\Page.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\Render.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\Templates\InstructionsPage.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\Templates\PrefabPage.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\UpdatePage.cs" />
+     <Compile Include="Assets\Fabric\Editor\GUI\View\ValidationPage.cs" />
+     <Compile Include="Assets\Fabric\Editor\Info.cs" />
+     <Compile Include="Assets\Fabric\Editor\Postbuild\FabricBuildEventAndroid.cs" />
+     <Compile Include="Assets\Fabric\Editor\Postbuild\FabricPostBuildiOS.cs" />
+     <Compile Include="Assets\Fabric\Editor\Postbuild\PostBuildiOS.cs" />
+     <Compile Include="Assets\Fabric\Editor\Prebuild\AndroidBuildPropertiesManager.cs" />
+     <Compile Include="Assets\Fabric\Editor\Prebuild\FabricAndroidPrebuild.cs" />
+     <Compile Include="Assets\Fabric\Editor\Prebuild\PropertiesWriter.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\AssetCatalog.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\JsonParser.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Elements.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Lexer.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Objects.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Parser.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Sections.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Serializer.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBX\Utils.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBXProject.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PBXProjectData.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\PlistParser.cs" />
+     <Compile Include="Assets\Fabric\Editor\ThirdParty\xcodeapi\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\Custodian.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\Dependency\DependencyGraphLegacy.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\Dependency\DependencyGraphManager.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\Dependency\DependencyGraphObject.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\Dependency\DependencyGraphResolver.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\FabricInstaller.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\FileUtils.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\PeriodicAnalyticsPinger.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\PeriodicUpdateChecker.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\PeriodicUpdateManager.cs" />
+     <Compile Include="Assets\Fabric\Editor\Update\TimeoutWebClient.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Editor\CrashlyticsSetup.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Editor\GUI\Controller\Controller.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Editor\GUI\CrashlyticsMenuItems.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Editor\GUI\View\DashboardPage.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Editor\Info.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Editor\Postbuild\CrashlyticsPostBuildiOS.cs" />
+     <Compile Include="Assets\Firebase\Editor\AnalyticsDeps.cs" />
+     <Compile Include="Assets\Firebase\Editor\AppDeps.cs" />
+     <Compile Include="Assets\Firebase\Editor\MessagingDeps.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Editor\AdMobDependencies.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\BezierCurves\Editor\BezierCurveEditor.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\BezierCurves\Editor\BezierPointEditor.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AdvancedFPSCounter\Scripts\Editor\AFPSCounterEditor.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\ActEditorGlobalStuff.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\ActEditorStyles.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\ActPostprocessor.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\AllowedAssembly.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\Editors\ActDetectorEditor.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\Editors\InjectionDetectorEditor.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\Editors\ObscuredCheatingDetectorEditor.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\Editors\SpeedHackDetectorEditor.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\Editors\WallHackDetectorEditor.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\PropertyDrawers\ObscuredBoolDrawer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\PropertyDrawers\ObscuredDoubleDrawer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\PropertyDrawers\ObscuredFloatDrawer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\PropertyDrawers\ObscuredIntDrawer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\PropertyDrawers\ObscuredLongDrawer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\PropertyDrawers\ObscuredPropertyDrawer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\PropertyDrawers\ObscuredStringDrawer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\PropertyDrawers\ObscuredVector2Drawer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\PropertyDrawers\ObscuredVector3Drawer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\Windows\ActAssembliesWhitelist.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Editor\Scripts\Windows\ActSettings.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\DarkTonic\Editor\UndoHelper.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\DarkTonic\PoolBoss\Editor\DTPoolBossInspectorUtility.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\DarkTonic\PoolBoss\Editor\PoolBossInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\DarkTonic\PoolBoss\Editor\PoolBossInspectorResources.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\Editor\FingerGestures\DragRecognizerInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\Editor\FingerGestures\FingerDownDetectorInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\Editor\FingerGestures\FingerEventDetectorInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\Editor\FingerGestures\FingerGesturesEditorUtils.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\Editor\FingerGestures\FingerGesturesInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\Editor\FingerGestures\FingerHoverDetectorInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\Editor\FingerGestures\FingerMotionDetectorInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\Editor\FingerGestures\FingerUpDetectorInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\Editor\FingerGestures\GestureRecognizerInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\Editor\FingerGestures\LongPressRecognizerInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\Editor\FingerGestures\PinchRecognizerInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\Editor\FingerGestures\PointCloudGestureEditor.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\Editor\FingerGestures\PointCloudGestureTemplateInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\Editor\FingerGestures\PointCloudRecognizerInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\Editor\FingerGestures\SwipeRecognizerInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\Editor\FingerGestures\TapRecognizerInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\Editor\FingerGestures\TwistRecognizerInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\Editor\Migration\FileUtility.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\Editor\Migration\MigrationUtility.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\Editor\PECache.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\Editor\PEDictionaryStringList.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\Editor\PEGameObjectInspectorOverride.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\Editor\PELinkageExt.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\Editor\PEModificationsDrawer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\Editor\PEModificationsExt.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\Editor\PEOverrideInternalEditor.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\Editor\PEPrefabScriptEditor.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\Editor\PEPrefabScriptExt.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\Editor\PEPrefs.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\Editor\PEResources.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\Editor\PEUtils.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\Editor\PropertyExposure\PEExposedPropertiesEditor.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\Editor\PropertyExposure\PEPropertyHelper.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\Editor\PropertyExposure\PEPropertyPickerWindow.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\Editor\Tree\PETreeNode.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Reporter\Editor\ReporterEditor.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\ShoeBoxTools\Editor\SBT_Font.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\ShoeBoxTools\Editor\SBT_SpriteSheet.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Sonic Ether\SESSAO\Editor\SESSAOEditor.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Editor\TCP2_Config.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Editor\TCP2_GUI.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Editor\TCP2_MaterialInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Editor\TCP2_Menu.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Editor\TCP2_OutlineInspector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Editor\TCP2_ShaderGenerator.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Editor\TCP2_SmoothedNormalsUtility.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Editor\Utils\TCP2_ShaderGeneratorUtils.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Editor\Utils\TCP2_Utils.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Yurowm\Editor\DebugPanelWindow.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\unitytinypng\Editor\TinyPngEditor.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Utilities\Editor\BMFontGenerator.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Utilities\Editor\DetectLeaksWindow.cs" />
+     <Compile Include="Assets\Scripts\Editor\Core\AutoGenerated\JackpotSettingAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Core\AutoGenerated\JackpotSettingEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Core\AutoGenerated\LuckyAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Core\AutoGenerated\LuckyEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Core\AutoGenerated\MiscAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Core\AutoGenerated\MiscEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\ADSAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\ADSEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\AdBonusAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\AdBonusEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\BackFlowRewardLTLuckyAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\BackFlowRewardLTLuckyEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\BankruptCompensateAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\BankruptCompensateEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\BetOptionAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\BetOptionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\BetUnlockSettingAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\BetUnlockSettingEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\ChestAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\ChestEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\DailyBonusAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\DailyBonusEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\DiceAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\DiceEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\FriendSettingAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\FriendSettingEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\GroupAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\GroupEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\GroupRepresentAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\GroupRepresentEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\GroupRule2AssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\GroupRule2Editor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\GroupRuleAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\GroupRuleEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\IAPCatalogAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\IAPCatalogEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\LevelConfigAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\LevelConfigEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\MachineUnlockSettingAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\MachineUnlockSettingEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\MailTextAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\MailTextEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\MapSettingAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\MapSettingEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\PayRotaryTableAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\PayRotaryTableEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\PiggyBankAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\PiggyBankEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\PiggyInfoAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\PiggyInfoEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\RemoteMachineVersionAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\RemoteMachineVersionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\VIPAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Game\AutoGenerated\VIPEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\LocalNotification\AutoGenerated\LocalNotificationAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\LocalNotification\AutoGenerated\LocalNotificationEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\LocalNotification\AutoGenerated\LocalNotificationfestivalAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\LocalNotification\AutoGenerated\LocalNotificationfestivalEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Localization\AutoGenerated\ContentAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Localization\AutoGenerated\ContentEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\BasicAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\BasicEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\LuckyNearHitAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\LuckyNearHitDistAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\LuckyPayoutAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\LuckyPayoutDistAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\LuckyWheel2AssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\LuckyWheel2Editor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\LuckyWheelAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\LuckyWheelEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\NearHitAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\NearHitDistAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\NearHitDistEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\NearHitEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\PaylineAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\PaylineEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\PayoutAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\PayoutDistAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\PayoutDistEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\PayoutEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\ReelAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\ReelEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\RewardResultAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\RewardResultEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\SymbolAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\SymbolEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\Wheel2AssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\Wheel2Editor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\WheelAssetPostProcessor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\AutoGenerated\WheelEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Machine\MachineAssetChecker.cs" />
+     <Compile Include="Assets\Scripts\Editor\UI\EventDropdownEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\UI\EventDropdownWindow.cs" />
+     <Compile Include="Assets\Scripts\Editor\Utility\MenuExtension.cs" />
+     <None Include="Assets\Resources\Shader\BlendLinearDodge.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Shaders\WallHackTexture.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Include\TCP2_Outline_SM2.shader" />
+     <None Include="Assets\Resources\Shader\test.shader" />
+     <None Include="Assets\Fabric\NOTICE.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\TCP2_OutlineOnly Blended.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Changelog.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\DemiLib\Core\DemiLib.xml" />
+     <None Include="Assets\Plugins\Android\Firebase\res\values\google-services.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Sonic Ether\SESSAO\Resources\SESSAO.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Desktop_Specular_Outline.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Readme.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Mobile_Specular_Outline.shader" />
+     <None Include="Assets\Firebase\Plugins\link.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\Resources\Shader\CustomAdditiveWithStencil.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Mobile_Specular_OutlineBlending.shader" />
+     <None Include="Assets\Editor\QuickSheet\ExcelQuery\Library\NPOI.2.1.1.txt" />
+     <None Include="Assets\GameAsset\Font\Number-Gold.xml" />
+     <None Include="Assets\Easy Save 2\changelog.txt" />
+     <None Include="Assets\Plugins\Android\crashlytics\NOTICE.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\TCP2_OutlineOnly.shader" />
+     <None Include="Assets\Plugins\Android\res\values\string.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Mobile_OutlineBlending.shader" />
+     <None Include="Assets\Plugins\Android\Firebase\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\crashlytics-wrapper\AndroidManifest.xml" />
+     <None Include="Assets\Resources\Shader\SpinBlur.shader" />
+     <None Include="Assets\Plugins\Android\fabric\AndroidManifest.xml" />
+     <None Include="Assets\Firebase\Editor\AppDependencies.xml" />
+     <None Include="Assets\Resources\Effect\Shader\3dmy_RollTexture.shader" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\TimeCheatPrevention\readme.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\Plugins\Android\fabric-init\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\GenKeyStore_ReadMe.txt" />
+     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />
+     <None Include="Assets\Resources\Shader\GenBigSprite.shader" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Mobile_Outline.shader" />
+     <None Include="Assets\Easy Save 2\readme.txt" />
+     <None Include="Assets\Resources\Shader\CustomAlphaBlendedWithStencil.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\BezierCurves\readme.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AdvancedFPSCounter\Changelog.txt" />
+     <None Include="Assets\Firebase\Editor\AnalyticsDependencies.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Include\TCP2_Outline.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Editor\Shader Templates\TCP2_User_Unity5.txt" />
+     <None Include="Assets\GameAsset\Font\Digital-Red-export.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\TCP2_Mobile.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Desktop_Outline.shader" />
+     <None Include="Assets\Plugins\Android\crashlytics\THIRDPARTYLICENSE.txt" />
+     <None Include="Assets\Plugins\Android\Vungle_lib\AndroidManifest.xml" />
+     <None Include="Assets\Resources\Effect\Shader\FrostedGlass.shader" />
+     <None Include="Assets\PlayServicesResolver\proguard-messaging-workaround.txt" />
+     <None Include="Assets\Editor\QuickSheet\ExcelPlugin\Templates\Property.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\unitytinypng\ReadMe.txt" />
+     <None Include="Assets\Editor\QuickSheet\ExcelPlugin\Templates\PostProcessor.txt" />
+     <None Include="Assets\Resources\Effect\Shader\3dmy_RollTexture(1-s).shader" />
+     <None Include="Assets\Editor\QuickSheet\ExcelPlugin\Templates\ScriptableObjectClass.txt" />
+     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-messaging-unity\maven-metadata.xml" />
+     <None Include="Assets\Plugins\Android\answers\AndroidManifest.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\unitytinypng\Lib\Readme.txt" />
+     <None Include="Assets\Plugins\Android\fabric\NOTICE.txt" />
+     <None Include="Assets\Firebase\Editor\FirebaseMessaging_v4.2.1_manifest.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Desktop_OutlineBlending.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
+     <None Include="Assets\Editor\QuickSheet\ExcelPlugin\Templates\ScriptableObjectEditorClass.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Mobile_Specular.shader" />
+     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\fabric\Template-AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\TCP2_OutlineOnly Blended SM2.shader" />
+     <None Include="Assets\Editor\QuickSheet\ExcelQuery\Library\Release Notes.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\DarkTonic\PoolBoss\ReleaseNotes.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AdvancedFPSCounter\API.txt" />
+     <None Include="Assets\Plugins\AppLovin\AppLovin Readme.txt" />
+     <None Include="Assets\FacebookSDK\link.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\unitytinypng\Lib\License.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Integration\readme.txt" />
+     <None Include="Assets\Resources\Shader\SymbolEffect.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Desktop_Specular.shader" />
+     <None Include="Assets\Firebase\Editor\FirebaseAnalytics_v4.2.1_manifest.txt" />
+     <None Include="Assets\Plugins\Android\fabric\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\beta\AndroidManifest.xml" />
+     <None Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsDependencies.xml" />
+     <None Include="Assets\Resources\Shader\SpinBlurRealTime.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\API.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\TCP2_Desktop.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Editor\Shader Templates\TCP2_User.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
+     <None Include="Assets\Editor\QuickSheet\ExcelPlugin\Templates\DataClass.txt" />
+     <None Include="Assets\Plugins\Editor\zip-v1.9-Reduced\Readme.txt" />
+     <None Include="Assets\GameAsset\Font\Digital-White-export.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\TCP2_OutlineOnly SM2.shader" />
+     <None Include="Assets\Resources\Effect\Shader\Gem.shader" />
+     <None Include="Assets\Plugins\Android\crashlytics\AndroidManifest.xml" />
+     <None Include="Assets\PlayServicesResolver\proguard-unity.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\readme_DOTweenPro.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Include\TCP2_Include.cginc" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\GameAsset\Font\ziti-export.xml" />
+     <None Include="Assets\Plugins\Android\fabric\THIRDPARTYLICENSE.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Desktop_Specular_OutlineBlending.shader" />
+     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.59.0.txt" />
+     <None Include="Assets\Firebase\Editor\MessagingDependencies.xml" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/Editor/UnityEditor.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Editor/QuickSheet/ExcelQuery/Library/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="NPOI">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Editor/QuickSheet/ExcelQuery/Library/NPOI.dll</HintPath>
+ </Reference>
+ <Reference Include="NPOI.OOXML">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Editor/QuickSheet/ExcelQuery/Library/NPOI.OOXML.dll</HintPath>
+ </Reference>
+ <Reference Include="NPOI.OpenXml4Net">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Editor/QuickSheet/ExcelQuery/Library/NPOI.OpenXml4Net.dll</HintPath>
+ </Reference>
+ <Reference Include="NPOI.OpenXmlFormats">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Editor/QuickSheet/ExcelQuery/Library/NPOI.OpenXmlFormats.dll</HintPath>
+ </Reference>
+ <Reference Include="Analytics">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Fabric/Managed/Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Validator">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Fabric/Managed/Validator.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Editor">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.PlatformEditor">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.PlatformEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Editor">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Analytics">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.App">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Messaging">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Firebase/Plugins/Firebase.Messaging.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.MiniJson">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Compat">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Parse/Plugins/Unity.Compat.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Tasks">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Parse/Plugins/Unity.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.IOSResolver_v1.2.59.0">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.59.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.JarResolver_v1.2.59.0">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.59.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandler">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandlerImpl_v1.2.59.0">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.59.0.dll</HintPath>
+ </Reference>
+ <Reference Include="ES2">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/ES2.dll</HintPath>
+ </Reference>
+ <Reference Include="MoodkieSecurity">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/MoodkieSecurity.dll</HintPath>
+ </Reference>
+ <Reference Include="VungleSDKProxy">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/VungleSDKProxy.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="ES2Editor">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/Editor/ES2Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Ionic.Zip.Reduced">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/Editor/zip-v1.9-Reduced/Debug/Ionic.Zip.Reduced.dll</HintPath>
+ </Reference>
+ <Reference Include="Editor">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Purchasing.Common">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Security">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/UnityPurchasing/Bin/Security.dll</HintPath>
+ </Reference>
+ <Reference Include="Stores">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="Apple">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/UnityPurchasing/Bin/Facebook/Facebook.dll</HintPath>
+ </Reference>
+ <Reference Include="Tizen">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ </Reference>
+ <Reference Include="winrt">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/CitrusFramework/SDKs/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiEditor">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/CitrusFramework/SDKs/Demigiant/DemiLib/Core/Editor/DemiEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/CitrusFramework/SDKs/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/CitrusFramework/SDKs/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/CitrusFramework/SDKs/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/CitrusFramework/SDKs/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/CitrusFramework/SDKs/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/CitrusFramework/SDKs/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenProEditor">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/CitrusFramework/SDKs/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="JsonFx.Json">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/CitrusFramework/SDKs/unitytinypng/Lib/JsonFx.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/SDK/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

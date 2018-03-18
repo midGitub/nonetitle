@@ -1,0 +1,41 @@
+{
+    "group": "",
+    "libs": [
+                "libc++.tbd",
+                "libz.tbd",
+                "libicucore.tbd",
+                "libstdc++.tbd",
+                "libsqlite3.tbd",
+                "libsqlite3.0.tbd"
+    		],
+    "frameworks": [
+	 				"SystemConfiguration.framework",
+    				"Security.framework",
+                    "JavaScriptCore.framework",
+                    "WebKit.framework",
+                    "StoreKit.framework",
+                    "CoreTelephony.framework",
+                    "AdSupport.framework",
+                    "AVFoundation.framework",
+                    "CoreGraphics.framework",
+                    "CoreMedia.framework",
+                    "UIKit.framework",
+                    "iAd.framework"
+    			  ],
+    "headerpaths": [],
+    "files":   [],
+    "folders": [],
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$", "^.*.DS_Store$", "^.*.svn$"],
+    "compiler_flags": [],
+    "linker_flags": [
+    					"-ObjC",
+                        "-lz",
+                        "-lc++"
+    				]
+    "plist": {
+        "urltype" : [
+        ]
+
+    },
+
+}

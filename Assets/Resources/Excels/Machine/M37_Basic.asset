@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M37_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M37.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 8,8,8
+  - key: HasSlide
+    val: 0
+  - key: SmallGameTypes
+    val: FreeSpin
+  - key: FreeSpinType
+    val: FixCount
+  - key: FreeSpinFixCounts
+    val: 1
+  - key: SmallGameEffect
+    val: M37/FX_M37_FreeSpin
+  - key: ButterFlyHitEffect
+    val: M37/FX_M37_ButterflyHit
+  - key: ButterFlyHitTwinkleEffect
+    val: M37/FX_M37_ButterflyToWinBetHit
+  - key: IsFreeSpinFixBonus
+    val: 0
+  - key: FreeSpinTriggerCount
+    val: 1
+  - key: FreeSpinTriggerSymbolNames
+    val: Cherry
+  - key: IsRespinInFreeSpinEnd
+    val: 1
+  - key: IsFreeSpinLuckyPayout
+    val: 1
+  - key: FreeSpinHitsNonWin
+    val: 1,0.9,0.8,0.6
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: IsBonusValidOnNonPayline
+    val: 0
+  - key: ReelSkin
+    val: M37/M37_ReelBack
+  - key: Background
+    val: 
+  - key: PayLine
+    val: M37/M37_PayLine
+  - key: HighLight
+    val: M37/M37_HighLight
+  - key: BackgroundPrefab
+    val: Game/BackgroundM37
+  - key: BackgroundEffectPrefab
+    val: M37/FX_M37_SceneEffect
+  - key: BackgroundUp
+    val: M37/M37_BackgroundUp
+  - key: BackgroundDown
+    val: M37/M37_BackgroundDown
+  - key: BackgroundLeft
+    val: M37/M37_BackgroundLeft
+  - key: BackgroundRight
+    val: M37/M37_BackgroundRight
+  - key: ReelShadowUp
+    val: M37/M37_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1
+  - key: ReelShadowDown
+    val: M37/M37_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1;4.128;1;33.5
+  - key: SuperSymbolLightEffect
+    val: M37/FX_M37_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: NormalHitRate
+    val: 
+  - key: LuckyHitRate
+    val: 
+  - key: NormalRTP
+    val: 
+  - key: LuckyRTP
+    val: 
+  - key: NearHitProbs
+    val: 0.2,0.3,0.5
+  - key: ButterFlyStartPos
+    val: -285,285,0
+  - key: ButterFlyHitTwinkleEnterDelay
+    val: 100
+  - key: ButterFlyHitTwinkleEnterAndLeaveDelay
+    val: 100
+  - key: ButterflyHitAudio
+    val: M37_hit
+  - key: ButterflyUpAudio
+    val: M37_up
+  - key: ButterflyDownAudio
+    val: M37_down
+  - key: HitTwinkle
+    val: 1
+  - key: FreespinHintDelay
+    val: 0.6
+  - key: FreespinHintAudio
+    val: M14_FreeSpinSwitch
+  - key: FreespinEffectNoDelay
+    val: 1
+  - key: UserBlurImage
+    val: 1

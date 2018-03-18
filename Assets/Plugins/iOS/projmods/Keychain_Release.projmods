@@ -1,0 +1,11 @@
+{
+    "group": "",
+    "libs": [],
+    "frameworks": ["UserNotifications.framework:optional"],
+    "headerpaths": [],
+    "files":   ["iOS/Release/KeychainAccessGroups.plist"],
+    "folders": [],    
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$", "^.*.DS_Store$", "^.*.svn$"],
+    "compiler_flags": [],
+    "linker_flags": ["-lxml2"]
+}

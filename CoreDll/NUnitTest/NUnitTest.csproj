@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FBC2357C-E582-493E-99A0-A120B2C1CF7D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NUnitTest</RootNamespace>
+    <AssemblyName>NUnitTest</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="nunit.framework">
+      <HintPath>Plugins\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreDll">
+      <HintPath>..\CoreDll\bin\Debug\CoreDll.dll</HintPath>
+    </Reference>
+    <Reference Include="ES2">
+      <HintPath>..\CoreDll\Plugins\ES2.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\CoreDll\Plugins\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Scripts\" />
+    <Folder Include="Scripts\Utility\" />
+    <Folder Include="Config\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Scripts\Test.cs" />
+    <Compile Include="Scripts\Utility\FileUtility.cs" />
+    <Compile Include="Scripts\Config.cs" />
+    <Compile Include="Scripts\Utility\JSONObject.cs" />
+    <Compile Include="Scripts\Utility\NullCheckable.cs" />
+    <Compile Include="Scripts\MachineTestEngine.cs" />
+    <Compile Include="Scripts\MachineTestRound.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config\config.json" />
+  </ItemGroup>
+</Project>

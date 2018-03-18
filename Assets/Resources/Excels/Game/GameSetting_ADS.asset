@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c1168973bc5b41f0bee16c4713c114d, type: 3}
+  m_Name: GameSetting_ADS
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Game/GameSetting.xls
+  WorksheetName: ADS
+  dataArray:
+  - iD: 1
+    rewardAdvertisingOpen: 1
+    rewardCredit: 250
+    rewardADSTimeInterval: 3c00000000000000100e0000
+    getRewardADSLimit: 0
+    plaqueADSOPen: 1
+    registerDaysOpenPlaqueADS: 2
+    plaqueADSTimeInterval: 030000000200000001000000
+    getPlaqueADSLimit: 30
+    openBuyNoADS: 1
+  - iD: 2
+    rewardAdvertisingOpen: 1
+    rewardCredit: 250
+    rewardADSTimeInterval: 3c00000000000000100e0000
+    getRewardADSLimit: 0
+    plaqueADSOPen: 0
+    registerDaysOpenPlaqueADS: 2
+    plaqueADSTimeInterval: 030000000200000001000000
+    getPlaqueADSLimit: 30
+    openBuyNoADS: 0
+  - iD: 3
+    rewardAdvertisingOpen: 1
+    rewardCredit: 250
+    rewardADSTimeInterval: 3c00000000000000100e0000
+    getRewardADSLimit: 0
+    plaqueADSOPen: 0
+    registerDaysOpenPlaqueADS: 2
+    plaqueADSTimeInterval: 030000000200000001000000
+    getPlaqueADSLimit: 30
+    openBuyNoADS: 0

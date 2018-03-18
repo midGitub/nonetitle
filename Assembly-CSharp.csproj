@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{E520BA33-DA73-52EC-E906-734B9D0818F1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;UNITY_PURCHASING;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_VIDEO;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;Trojan_FB;USE_iOS_IW;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Easy Save 2\ES2Init.cs" />
+     <Compile Include="Assets\Easy Save 2\Examples\Creating an Automatic Save Structure\ES2UniqueID.cs" />
+     <Compile Include="Assets\Easy Save 2\Examples\Creating an Automatic Save Structure\UniqueGameLogic.cs" />
+     <Compile Include="Assets\Easy Save 2\Examples\Creating an Automatic Save Structure\UniqueObjectManager.cs" />
+     <Compile Include="Assets\Easy Save 2\Examples\Creating an Automatic Save Structure\UniqueSaveManager.cs" />
+     <Compile Include="Assets\Easy Save 2\Examples\Save and Load Prefabs Instantiated at Runtime\PrefabManager.cs" />
+     <Compile Include="Assets\Easy Save 2\Examples\Shared Assets\Scripts\MyExampleScript.cs" />
+     <Compile Include="Assets\Easy Save 2\Examples\Upload and Download a Texture\UploadDownloadTexture.cs" />
+     <Compile Include="Assets\Easy Save 2\Types\ES2UserType_IAPData.cs" />
+     <Compile Include="Assets\Easy Save 2\Types\ES2UserType_LevelData.cs" />
+     <Compile Include="Assets\Easy Save 2\Types\ES2_DateTime.cs" />
+     <Compile Include="Assets\Easy Save 2\Types\ES2_InitMachineSeedInfo.cs" />
+     <Compile Include="Assets\Easy Save 2\Types\ES2_JackpotData.cs" />
+     <Compile Include="Assets\Easy Save 2\Types\ES2_Mail.cs" />
+     <Compile Include="Assets\Easy Save 2\Types\ES2_Sprite.cs" />
+     <Compile Include="Assets\Easy Save 2\Types\ES2_TournamentReward.cs" />
+     <Compile Include="Assets\Easy Save 2\Types\ES2_TournamentScore.cs" />
+     <Compile Include="Assets\Fabric\Kits\Answers\Runtime\Answers.cs" />
+     <Compile Include="Assets\Fabric\Kits\Answers\Runtime\Internal\AnswersAndroidImplementation.cs" />
+     <Compile Include="Assets\Fabric\Kits\Answers\Runtime\Internal\AnswersAppleImplementation.cs" />
+     <Compile Include="Assets\Fabric\Kits\Answers\Runtime\Internal\AnswersStubImplementation.cs" />
+     <Compile Include="Assets\Fabric\Kits\Answers\Runtime\Internal\IAnswers.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Runtime\Crashlytics.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Runtime\CrashlyticsInit.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Runtime\Internal\AndroidImpl.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Runtime\Internal\IOSImpl.cs" />
+     <Compile Include="Assets\Fabric\Kits\Crashlytics\Runtime\Internal\Impl.cs" />
+     <Compile Include="Assets\Fabric\Runtime\Fabric.cs" />
+     <Compile Include="Assets\Fabric\Runtime\FabricInit.cs" />
+     <Compile Include="Assets\Fabric\Runtime\FabricUtils.cs" />
+     <Compile Include="Assets\Fabric\Runtime\Internal\AndroidImpl.cs" />
+     <Compile Include="Assets\Fabric\Runtime\Internal\IOSImpl.cs" />
+     <Compile Include="Assets\Fabric\Runtime\Internal\Impl.cs" />
+     <Compile Include="Assets\Fabric\ThirdParty\MiniJSON.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\ConsoleBase.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\LogView.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\MenuBase.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AccessTokenMenu.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppEvents.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppInvites.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppLinks.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppRequests.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\DialogShare.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\GameGroups.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\GraphRequest.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\MainMenu.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\Pay.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdLoader.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdPosition.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdRequest.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdSize.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\BannerView.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\CustomNativeEventArgs.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\CustomNativeTemplateAd.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\Gender.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\InterstitialAd.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\Mediation\MediationExtras.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\MobileAds.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\NativeExpressAdView.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\Reward.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\RewardBasedVideoAd.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\DummyClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IAdLoaderClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IBannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\ICustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IInterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IMobileAdsClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\INativeExpressAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IRewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\Utils.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\AdLoaderClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\BannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\CustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\MobileAdsClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\NativeExpressAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\Utils.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\AdLoaderClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\BannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\CustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Externs.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\InterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\MobileAdsClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\NativeExpressAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Utils.cs" />
+     <Compile Include="Assets\Resources\Map\UIBar\TestBackFlowReward.cs" />
+     <Compile Include="Assets\Scripts\ADS\ADSButton.cs" />
+     <Compile Include="Assets\Scripts\ADS\ADSManager.cs" />
+     <Compile Include="Assets\Scripts\ADS\ADTest.cs" />
+     <Compile Include="Assets\Scripts\ADS\BaseRewardADController.cs" />
+     <Compile Include="Assets\Scripts\ADS\BaseRewardAdButton.cs" />
+     <Compile Include="Assets\Scripts\ADS\DoubleWinAdUiController.cs" />
+     <Compile Include="Assets\Scripts\ADS\DoubleWinRewardAdButton.cs" />
+     <Compile Include="Assets\Scripts\ADS\DoubleWinRewardAdController.cs" />
+     <Compile Include="Assets\Scripts\ADS\FreeMaxBetAdUiController.cs" />
+     <Compile Include="Assets\Scripts\ADS\FreeMaxBetRewardAdButton.cs" />
+     <Compile Include="Assets\Scripts\ADS\FreeMaxBetRewardAdController.cs" />
+     <Compile Include="Assets\Scripts\ADS\HomeInADS.cs" />
+     <Compile Include="Assets\Scripts\ADS\HomeInADSManager.cs" />
+     <Compile Include="Assets\Scripts\ADS\MachineBonusAdItem.cs" />
+     <Compile Include="Assets\Scripts\ADS\MachineRewardAdManager.cs" />
+     <Compile Include="Assets\Scripts\ADS\ShowADSController.cs" />
+     <Compile Include="Assets\Scripts\ADS\StoreRewardADSButton.cs" />
+     <Compile Include="Assets\Scripts\ADS\StoreRewardAdController.cs" />
+     <Compile Include="Assets\Scripts\Activities\Christmas\ChristmasActivityManager.cs" />
+     <Compile Include="Assets\Scripts\Activities\Christmas\DoubleHourBonusUiController.cs" />
+     <Compile Include="Assets\Scripts\Activities\Christmas\RegisterMaxWinUiController.cs" />
+     <Compile Include="Assets\Scripts\Activities\DoubleHourBonusActivity.cs" />
+     <Compile Include="Assets\Scripts\Activities\MultiTextCountdown.cs" />
+     <Compile Include="Assets\Scripts\Activities\RegisterMaxWinActivity.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Memory\Pool.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Memory\PoolBossEx.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Memory\PoolManager.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\AccountManager.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Base\HandlerFactoryBase.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Base\INetworkHandlerBase.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Base\IProtocolMessageBase.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Base\ProtocolFactoryBase.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\FacebookUtilityExample.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\NetworkManager.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Protobuf\Decoder.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Protobuf\Encoder.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Protobuf\MsgDecoder.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Protobuf\MsgEncoder.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Protobuf\Protobuf.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Protobuf\SimpleJson.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Protobuf\test\CodecTest.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Protobuf\test\ProtobufTest.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Protobuf\util\Util.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Protocol\ErrorCode.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Protocol\HttpObject.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Protocol\Protocol.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Protocol\ProtocolMessage.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Serialization\ArchiveI.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Serialization\ArchiveO.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Serialization\IArchive.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\Serialization\Iserializable.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Network\UrlImageObject.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\BezierCurves\Scripts\BezierCurve.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\BezierCurves\Scripts\BezierPoint.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CielaSpike\Thread Ninja\Example\ExampleScript.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CielaSpike\Thread Ninja\Ninja.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CielaSpike\Thread Ninja\Task.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CielaSpike\Thread Ninja\TaskState.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CielaSpike\Thread Ninja\ThreadNinjaMonoBehaviourExtensions.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CitrusSDK\Singleton.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AdvancedFPSCounter\Examples\APITester.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AdvancedFPSCounter\Scripts\AFPSCounter.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AdvancedFPSCounter\Scripts\CountersData\BaseCounterData.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AdvancedFPSCounter\Scripts\CountersData\DeviceInfoCounterData.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AdvancedFPSCounter\Scripts\CountersData\FPSCounterData.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AdvancedFPSCounter\Scripts\CountersData\MemoryCounterData.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AdvancedFPSCounter\Scripts\Enums\AFPSCounterOperationMode.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AdvancedFPSCounter\Scripts\Label\DrawableLabel.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AdvancedFPSCounter\Scripts\Label\LabelAnchor.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Examples\Scripts\ActRotatorExample.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Examples\Scripts\ActTesterGui.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Examples\Scripts\ObscuredPerformanceTests.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\Common\Constants.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\Detectors\ActDetectorBase.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\Detectors\InjectionDetector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\Detectors\ObscuredCheatingDetector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\Detectors\SpeedHackDetector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\Detectors\WallHackDetector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredBool.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredByte.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredChar.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredDecimal.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredDouble.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredFloat.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredInt.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredLong.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredPrefs.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredQuaternion.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredSByte.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredShort.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredString.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredUInt.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredULong.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredUShort.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredVector2.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\ObscuredTypes\ObscuredVector3.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Scripts\Utils\xxHash.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\DarkTonic\PoolBoss\ExampleScene\Scripts\PB_Instructions.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\DarkTonic\PoolBoss\ExampleScene\Scripts\PB_Rotate.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\DarkTonic\PoolBoss\Scripts\PoolBoss.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\DarkTonic\PoolBoss\Scripts\PoolBossItem.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\DarkTonic\PoolBoss\Scripts\TimedDespawner.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\DOTween\Examples\Basics.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\DOTween\Examples\Sequences.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Dev\FingerDebug.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Base\ContinuousGestureRecognizer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Base\DiscreteGestureRecognizer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Base\FingerEventDetector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Base\GestureRecognizer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Base\GestureRecognizerDelegate.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Components\FingerClusterManager.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Components\ScreenRaycaster.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Finger Event Detectors\FingerDownDetector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Finger Event Detectors\FingerHoverDetector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Finger Event Detectors\FingerMotionDetector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Finger Event Detectors\FingerUpDetector.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\FingerGestures.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Gesture Recognizers\DragRecognizer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Gesture Recognizers\LongPressRecognizer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Gesture Recognizers\PinchRecognizer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Gesture Recognizers\PointCloudGestureTemplate.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Gesture Recognizers\PointCloudRegognizer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Gesture Recognizers\SwipeRecognizer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Gesture Recognizers\TapRecognizer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Gesture Recognizers\TwistRecognizer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Input Providers\FGInputProvider.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Input Providers\FGMouseInputProvider.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Input Providers\FGTouchInputProvider.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Toolbox\Camera\TBDragView.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Toolbox\Camera\TBLookAtTap.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Toolbox\Camera\TBOrbit.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Toolbox\Camera\TBPan.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Toolbox\Camera\TBPinchZoom.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Toolbox\TBDragToMove.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Toolbox\TBHoverChangeMaterial.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Toolbox\TBHoverChangeScale.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Toolbox\TBPinchToScale.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Toolbox\TBQuickSetup.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Scripts\Toolbox\TBTwistToRotate.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\EvolvePrefab.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\PEExposedProperties.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\PEHideFlagsUtility.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\PELinkage.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\PEModifications.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\PrefabEvolution\Sources\PEPrefabScript.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Reporter\MultiKeyDictionary.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Reporter\Reporter.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Reporter\ReporterGUI.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Reporter\ReporterMessageReceiver.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Reporter\Test\Rotate.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Reporter\Test\TestReporter.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Sonic Ether\SESSAO\SESSAO.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\TimeCheatPrevention\Demo\SampleTimer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\TimeCheatPrevention\UnbiasedTime\UnbiasedTime.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Scripts\TCP2_RuntimeUtils.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\UniGif\Example\Script\UniGifImage.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\UniGif\Example\Script\UniGifTest.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\UniGif\Example\Script\Utility\UniGifImageAspectController.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\UniGif\UniGif.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\UniGif\UniGifConst.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\UniGif\UniGifDecoder.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\UniGif\UniGifFormatter.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Yurowm\DebugPanel\DebugPanel.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Yurowm\DebugPanel\DebugPanelField.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\Yurowm\DebugPanel\DebugPanelViewport.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\pomelo\client\EventManager.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\pomelo\client\PomeloClient.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\pomelo\client\test\ClientTest.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\pomelo\protocol\HandShakeService.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\pomelo\protocol\HeartBeatService.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\pomelo\protocol\Message.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\pomelo\protocol\MessageProtocol.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\pomelo\protocol\MessageType.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\pomelo\protocol\Package.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\pomelo\protocol\PackageProtocol.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\pomelo\protocol\PackageTypes.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\pomelo\protocol\Protocol.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\pomelo\protocol\ProtocolState.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\pomelo\transport\TransportState.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\pomelo\transport\Transporter.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\pomelo\transport\test\TransportTest.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\unitytinypng\Example\Scripting\ScriptingExample.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\unitytinypng\Script\TinyPNG.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\SDKs\unitytinypng\Script\TinyPngThread.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\UGUIEx\GridEx.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\UGUIEx\GridExUpToDown.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\UGUIEx\GrowingNumber.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\UGUIEx\TextureLoader.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Utilities\CSVReader.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Utilities\CoreDefines.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Utilities\Encrypt.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Utilities\EventSystem.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Utilities\FSM.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Utilities\FSMBase.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Utilities\GameDebug.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Utilities\MiniJSON.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Utilities\ShaderOffsetSet.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Utilities\UIUtility.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Utilities\UnityTimer.cs" />
+     <Compile Include="Assets\Scripts\CitrusFramework\Utilities\UnityTimerBase.cs" />
+     <Compile Include="Assets\Scripts\Common\AssetConfig.cs" />
+     <Compile Include="Assets\Scripts\Common\AssetManager.cs" />
+     <Compile Include="Assets\Scripts\Common\AudioDefine.cs" />
+     <Compile Include="Assets\Scripts\Common\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\Common\BonusManager.cs" />
+     <Compile Include="Assets\Scripts\Common\CSV\CSVData.cs" />
+     <Compile Include="Assets\Scripts\Common\CSV\CSVParser.cs" />
+     <Compile Include="Assets\Scripts\Common\CSV\CSVSheet.cs" />
+     <Compile Include="Assets\Scripts\Common\CmdLineManager.cs" />
+     <Compile Include="Assets\Scripts\Common\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Common\LiveUpdate\LiveUpdateConfig.cs" />
+     <Compile Include="Assets\Scripts\Common\LiveUpdate\LiveUpdateHelper.cs" />
+     <Compile Include="Assets\Scripts\Common\LiveUpdate\LiveUpdateManager.cs" />
+     <Compile Include="Assets\Scripts\Common\LiveUpdate\MachineAssetDownloader.cs" />
+     <Compile Include="Assets\Scripts\Common\LiveUpdate\MachineAssetDownloaderManager.cs" />
+     <Compile Include="Assets\Scripts\Common\LiveUpdate\MachineAssetManager.cs" />
+     <Compile Include="Assets\Scripts\Common\LocalNotification.cs" />
+     <Compile Include="Assets\Scripts\Common\MachineUnlockManager.cs" />
+     <Compile Include="Assets\Scripts\Common\MemoryManager.cs" />
+     <Compile Include="Assets\Scripts\Common\PlatformManager.cs" />
+     <Compile Include="Assets\Scripts\Common\ReloadGameManager.cs" />
+     <Compile Include="Assets\Scripts\Common\ResolutionAdapt\CameraAdaptor.cs" />
+     <Compile Include="Assets\Scripts\Common\ResolutionAdapt\CanvasScalerAdaptor.cs" />
+     <Compile Include="Assets\Scripts\Common\ResolutionAdapt\WideResolutionHelper.cs" />
+     <Compile Include="Assets\Scripts\Common\ScenesController\EnterGameSceneEvent.cs" />
+     <Compile Include="Assets\Scripts\Common\ScenesController\EnterMainMapSceneEvent.cs" />
+     <Compile Include="Assets\Scripts\Common\ScenesController\LoadSceneFinishedEvent.cs" />
+     <Compile Include="Assets\Scripts\Common\ScenesController\ScenesController.cs" />
+     <Compile Include="Assets\Scripts\Common\SendProfileHelper.cs" />
+     <Compile Include="Assets\Scripts\Common\ServerConfig.cs" />
+     <Compile Include="Assets\Scripts\Common\SpriteStoreManager.cs" />
+     <Compile Include="Assets\Scripts\Common\UIManager.cs" />
+     <Compile Include="Assets\Scripts\Common\UiPopupWindow\PopUpControler.cs" />
+     <Compile Include="Assets\Scripts\Common\UserGroup.cs" />
+     <Compile Include="Assets\Scripts\Common\VersionHelper.cs" />
+     <Compile Include="Assets\Scripts\Core\Checker\CoreBaseCheckResult.cs" />
+     <Compile Include="Assets\Scripts\Core\Checker\CoreBaseChecker.cs" />
+     <Compile Include="Assets\Scripts\Core\Checker\CoreCheckResult.cs" />
+     <Compile Include="Assets\Scripts\Core\Checker\CoreChecker.cs" />
+     <Compile Include="Assets\Scripts\Core\Checker\CoreMultiLineCheckResult.cs" />
+     <Compile Include="Assets\Scripts\Core\Checker\CoreMultiLineChecker.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreCollectData.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreDebugManager.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreDefine.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreHelper.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreLuckyManager.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreMachine.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreReel.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreSmallGameDefine.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreSpinData.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreSpinInput.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreSpinResult.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreSymbol.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreUtility.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Core\AutoGenerated\JackpotSettingData.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Core\AutoGenerated\JackpotSettingSheet.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Core\AutoGenerated\LuckyData.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Core\AutoGenerated\LuckySheet.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Core\AutoGenerated\MiscData.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Core\AutoGenerated\MiscSheet.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Core\CoreConfig.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Core\SheetWrapper\JackpotSettingConfig.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Core\SheetWrapper\LuckyConfig.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Core\SheetWrapper\MiscConfig.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\CoreAssetManager.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\ExcelConfig.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\BasicData.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\BasicSheet.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\LuckyWheel2Data.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\LuckyWheel2Sheet.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\NearHitData.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\NearHitDistData.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\NearHitDistSheet.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\NearHitSheet.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\PaylineData.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\PaylineSheet.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\PayoutData.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\PayoutDistData.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\PayoutDistSheet.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\PayoutSheet.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\ReelData.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\ReelSheet.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\RewardResultData.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\RewardResultSheet.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\SymbolData.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\SymbolSheet.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\WheelData.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\AutoGenerated\WheelSheet.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\MachineConfig.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\SheetWrapper\BaseJoyConfig.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\SheetWrapper\BaseJoyDistConfig.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\SheetWrapper\BasicConfig.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\SheetWrapper\IJoyData.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\SheetWrapper\IJoyDistData.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\SheetWrapper\NearHitConfig.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\SheetWrapper\NearHitDistConfig.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\SheetWrapper\PaylineConfig.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\SheetWrapper\PayoutConfig.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\SheetWrapper\PayoutDistConfig.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\SheetWrapper\ReelConfig.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\SheetWrapper\RewardResultConfig.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\SheetWrapper\SymbolConfig.cs" />
+     <Compile Include="Assets\Scripts\Core\Data\Machine\SheetWrapper\WheelConfig.cs" />
+     <Compile Include="Assets\Scripts\Core\Generator\CoreGenerator.cs" />
+     <Compile Include="Assets\Scripts\Core\Generator\CoreMultiLineGenerator.cs" />
+     <Compile Include="Assets\Scripts\Core\Generator\ICoreGenerator.cs" />
+     <Compile Include="Assets\Scripts\Core\IndieGame\CoreIndieGameDefine.cs" />
+     <Compile Include="Assets\Scripts\Core\IndieGame\CoreTapBox.cs" />
+     <Compile Include="Assets\Scripts\Core\IndieGame\CoreWheelGame.cs" />
+     <Compile Include="Assets\Scripts\Core\Jackpot\JackpotBonusPool.cs" />
+     <Compile Include="Assets\Scripts\Core\Jackpot\JackpotBonusPoolManager.cs" />
+     <Compile Include="Assets\Scripts\Core\Jackpot\JackpotBonusPoolManagerDerived.cs" />
+     <Compile Include="Assets\Scripts\Core\Jackpot\JackpotBonusPoolManagerFactory.cs" />
+     <Compile Include="Assets\Scripts\Core\Jackpot\JackpotData.cs" />
+     <Compile Include="Assets\Scripts\Core\Jackpot\JackpotDefine.cs" />
+     <Compile Include="Assets\Scripts\Core\Jackpot\JackpotHelper.cs" />
+     <Compile Include="Assets\Scripts\Core\Jackpot\JackpotManager.cs" />
+     <Compile Include="Assets\Scripts\Core\Jackpot\JackpotPoolFactory.cs" />
+     <Compile Include="Assets\Scripts\Core\Jackpot\JackpotWinManager.cs" />
+     <Compile Include="Assets\Scripts\Core\PlayModule\CorePlayModule.cs" />
+     <Compile Include="Assets\Scripts\Core\PlayModule\CorePlayModuleFactory.cs" />
+     <Compile Include="Assets\Scripts\Core\PlayModule\CorePlayModuleFixWild.cs" />
+     <Compile Include="Assets\Scripts\Core\PlayModule\CorePlayModuleFreeSpin.cs" />
+     <Compile Include="Assets\Scripts\Core\PlayModule\CorePlayModuleHelper.cs" />
+     <Compile Include="Assets\Scripts\Core\PlayModule\CorePlayModuleJackpot.cs" />
+     <Compile Include="Assets\Scripts\Core\PlayModule\CorePlayModuleNormal.cs" />
+     <Compile Include="Assets\Scripts\Core\PlayModule\CorePlayModuleRewind.cs" />
+     <Compile Include="Assets\Scripts\Core\PlayModule\CorePlayModuleSwitchSymbol.cs" />
+     <Compile Include="Assets\Scripts\Core\PlayModule\CorePlayModuleTapBox.cs" />
+     <Compile Include="Assets\Scripts\Core\PlayModule\CorePlayModuleWheel.cs" />
+     <Compile Include="Assets\Scripts\Core\UnitTest\CoreRTPChecker.cs" />
+     <Compile Include="Assets\Scripts\Core\UserData\UserBasicData_Core.cs" />
+     <Compile Include="Assets\Scripts\Core\UserData\UserDataBase.cs" />
+     <Compile Include="Assets\Scripts\Core\UserData\UserDeviceLocalData_Core.cs" />
+     <Compile Include="Assets\Scripts\Core\UserData\UserMachineData_Core.cs" />
+     <Compile Include="Assets\Scripts\Core\UserData\UserTempData_Core.cs" />
+     <Compile Include="Assets\Scripts\Core\Utility\CoreDebugUtility.cs" />
+     <Compile Include="Assets\Scripts\Core\Utility\DictionaryUtility.cs" />
+     <Compile Include="Assets\Scripts\Core\Utility\ListUtility.cs" />
+     <Compile Include="Assets\Scripts\Core\Utility\MathUtility.cs" />
+     <Compile Include="Assets\Scripts\Core\Utility\Random\IRandomGenerator.cs" />
+     <Compile Include="Assets\Scripts\Core\Utility\Random\LCG.cs" />
+     <Compile Include="Assets\Scripts\Core\Utility\Random\RandomUtility.cs" />
+     <Compile Include="Assets\Scripts\Core\Utility\Random\RollHelper.cs" />
+     <Compile Include="Assets\Scripts\Core\Utility\SimpleSingleton.cs" />
+     <Compile Include="Assets\Scripts\Core\Utility\StringExtension.cs" />
+     <Compile Include="Assets\Scripts\Core\Utility\StringUtility.cs" />
+     <Compile Include="Assets\Scripts\Core\Utility\TypeUtility.cs" />
+     <Compile Include="Assets\Scripts\Data\Common\KeyValConfigBase.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\ADSData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\ADSSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\AdBonusData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\AdBonusSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\BackFlowRewardLTLuckyData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\BackFlowRewardLTLuckySheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\BankruptCompensateData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\BankruptCompensateSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\BetOptionData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\BetOptionSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\BetUnlockSettingData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\BetUnlockSettingSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\ChestData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\ChestSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\DailyBonusData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\DailyBonusSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\DiceData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\DiceSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\FriendSettingData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\FriendSettingSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\GroupData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\GroupRepresentData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\GroupRepresentSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\GroupRule2Data.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\GroupRule2Sheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\GroupRuleData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\GroupRuleSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\GroupSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\IAPCatalogData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\IAPCatalogSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\LevelConfigData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\LevelConfigSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\MachineUnlockSettingData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\MachineUnlockSettingSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\MailTextData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\MailTextSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\MapSettingData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\MapSettingSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\PayRotaryTableData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\PayRotaryTableSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\PiggyBankData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\PiggyBankSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\PiggyInfoData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\PiggyInfoSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\RemoteMachineVersionData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\RemoteMachineVersionSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\VIPData.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\AutoGenerated\VIPSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\GameConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\GameConfigTable.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\ADSConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\ActiveGroupRuleConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\AdBonusConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\BackFlowRewardLTLuckyConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\BankruptCompensateConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\BetOptionConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\BetUnlockSettingConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\ChestConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\DailyBonusConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\DiceConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\FriendSettingConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\GroupConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\GroupRepresentConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\GroupRuleConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\IAPCatalogConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\MachineUnlockSettingConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\MailTextConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\MapSettingConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\PayRotaryTableConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\PiggyBankConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\PiggyInfoConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\RemoteMachineVersionConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\UserLevelConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Game\SheetWrapper\VIPConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\LocalNotification\AutoGenerated\LocalNotificationData.cs" />
+     <Compile Include="Assets\Scripts\Data\LocalNotification\AutoGenerated\LocalNotificationSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\LocalNotification\AutoGenerated\LocalNotificationfestivalData.cs" />
+     <Compile Include="Assets\Scripts\Data\LocalNotification\AutoGenerated\LocalNotificationfestivalSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\LocalNotification\SheetWrapper\LocalNotificationConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\LocalNotification\SheetWrapper\LocalNotificationfestivalConfig.cs" />
+     <Compile Include="Assets\Scripts\Data\Localization\AutoGenerated\ContentData.cs" />
+     <Compile Include="Assets\Scripts\Data\Localization\AutoGenerated\ContentSheet.cs" />
+     <Compile Include="Assets\Scripts\Data\Localization\LocalizationConfig.cs" />
+     <Compile Include="Assets\Scripts\Dice\DiceCamera.cs" />
+     <Compile Include="Assets\Scripts\Dice\DiceControler.cs" />
+     <Compile Include="Assets\Scripts\Dice\DiceHelper.cs" />
+     <Compile Include="Assets\Scripts\Dice\DiceManager.cs" />
+     <Compile Include="Assets\Scripts\Dice\DicePaymentUi.cs" />
+     <Compile Include="Assets\Scripts\Dice\DiceUiControler.cs" />
+     <Compile Include="Assets\Scripts\FireBase\FireBaseAnalytics.cs" />
+     <Compile Include="Assets\Scripts\FireBase\FireBaseCloudMessage.cs" />
+     <Compile Include="Assets\Scripts\Friend\FriendData.cs" />
+     <Compile Include="Assets\Scripts\Friend\FriendDataTest.cs" />
+     <Compile Include="Assets\Scripts\Friend\FriendManager.cs" />
+     <Compile Include="Assets\Scripts\Friend\GiftData.cs" />
+     <Compile Include="Assets\Scripts\Game\Data\GameData.cs" />
+     <Compile Include="Assets\Scripts\Game\GameScene.cs" />
+     <Compile Include="Assets\Scripts\Game\Jackpot\JackpotCheckBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Game\Jackpot\JackpotNotifyBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Game\Jackpot\JackpotSelectBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Game\Jackpot\JackpotTipBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\ADSAndChestSelector.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\BackgroundEffectBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\BackgroundGroup.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\BankruptCompensateBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\BetTipBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\ButterflyController.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\ButterflyHitController.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\ButterflyHitEffectController.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\CoinCollectController.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\CollectController.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\CollectEffectController.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\CompassSymbol.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\FreeSpinController.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\GamePariculeCustom.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\GameTimer.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\HourChest.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\LayoutGroupAdapterBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\M36_SliderController.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\M6_SliderController.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\MachineBar.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\MultiplierFreeSpinController.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\PayTableController.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\SliderControllerBase.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\SpecialReelBackController.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\SpinButtonHandler.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\UIAdapterBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\WidgetJumpController.cs" />
+     <Compile Include="Assets\Scripts\Game\Wheel\MachineWheel.cs" />
+     <Compile Include="Assets\Scripts\Game\Wheel\WheelBase.cs" />
+     <Compile Include="Assets\Scripts\Game\Wheel\WheelController.cs" />
+     <Compile Include="Assets\Scripts\Game\Wheel\WheelHelper.cs" />
+     <Compile Include="Assets\Scripts\Gift\GiftHelper.cs" />
+     <Compile Include="Assets\Scripts\Gift\GiftInitBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Gift\NoGiftBehaviour.cs" />
+     <Compile Include="Assets\Scripts\JointOperation\BasePackageConfig.cs" />
+     <Compile Include="Assets\Scripts\JointOperation\IWiOSPackageConfig.cs" />
+     <Compile Include="Assets\Scripts\JointOperation\NormalPackageConfig.cs" />
+     <Compile Include="Assets\Scripts\JointOperation\PackageConfigManager.cs" />
+     <Compile Include="Assets\Scripts\Libs\JSONObject.cs" />
+     <Compile Include="Assets\Scripts\Libs\NullCheckable.cs" />
+     <Compile Include="Assets\Scripts\Mail\LocalMailFactory.cs" />
+     <Compile Include="Assets\Scripts\Mail\MailDefine.cs" />
+     <Compile Include="Assets\Scripts\Mail\MailHelper.cs" />
+     <Compile Include="Assets\Scripts\Mail\MailInfor.cs" />
+     <Compile Include="Assets\Scripts\Mail\MailInforExtension.cs" />
+     <Compile Include="Assets\Scripts\Mail\MailMessageTag.cs" />
+     <Compile Include="Assets\Scripts\Mail\MailMessageUI.cs" />
+     <Compile Include="Assets\Scripts\Mail\MailScrollviewController.cs" />
+     <Compile Include="Assets\Scripts\Mail\MailTextHelper.cs" />
+     <Compile Include="Assets\Scripts\Mail\MailUIController.cs" />
+     <Compile Include="Assets\Scripts\Mail\MailUIItem.cs" />
+     <Compile Include="Assets\Scripts\Mail\MailUIState.cs" />
+     <Compile Include="Assets\Scripts\Mail\MailUtility.cs" />
+     <Compile Include="Assets\Scripts\Map\MapMachineButton.cs" />
+     <Compile Include="Assets\Scripts\Map\MapScene.cs" />
+     <Compile Include="Assets\Scripts\Map\SplashScene.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\AllWindow\BackButtonManager.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\AllWindow\PopWindowConfig.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\AllWindow\WindowManager.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\BillBoard\BillBoard.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\BillBoard\BillBoardBase.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\BillBoard\BillBoardManager.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\BillBoard\BillBoardScroll.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\BillBoard\ChristmasBillboard\ChristmasBillboard.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\BillBoard\ChristmasBillboard\DoubleHourBonusBillboard.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\BillBoard\CountDown.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\BillBoard\DoubleLevelUp\DoubleLevelUp.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\BillBoard\DoubleLevelUp\DoubleLevelUpHelper.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\BillBoard\Halloween\Halloween.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\BillBoard\Halloween\HalloweenHelper.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\BillBoard\NewMachine\NewMachine.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\BillBoard\NewMachine\NewMachineHelper.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\BillBoard\Promotion\PromotionBoard.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\BillBoard\Promotion\PromotionHelper.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Bouns\Core\BonusHelper.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Bouns\Core\RandomDayBonusType.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Bouns\Data\BounsData.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Bouns\UI\BackFlowReward.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Bouns\UI\BonusButton.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Bouns\UI\DayBonus.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Bouns\UI\FistStartBouns.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Bouns\UI\HourBonus.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Bouns\UI\NewsButton.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Bouns\UI\RotaryAnimatorContoller.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Bouns\UI\RotaryTableController.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Common\WarningLayer.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\FaceBook\UI\FaceBookButton.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\FaceBook\UI\FaceBookButtonController.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\FacebookLikes\System\FacebookLikes.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\FacebookLikes\UI\FacebookLikesUiItem.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Friend\DynamicScrollviewController.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Friend\FacebookLoginBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Friend\FriendButtonBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Friend\FriendCoinController.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Friend\FriendItem.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Friend\FriendScrollviewController.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Friend\FriendUIBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Friend\ToggleButtonChange.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Friend\ToggleColorChange.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Level\UI\ShowLevel.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Level\UI\StretchPicture.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Loading\LoadingManager.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\MachineComment\CommentStarUI.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\MachineComment\MachineCommentController.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\MachineComment\MachineCommentHelper.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\MachineComment\MapEffect.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\MapMachine\MachineLockBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\MapMachine\MachineUnlockHelper.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\MapMachine\MapCurtainsAnimController.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\MapMachine\MapCurtainsUiController.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\MapMachine\MapMachineController.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\MapMachine\MapMachineDownloader.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\MapMachine\MapMachineRoomManager.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\MapMachine\MapMachineSelectEffect.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\MapMachine\MapMoreSlotsBoardController.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\MapMachine\TinyMapMachineRoot.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\PayRotaryTable\PayRotaryTableControler.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\PayRotaryTable\PayRotaryTableSystem.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\PayRotaryTable\PayRotaryTableUiControler.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\PiggyBankSystem\Core\PiggyBankHelper.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\PiggyBankSystem\UI\PiggyBankCollectionEffect.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\PiggyBankSystem\UI\PiggyBankFakeOpenSoundOpen.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\PiggyBankSystem\UI\PiggyBankSystem.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\PiggyBankSystem\UI\PiggyBankUIController.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\QuitGame\QuitGameUIController.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\ScoreApp\CallScoreAppSystemWhenEpicWin.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\ScoreApp\GetCredits.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\ScoreApp\ScoreAppSystem.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\ScoreApp\ScoreAppUiControler.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Setting\FeedBackController.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Setting\OpenURL.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Setting\ScriptButton.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\Setting\SettingController.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\SpecialOffer\SpecialOffer.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\SpecialOffer\SpecialOfferHelper.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\SpecialOffer\SpecialOfferIcon.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UIBar\CloseGameObject.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UIBar\ComingSoon.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UIBar\LoadSingle.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UIBar\LoadingMapMachineController.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UIBar\MachineButton.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UIBar\MainMapBar.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UIBar\NoCollectionErrorObject.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UIBar\ParticleCustom.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UIBar\ShareButton.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UIBar\ShareManager.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UIBar\ShowCoinsText.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UIBar\StartLoading.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UIBar\TLPromptController.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UITest\EventDropdown.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UITest\MakeSpriteForFaceBook.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UITest\NeedTestFunction.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UITest\Test_ShowGroup.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UITool\ButtonClickSound.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UITool\ImageBar.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UITool\LoadingRrotating.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UITool\MyButton.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UITool\ScrollRectWithScroll.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UITool\ShowPiggyBank.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UITool\WaitTimeCallFunction.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UserDataUI\UserDataAsk.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UserDataUI\UserDataUIController.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UserLevel\Core\LevelUpBonus.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UserLevel\Core\UserLevelSystem.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\UserLevel\UI\UserLevelUIController.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\VIP\Core\VIPSystem.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\VIP\UI\VIPLevelItem.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\VIP\UI\VIPStoreBarUI.cs" />
+     <Compile Include="Assets\Scripts\Map\UI\VIP\UI\VIPUIController.cs" />
+     <Compile Include="Assets\Scripts\Map\UIAnimator\AnimatorStateEvent.cs" />
+     <Compile Include="Assets\Scripts\Map\UIAnimator\MapMachineAnimatorController.cs" />
+     <Compile Include="Assets\Scripts\Map\UIAnimator\RandomWaitTimePlay.cs" />
+     <Compile Include="Assets\Scripts\NetWork\MailNetWorkHelper.cs" />
+     <Compile Include="Assets\Scripts\NetWork\NetWorkHelper.cs" />
+     <Compile Include="Assets\Scripts\NetWork\NetWorkHelperAbstract.cs" />
+     <Compile Include="Assets\Scripts\NetWork\NetworkTimeHelper.cs" />
+     <Compile Include="Assets\Scripts\NetWork\SendMessageNetWork.cs" />
+     <Compile Include="Assets\Scripts\NetWork\StoreNetWorkServer.cs" />
+     <Compile Include="Assets\Scripts\NetWork\TournamentNetworkHelper.cs" />
+     <Compile Include="Assets\Scripts\NetWork\UserDataNetworkHelper.cs" />
+     <Compile Include="Assets\Scripts\NetWork\UserMachineNetworkHelper.cs" />
+     <Compile Include="Assets\Scripts\PropertyTrace\BasePropertyNode.cs" />
+     <Compile Include="Assets\Scripts\PropertyTrace\PayNode.cs" />
+     <Compile Include="Assets\Scripts\PropertyTrace\PayQueue.cs" />
+     <Compile Include="Assets\Scripts\PropertyTrace\PayWinNode.cs" />
+     <Compile Include="Assets\Scripts\PropertyTrace\PayWinQueue.cs" />
+     <Compile Include="Assets\Scripts\PropertyTrace\PropertyTraceManager.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\IndieGame\TapBox\PuzzleTapBoxChar.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\IndieGame\TapBox\PuzzleTapBoxController.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\IndieGame\TapBox\PuzzleTapBoxPlayBoard.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\IndieGame\TapBox\PuzzleTapBoxResultBoard.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\IndieGame\TapChip\PuzzleTapChipChip.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\IndieGame\TapChip\PuzzleTapChipController.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\IndieGame\TapChip\PuzzleTapChipPlayBoard.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\IndieGame\TapChip\PuzzleTapChipResultBoard.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\MultiLine\PuzzleMultiLineBack.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\MultiLine\PuzzleMultiLineFrame.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PlayModule\SymbolFlyEffectController.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PuzzleConfig.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PuzzleDebugPanel.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PuzzleDefine.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PuzzleEffect.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PuzzleEffectConfig.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PuzzleJackpotManager.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PuzzleJackpotPool.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PuzzleMachine.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PuzzleReel.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PuzzleReelFrame.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PuzzleReelSpinConfig.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PuzzleResourceManager.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PuzzleSlider.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PuzzleSmallGameHandler.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PuzzleSpinData.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PuzzleSpinManager.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PuzzleSymbol.cs" />
+     <Compile Include="Assets\Scripts\Puzzle\PuzzleUtility.cs" />
+     <Compile Include="Assets\Scripts\SDK\Analysis\AnalysisDeepLink.cs" />
+     <Compile Include="Assets\Scripts\SDK\Analysis\AnalysisManager.cs" />
+     <Compile Include="Assets\Scripts\SDK\Analysis\AnalysisUtility.cs" />
+     <Compile Include="Assets\Scripts\SDK\Analysis\ISensorsData.cs" />
+     <Compile Include="Assets\Scripts\SDK\Analysis\SensorsData.cs" />
+     <Compile Include="Assets\Scripts\SDK\Analysis\SensorsDataAndroid.cs" />
+     <Compile Include="Assets\Scripts\SDK\Analysis\SensorsDataIOS.cs" />
+     <Compile Include="Assets\Scripts\SDK\AppsFlyer\AppsFlyerManager.cs" />
+     <Compile Include="Assets\Scripts\SDK\Fabric\FabricManager.cs" />
+     <Compile Include="Assets\Scripts\SDK\Facebook\FacebookHelper.cs" />
+     <Compile Include="Assets\Scripts\SDK\Facebook\FacebookUtility.cs" />
+     <Compile Include="Assets\Scripts\SDK\SDKEventManager.cs" />
+     <Compile Include="Assets\Scripts\ScriptsEffect\DelayEffect.cs" />
+     <Compile Include="Assets\Scripts\ScriptsEffect\DelayEffectTest.cs" />
+     <Compile Include="Assets\Scripts\ScriptsEffect\ScreenShotMakeTexture.cs" />
+     <Compile Include="Assets\Scripts\ScriptsEffect\ScriptEffect.cs" />
+     <Compile Include="Assets\Scripts\ScriptsEffect\SmallWindows.cs" />
+     <Compile Include="Assets\Scripts\Store\Core\BigStoreController.cs" />
+     <Compile Include="Assets\Scripts\Store\Core\IAPData.cs" />
+     <Compile Include="Assets\Scripts\Store\Core\NoADsController.cs" />
+     <Compile Include="Assets\Scripts\Store\Core\SaveBuyItem.cs" />
+     <Compile Include="Assets\Scripts\Store\Core\StoreDefine.cs" />
+     <Compile Include="Assets\Scripts\Store\Core\StoreManager.cs" />
+     <Compile Include="Assets\Scripts\Store\Core\ThreeStoreController.cs" />
+     <Compile Include="Assets\Scripts\Store\Core\TimeLimitedStoreHelper.cs" />
+     <Compile Include="Assets\Scripts\Store\Core\TwoStoreController.cs" />
+     <Compile Include="Assets\Scripts\Store\Data\StoreAnalysisData.cs" />
+     <Compile Include="Assets\Scripts\Store\Data\StoreItemData.cs" />
+     <Compile Include="Assets\Scripts\Store\UI\AjustWidthByContent.cs" />
+     <Compile Include="Assets\Scripts\Store\UI\BuySuccessUI.cs" />
+     <Compile Include="Assets\Scripts\Store\UI\GeneralStoreItem.cs" />
+     <Compile Include="Assets\Scripts\Store\UI\PiggyStoreItem.cs" />
+     <Compile Include="Assets\Scripts\Store\UI\PiggyTempAjustWidth.cs" />
+     <Compile Include="Assets\Scripts\Store\UI\StoreButtonEffect.cs" />
+     <Compile Include="Assets\Scripts\Store\UI\StoreController.cs" />
+     <Compile Include="Assets\Scripts\Store\UI\StoreItem.cs" />
+     <Compile Include="Assets\Scripts\Store\UI\TLStoreController.cs" />
+     <Compile Include="Assets\Scripts\Store\UI\TLStoreItem.cs" />
+     <Compile Include="Assets\Scripts\Test\SimpleTest\CoreMachineTest.cs" />
+     <Compile Include="Assets\Scripts\Tournament\Core\Compress.cs" />
+     <Compile Include="Assets\Scripts\Tournament\Core\TournamentHelper.cs" />
+     <Compile Include="Assets\Scripts\Tournament\Core\TournamentManager.cs" />
+     <Compile Include="Assets\Scripts\Tournament\Core\TournamentTimeHelper.cs" />
+     <Compile Include="Assets\Scripts\Tournament\UI\CoinsPoolItem.cs" />
+     <Compile Include="Assets\Scripts\Tournament\UI\CountTimeUI.cs" />
+     <Compile Include="Assets\Scripts\Tournament\UI\SelfTournamenItemEffect.cs" />
+     <Compile Include="Assets\Scripts\Tournament\UI\TournamentItem.cs" />
+     <Compile Include="Assets\Scripts\Tournament\UI\TournamentRewardUI.cs" />
+     <Compile Include="Assets\Scripts\Tournament\UI\TournamentUIController.cs" />
+     <Compile Include="Assets\Scripts\UserData\Local\UserBasicData.cs" />
+     <Compile Include="Assets\Scripts\UserData\Local\UserDataManager.cs" />
+     <Compile Include="Assets\Scripts\UserData\Local\UserDeviceLocalData.cs" />
+     <Compile Include="Assets\Scripts\UserData\Local\UserMachineData.cs" />
+     <Compile Include="Assets\Scripts\UserData\Local\UserTempData.cs" />
+     <Compile Include="Assets\Scripts\UserData\Server\UserBasicDataJSON.cs" />
+     <Compile Include="Assets\Scripts\UserData\Server\UserDataFileController.cs" />
+     <Compile Include="Assets\Scripts\UserData\Server\UserDataHelper.cs" />
+     <Compile Include="Assets\Scripts\UserData\Server\UserMachineDataJSON.cs" />
+     <Compile Include="Assets\Scripts\UserData\UserDataUtility.cs" />
+     <Compile Include="Assets\Scripts\UserData\UserIDWithPrefix.cs" />
+     <Compile Include="Assets\Scripts\UserData\UserLoginStateHelper.cs" />
+     <Compile Include="Assets\Scripts\Utility\BuildUtility.cs" />
+     <Compile Include="Assets\Scripts\Utility\ButtonMutex.cs" />
+     <Compile Include="Assets\Scripts\Utility\CallbackCount.cs" />
+     <Compile Include="Assets\Scripts\Utility\Deque.cs" />
+     <Compile Include="Assets\Scripts\Utility\DeviceUtility.cs" />
+     <Compile Include="Assets\Scripts\Utility\EncryptUtility.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\ADSEvent\ShowInterstitialEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\BuyPiggyBankSuccessEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\CallServerUDIDISNullEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\CollectingCoinsEffectEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\DailyBonusFinishEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\DiceEvents\DiceGameEndEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\DiceEvents\DiceGameStartEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\DiceEvents\PayForTwoDicesEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\DiceEvents\ResetDiceCountEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\DiceEvents\SpinEndEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\FaceBookEvents\FaceBookLoginPopEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\FacebookLikesEvents\LikeUsInFacebookEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\MailEvents\UpdateMailBarStateEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\MailEvents\UpdateMailUIEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\MapMachineEvent\MachineUnlockEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\MapMachineEvent\OnRecordMachinePosEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\MapMachineEvent\SwitchMachineTypeEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\MapSceneUpdateScrollPosEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\OutOfCreditsEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\PayRotaryTableEvents\OnDailyRotaryAnimEnd.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\PayRotaryTableEvents\OnPayRotaryTableOver.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\PuzzleMachineInitFinishedEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\RegisterWinAmountEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\SaveUserDataToServerEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\ScoreAppEvent\MachineGotFiveStarEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\SetHourBonusMultiplierEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\SpinStartEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\StoreEvent\ManualCloseBigWinEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\StoreEvent\OnStorePurchaseSucceed.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\StoreEvent\TLStoreEndEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\StoreEvent\TLStoreShowEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\TipEvent\LevelupTipEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\TournamentMessage\CallTournamentServerEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\TournamentMessage\CanShowTournamentRewardUIEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\TournamentMessage\CheckRewardResultEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\TournamentMessage\GetRewardResultEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\TournamentMessage\TournamentInforResultEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\TournamentMessage\TournamentReportScoreSuccessEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\TournamentMessage\TournamentServerErrorEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\UserChouseUserDataEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\UserDataLoadEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\UserDataServerEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\UserLevelUpEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\UserLoginFBFailEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\UserLoginFBSuccessEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\UserLoginorRegisterEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventMessage\UserLogoutEvent.cs" />
+     <Compile Include="Assets\Scripts\Utility\EventTriggerListener.cs" />
+     <Compile Include="Assets\Scripts\Utility\ExtensionUtility.cs" />
+     <Compile Include="Assets\Scripts\Utility\FileStreamUtility.cs" />
+     <Compile Include="Assets\Scripts\Utility\FileUtility\FileHelper.cs" />
+     <Compile Include="Assets\Scripts\Utility\Gradient.cs" />
+     <Compile Include="Assets\Scripts\Utility\LogUtility.cs" />
+     <Compile Include="Assets\Scripts\Utility\LongPressEventTrigger.cs" />
+     <Compile Include="Assets\Scripts\Utility\ModifyParticleSortLayerBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Utility\NotificationUtility.cs" />
+     <Compile Include="Assets\Scripts\Utility\NumberTickHandler.cs" />
+     <Compile Include="Assets\Scripts\Utility\ObjectExtension.cs" />
+     <Compile Include="Assets\Scripts\Utility\RotateGameObject.cs" />
+     <Compile Include="Assets\Scripts\Utility\RotateUtility.cs" />
+     <Compile Include="Assets\Scripts\Utility\SettingKeyMap.cs" />
+     <Compile Include="Assets\Scripts\Utility\SimpleMessageQueue\SimpleMessage.cs" />
+     <Compile Include="Assets\Scripts\Utility\SimpleMessageQueue\SimpleMessageQueue.cs" />
+     <Compile Include="Assets\Scripts\Utility\SystemUtility.cs" />
+     <Compile Include="Assets\Scripts\Utility\TextExtension.cs" />
+     <Compile Include="Assets\Scripts\Utility\TextureUtility.cs" />
+     <Compile Include="Assets\Scripts\Utility\TimeUtility.cs" />
+     <Compile Include="Assets\Scripts\Utility\TrackEventUtility.cs" />
+     <Compile Include="Assets\Scripts\Utility\UGUIUtility.cs" />
+     <Compile Include="Assets\Scripts\Utility\UI\CloseAndOpenUI.cs" />
+     <Compile Include="Assets\Scripts\Utility\UserLevelUtility.cs" />
+     <Compile Include="Assets\Scripts\Utility\VersionUtility.cs" />
+     <None Include="Assets\Resources\Shader\BlendLinearDodge.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Shaders\WallHackTexture.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Include\TCP2_Outline_SM2.shader" />
+     <None Include="Assets\Resources\Shader\test.shader" />
+     <None Include="Assets\Fabric\NOTICE.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\TCP2_OutlineOnly Blended.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Changelog.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\DemiLib\Core\DemiLib.xml" />
+     <None Include="Assets\Plugins\Android\Firebase\res\values\google-services.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Sonic Ether\SESSAO\Resources\SESSAO.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Desktop_Specular_Outline.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\FingerGestures\FingerGestures\Readme.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Mobile_Specular_Outline.shader" />
+     <None Include="Assets\Firebase\Plugins\link.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\Resources\Shader\CustomAdditiveWithStencil.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Mobile_Specular_OutlineBlending.shader" />
+     <None Include="Assets\Editor\QuickSheet\ExcelQuery\Library\NPOI.2.1.1.txt" />
+     <None Include="Assets\GameAsset\Font\Number-Gold.xml" />
+     <None Include="Assets\Easy Save 2\changelog.txt" />
+     <None Include="Assets\Plugins\Android\crashlytics\NOTICE.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\TCP2_OutlineOnly.shader" />
+     <None Include="Assets\Plugins\Android\res\values\string.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Mobile_OutlineBlending.shader" />
+     <None Include="Assets\Plugins\Android\Firebase\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\crashlytics-wrapper\AndroidManifest.xml" />
+     <None Include="Assets\Resources\Shader\SpinBlur.shader" />
+     <None Include="Assets\Plugins\Android\fabric\AndroidManifest.xml" />
+     <None Include="Assets\Firebase\Editor\AppDependencies.xml" />
+     <None Include="Assets\Resources\Effect\Shader\3dmy_RollTexture.shader" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\TimeCheatPrevention\readme.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\Plugins\Android\fabric-init\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\GenKeyStore_ReadMe.txt" />
+     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />
+     <None Include="Assets\Resources\Shader\GenBigSprite.shader" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Mobile_Outline.shader" />
+     <None Include="Assets\Easy Save 2\readme.txt" />
+     <None Include="Assets\Resources\Shader\CustomAlphaBlendedWithStencil.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\BezierCurves\readme.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AdvancedFPSCounter\Changelog.txt" />
+     <None Include="Assets\Firebase\Editor\AnalyticsDependencies.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Include\TCP2_Outline.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Editor\Shader Templates\TCP2_User_Unity5.txt" />
+     <None Include="Assets\GameAsset\Font\Digital-Red-export.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\TCP2_Mobile.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Desktop_Outline.shader" />
+     <None Include="Assets\Plugins\Android\crashlytics\THIRDPARTYLICENSE.txt" />
+     <None Include="Assets\Plugins\Android\Vungle_lib\AndroidManifest.xml" />
+     <None Include="Assets\Resources\Effect\Shader\FrostedGlass.shader" />
+     <None Include="Assets\PlayServicesResolver\proguard-messaging-workaround.txt" />
+     <None Include="Assets\Editor\QuickSheet\ExcelPlugin\Templates\Property.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\unitytinypng\ReadMe.txt" />
+     <None Include="Assets\Editor\QuickSheet\ExcelPlugin\Templates\PostProcessor.txt" />
+     <None Include="Assets\Resources\Effect\Shader\3dmy_RollTexture(1-s).shader" />
+     <None Include="Assets\Editor\QuickSheet\ExcelPlugin\Templates\ScriptableObjectClass.txt" />
+     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-messaging-unity\maven-metadata.xml" />
+     <None Include="Assets\Plugins\Android\answers\AndroidManifest.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\unitytinypng\Lib\Readme.txt" />
+     <None Include="Assets\Plugins\Android\fabric\NOTICE.txt" />
+     <None Include="Assets\Firebase\Editor\FirebaseMessaging_v4.2.1_manifest.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Desktop_OutlineBlending.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
+     <None Include="Assets\Editor\QuickSheet\ExcelPlugin\Templates\ScriptableObjectEditorClass.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Mobile_Specular.shader" />
+     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\fabric\Template-AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\TCP2_OutlineOnly Blended SM2.shader" />
+     <None Include="Assets\Editor\QuickSheet\ExcelQuery\Library\Release Notes.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\DarkTonic\PoolBoss\ReleaseNotes.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AdvancedFPSCounter\API.txt" />
+     <None Include="Assets\Plugins\AppLovin\AppLovin Readme.txt" />
+     <None Include="Assets\FacebookSDK\link.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\unitytinypng\Lib\License.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\Integration\readme.txt" />
+     <None Include="Assets\Resources\Shader\SymbolEffect.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Desktop_Specular.shader" />
+     <None Include="Assets\Firebase\Editor\FirebaseAnalytics_v4.2.1_manifest.txt" />
+     <None Include="Assets\Plugins\Android\fabric\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\beta\AndroidManifest.xml" />
+     <None Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsDependencies.xml" />
+     <None Include="Assets\Resources\Shader\SpinBlurRealTime.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\CodeStage\AntiCheatToolkit\API.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\TCP2_Desktop.shader" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Editor\Shader Templates\TCP2_User.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
+     <None Include="Assets\Editor\QuickSheet\ExcelPlugin\Templates\DataClass.txt" />
+     <None Include="Assets\Plugins\Editor\zip-v1.9-Reduced\Readme.txt" />
+     <None Include="Assets\GameAsset\Font\Digital-White-export.xml" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\TCP2_OutlineOnly SM2.shader" />
+     <None Include="Assets\Resources\Effect\Shader\Gem.shader" />
+     <None Include="Assets\Plugins\Android\crashlytics\AndroidManifest.xml" />
+     <None Include="Assets\PlayServicesResolver\proguard-unity.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Demigiant\readme_DOTweenPro.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Include\TCP2_Include.cginc" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\GameAsset\Font\ziti-export.xml" />
+     <None Include="Assets\Plugins\Android\fabric\THIRDPARTYLICENSE.txt" />
+     <None Include="Assets\Scripts\CitrusFramework\SDKs\Toony_Colors_Pro2\Shaders 2.0\Variants Base\TCP2_Desktop_Specular_OutlineBlending.shader" />
+     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.59.0.txt" />
+     <None Include="Assets\Firebase\Editor\MessagingDependencies.xml" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="Analytics">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Fabric/Managed/Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Validator">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Fabric/Managed/Validator.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Analytics">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.App">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Messaging">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Firebase/Plugins/Firebase.Messaging.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.MiniJson">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Compat">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Parse/Plugins/Unity.Compat.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Tasks">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Parse/Plugins/Unity.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="ES2">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/ES2.dll</HintPath>
+ </Reference>
+ <Reference Include="MoodkieSecurity">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/MoodkieSecurity.dll</HintPath>
+ </Reference>
+ <Reference Include="VungleSDKProxy">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/VungleSDKProxy.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="Editor">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Purchasing.Common">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Security">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/UnityPurchasing/Bin/Security.dll</HintPath>
+ </Reference>
+ <Reference Include="Stores">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="Apple">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/UnityPurchasing/Bin/Facebook/Facebook.dll</HintPath>
+ </Reference>
+ <Reference Include="Tizen">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ </Reference>
+ <Reference Include="winrt">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/CitrusFramework/SDKs/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/CitrusFramework/SDKs/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/CitrusFramework/SDKs/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/CitrusFramework/SDKs/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/CitrusFramework/SDKs/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/CitrusFramework/SDKs/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="JsonFx.Json">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/CitrusFramework/SDKs/unitytinypng/Lib/JsonFx.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>/Users/zhousen/项目/unity3d/HugeWInSlot/Trojan/Assets/Scripts/SDK/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

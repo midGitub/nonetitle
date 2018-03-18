@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 11500000, guid: 6f1c8dfc21aeb4928b816651567d9cc5, type: 3}
+  m_Name: machineConfig
+  m_EditorClassIdentifier: 
+  _initLucky: 10000
+  _initCredit: 100000
+  _spinCount: 100
+  _betMode: 0
+  _betAmount: 100
+  _betPercentage: 0
+  _minBetAmountInPercentageMode: 0
+  _stopCredit: 0
+  _userCount: 1
+  _seedMode: 1
+  _startSeedForFixedMode: 1
+  _allMachines:
+  - M1
+  - M2
+  - M3
+  - M4
+  - M5
+  - M6
+  - M7
+  - M8
+  - M9
+  - M10
+  - M11
+  - M12
+  - M13
+  - M14
+  - M16
+  - M21
+  - M23
+  - M22
+  - M28
+  - M29
+  - M18
+  - M32
+  - M27
+  - M30
+  - M15
+  - M24
+  - M34
+  - M36
+  - M37
+  - M40
+  - M26
+  - M20
+  - M41
+  - M17
+  - M42
+  - M25
+  - M31
+  - M19
+  - M44
+  - V5
+  - V1
+  - V2
+  - V3
+  - V4
+  _selectMachines: 0000000000000000000000000000000000000000000000000000000000000000000000000000010000000000
+  _isPayProtectionEnable: 0

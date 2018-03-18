@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5475e3edb6ac44af88a190973df4edee, type: 3}
+  m_Name: GameSetting_VIP
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Game/GameSetting.xls
+  WorksheetName: VIP
+  dataArray:
+  - vIPLeveL: 0
+    vIPLevelName: Diamond
+    vIPLevelNeedPoint: 0
+    storeAddition: 0
+    dailyBonusAddition: 0
+    hourBonusAddition: 0
+    friendsGiftsAddition: 0
+    exclusiveMachine: 0
+  - vIPLeveL: 1
+    vIPLevelName: Yellow
+    vIPLevelNeedPoint: 1000
+    storeAddition: 0.1
+    dailyBonusAddition: 0.15
+    hourBonusAddition: 0.15
+    friendsGiftsAddition: 0.15
+    exclusiveMachine: 2
+  - vIPLeveL: 2
+    vIPLevelName: Pink
+    vIPLevelNeedPoint: 5000
+    storeAddition: 0.3
+    dailyBonusAddition: 0.5
+    hourBonusAddition: 0.5
+    friendsGiftsAddition: 0.5
+    exclusiveMachine: 2
+  - vIPLeveL: 3
+    vIPLevelName: Purple
+    vIPLevelNeedPoint: 15000
+    storeAddition: 0.5
+    dailyBonusAddition: 1
+    hourBonusAddition: 1
+    friendsGiftsAddition: 1
+    exclusiveMachine: 1
+  - vIPLeveL: 4
+    vIPLevelName: Green
+    vIPLevelNeedPoint: 50000
+    storeAddition: 0.6
+    dailyBonusAddition: 2
+    hourBonusAddition: 2
+    friendsGiftsAddition: 2
+    exclusiveMachine: 
+  - vIPLeveL: 5
+    vIPLevelName: Blue
+    vIPLevelNeedPoint: 100000
+    storeAddition: 0.75
+    dailyBonusAddition: 3
+    hourBonusAddition: 3
+    friendsGiftsAddition: 3
+    exclusiveMachine: 
+  - vIPLeveL: 6
+    vIPLevelName: Red
+    vIPLevelNeedPoint: 500000
+    storeAddition: 1
+    dailyBonusAddition: 4
+    hourBonusAddition: 4
+    friendsGiftsAddition: 4
+    exclusiveMachine: 
+  - vIPLeveL: 7
+    vIPLevelName: Black
+    vIPLevelNeedPoint: 1000000
+    storeAddition: 1.5
+    dailyBonusAddition: 5
+    hourBonusAddition: 5
+    friendsGiftsAddition: 5
+    exclusiveMachine: 

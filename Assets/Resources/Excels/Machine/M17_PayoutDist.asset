@@ -1,0 +1,491 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e45c15549d6cf45398fef3cb93074b01, type: 3}
+  m_Name: M17_PayoutDist
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M17.xls
+  WorksheetName: PayoutDist
+  dataArray:
+  - id: 1
+    reward: 507
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 2
+    reward: 502
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 3
+    reward: 500
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 4
+    reward: 395
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 5
+    reward: 389
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 6
+    reward: 377
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 7
+    reward: 375
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 8
+    reward: 350
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 9
+    reward: 300
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 10
+    reward: 252.5
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 11
+    reward: 250.5
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 12
+    reward: 250
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 13
+    reward: 215
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 14
+    reward: 203
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 15
+    reward: 200
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 16
+    reward: 185
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 17
+    reward: 175
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 18
+    reward: 158
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 19
+    reward: 152.5
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 20
+    reward: 151
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 21
+    reward: 150
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 22
+    reward: 145
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 23
+    reward: 140
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 24
+    reward: 130
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 25
+    reward: 125
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 26
+    reward: 120
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 27
+    reward: 115
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 28
+    reward: 105
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 29
+    reward: 103
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 30
+    reward: 102.5
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 31
+    reward: 102
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 32
+    reward: 101
+    overallHit: 0.00001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 33
+    reward: 100
+    overallHit: 0.00002
+    freeSpinOverallHit: 0.00002
+    isShortLucky: 0
+  - id: 34
+    reward: 95
+    overallHit: 0.00002
+    freeSpinOverallHit: 0.00002
+    isShortLucky: 0
+  - id: 35
+    reward: 85
+    overallHit: 0.00002
+    freeSpinOverallHit: 0.00002
+    isShortLucky: 0
+  - id: 36
+    reward: 79
+    overallHit: 0.00002
+    freeSpinOverallHit: 0.00002
+    isShortLucky: 0
+  - id: 37
+    reward: 77
+    overallHit: 0.00002
+    freeSpinOverallHit: 0.00002
+    isShortLucky: 0
+  - id: 38
+    reward: 76
+    overallHit: 0.00002
+    freeSpinOverallHit: 0.00002
+    isShortLucky: 0
+  - id: 39
+    reward: 75
+    overallHit: 0.00002
+    freeSpinOverallHit: 0.00002
+    isShortLucky: 0
+  - id: 40
+    reward: 74
+    overallHit: 0.00002
+    freeSpinOverallHit: 0.00002
+    isShortLucky: 0
+  - id: 41
+    reward: 71
+    overallHit: 0.00002
+    freeSpinOverallHit: 0.00002
+    isShortLucky: 0
+  - id: 42
+    reward: 70
+    overallHit: 0.00002
+    freeSpinOverallHit: 0.00002
+    isShortLucky: 0
+  - id: 43
+    reward: 66
+    overallHit: 0.00002
+    freeSpinOverallHit: 0.00002
+    isShortLucky: 0
+  - id: 44
+    reward: 61
+    overallHit: 0.00002
+    freeSpinOverallHit: 0.00002
+    isShortLucky: 0
+  - id: 45
+    reward: 60
+    overallHit: 0.00002
+    freeSpinOverallHit: 0.00002
+    isShortLucky: 0
+  - id: 46
+    reward: 58
+    overallHit: 0.00002
+    freeSpinOverallHit: 0.00002
+    isShortLucky: 0
+  - id: 47
+    reward: 52.5
+    overallHit: 0.00003
+    freeSpinOverallHit: 0.00003
+    isShortLucky: 0
+  - id: 48
+    reward: 52
+    overallHit: 0.00003
+    freeSpinOverallHit: 0.00003
+    isShortLucky: 0
+  - id: 49
+    reward: 51
+    overallHit: 0.00003
+    freeSpinOverallHit: 0.00003
+    isShortLucky: 0
+  - id: 50
+    reward: 50.5
+    overallHit: 0.00003
+    freeSpinOverallHit: 0.00003
+    isShortLucky: 0
+  - id: 51
+    reward: 50
+    overallHit: 0.00003
+    freeSpinOverallHit: 0.00003
+    isShortLucky: 1
+  - id: 52
+    reward: 46
+    overallHit: 0.00003
+    freeSpinOverallHit: 0.00003
+    isShortLucky: 1
+  - id: 53
+    reward: 42
+    overallHit: 0.00003
+    freeSpinOverallHit: 0.00003
+    isShortLucky: 1
+  - id: 54
+    reward: 40.5
+    overallHit: 0.00003
+    freeSpinOverallHit: 0.00003
+    isShortLucky: 1
+  - id: 55
+    reward: 40
+    overallHit: 0.00003
+    freeSpinOverallHit: 0.00003
+    isShortLucky: 1
+  - id: 56
+    reward: 38
+    overallHit: 0.00003
+    freeSpinOverallHit: 0.00003
+    isShortLucky: 1
+  - id: 57
+    reward: 35
+    overallHit: 0.00003
+    freeSpinOverallHit: 0.00003
+    isShortLucky: 1
+  - id: 58
+    reward: 34
+    overallHit: 0.00003
+    freeSpinOverallHit: 0.00003
+    isShortLucky: 1
+  - id: 59
+    reward: 30.5
+    overallHit: 0.00003
+    freeSpinOverallHit: 0.00003
+    isShortLucky: 1
+  - id: 60
+    reward: 30
+    overallHit: 0.00005
+    freeSpinOverallHit: 0.00005
+    isShortLucky: 1
+  - id: 61
+    reward: 28.5
+    overallHit: 0.00005
+    freeSpinOverallHit: 0.00005
+    isShortLucky: 1
+  - id: 62
+    reward: 28
+    overallHit: 0.00005
+    freeSpinOverallHit: 0.00005
+    isShortLucky: 1
+  - id: 63
+    reward: 25
+    overallHit: 0.00005
+    freeSpinOverallHit: 0.00005
+    isShortLucky: 1
+  - id: 64
+    reward: 24
+    overallHit: 0.00005
+    freeSpinOverallHit: 0.00005
+    isShortLucky: 1
+  - id: 65
+    reward: 23
+    overallHit: 0.00005
+    freeSpinOverallHit: 0.00005
+    isShortLucky: 1
+  - id: 66
+    reward: 21
+    overallHit: 0.00005
+    freeSpinOverallHit: 0.00005
+    isShortLucky: 1
+  - id: 67
+    reward: 20.5
+    overallHit: 0.00005
+    freeSpinOverallHit: 0.00005
+    isShortLucky: 1
+  - id: 68
+    reward: 20
+    overallHit: 0.0001
+    freeSpinOverallHit: 0.0001
+    isShortLucky: 1
+  - id: 69
+    reward: 17
+    overallHit: 0.0001
+    freeSpinOverallHit: 0.0001
+    isShortLucky: 1
+  - id: 70
+    reward: 16
+    overallHit: 0.0001
+    freeSpinOverallHit: 0.0001
+    isShortLucky: 1
+  - id: 71
+    reward: 15
+    overallHit: 0.0001
+    freeSpinOverallHit: 0.0001
+    isShortLucky: 1
+  - id: 72
+    reward: 14.5
+    overallHit: 0.0002
+    freeSpinOverallHit: 0.0002
+    isShortLucky: 1
+  - id: 73
+    reward: 14
+    overallHit: 0.0002
+    freeSpinOverallHit: 0.0002
+    isShortLucky: 1
+  - id: 74
+    reward: 13
+    overallHit: 0.0002
+    freeSpinOverallHit: 0.0002
+    isShortLucky: 1
+  - id: 75
+    reward: 12
+    overallHit: 0.0002
+    freeSpinOverallHit: 0.0002
+    isShortLucky: 1
+  - id: 76
+    reward: 11
+    overallHit: 0.0002
+    freeSpinOverallHit: 0.0002
+    isShortLucky: 1
+  - id: 77
+    reward: 10
+    overallHit: 0.0002
+    freeSpinOverallHit: 0.0002
+    isShortLucky: 1
+  - id: 78
+    reward: 9
+    overallHit: 0.001
+    freeSpinOverallHit: 0.001
+    isShortLucky: 1
+  - id: 79
+    reward: 8
+    overallHit: 0.001
+    freeSpinOverallHit: 0.001
+    isShortLucky: 1
+  - id: 80
+    reward: 7.5
+    overallHit: 0.001
+    freeSpinOverallHit: 0.001
+    isShortLucky: 1
+  - id: 81
+    reward: 7
+    overallHit: 0.002
+    freeSpinOverallHit: 0.002
+    isShortLucky: 1
+  - id: 82
+    reward: 6
+    overallHit: 0.002
+    freeSpinOverallHit: 0.002
+    isShortLucky: 1
+  - id: 83
+    reward: 5.5
+    overallHit: 0.002
+    freeSpinOverallHit: 0.002
+    isShortLucky: 1
+  - id: 84
+    reward: 5
+    overallHit: 0.002
+    freeSpinOverallHit: 0.002
+    isShortLucky: 1
+  - id: 85
+    reward: 4
+    overallHit: 0.002
+    freeSpinOverallHit: 0.002
+    isShortLucky: 0
+  - id: 86
+    reward: 3.5
+    overallHit: 0.002
+    freeSpinOverallHit: 0.002
+    isShortLucky: 0
+  - id: 87
+    reward: 3
+    overallHit: 0.01
+    freeSpinOverallHit: 0.01
+    isShortLucky: 0
+  - id: 88
+    reward: 2.5
+    overallHit: 0.01
+    freeSpinOverallHit: 0.01
+    isShortLucky: 0
+  - id: 89
+    reward: 2
+    overallHit: 0.01
+    freeSpinOverallHit: 0.01
+    isShortLucky: 0
+  - id: 90
+    reward: 1.5
+    overallHit: 0.02
+    freeSpinOverallHit: 0.02
+    isShortLucky: 0
+  - id: 91
+    reward: 1
+    overallHit: 0.04
+    freeSpinOverallHit: 0.04
+    isShortLucky: 0
+  - id: 92
+    reward: 0.5
+    overallHit: 0.05
+    freeSpinOverallHit: 0.05
+    isShortLucky: 0
+  - id: 93
+    reward: 0
+    overallHit: 0.03
+    freeSpinOverallHit: 0
+    isShortLucky: 0
+  - id: 94
+    reward: 7
+    overallHit: 0.005
+    freeSpinOverallHit: 0
+    isShortLucky: 0
+  - id: 95
+    reward: 5
+    overallHit: 0.005
+    freeSpinOverallHit: 0
+    isShortLucky: 0

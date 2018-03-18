@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfb992012c7d2491b930bc28f34952ec, type: 3}
+  m_Name: GameSetting_DailyBonus
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Game/GameSetting.xls
+  WorksheetName: DailyBonus
+  dataArray:
+  - bonusID: 0
+    bonus: 4000
+    prob1: 5
+    prob2: 5
+    prob3: 5
+    prob4: 5
+    prob5: 5
+    angle: 40
+  - bonusID: 1
+    bonus: 400
+    prob1: 50
+    prob2: 50
+    prob3: 50
+    prob4: 50
+    prob5: 50
+    angle: 20
+  - bonusID: 2
+    bonus: 1000
+    prob1: 20
+    prob2: 20
+    prob3: 20
+    prob4: 20
+    prob5: 20
+    angle: 20
+  - bonusID: 3
+    bonus: 2000
+    prob1: 10
+    prob2: 10
+    prob3: 10
+    prob4: 10
+    prob5: 10
+    angle: 20
+  - bonusID: 4
+    bonus: 800
+    prob1: 25
+    prob2: 25
+    prob3: 25
+    prob4: 25
+    prob5: 25
+    angle: 20
+  - bonusID: 5
+    bonus: 400
+    prob1: 50
+    prob2: 50
+    prob3: 50
+    prob4: 50
+    prob5: 50
+    angle: 20
+  - bonusID: 6
+    bonus: 2000
+    prob1: 10
+    prob2: 10
+    prob3: 10
+    prob4: 10
+    prob5: 10
+    angle: 20
+  - bonusID: 7
+    bonus: 600
+    prob1: 33
+    prob2: 33
+    prob3: 33
+    prob4: 33
+    prob5: 33
+    angle: 20
+  - bonusID: 8
+    bonus: 4000
+    prob1: 5
+    prob2: 5
+    prob3: 5
+    prob4: 5
+    prob5: 5
+    angle: 40
+  - bonusID: 9
+    bonus: 600
+    prob1: 33
+    prob2: 33
+    prob3: 33
+    prob4: 33
+    prob5: 33
+    angle: 20
+  - bonusID: 10
+    bonus: 800
+    prob1: 25
+    prob2: 25
+    prob3: 25
+    prob4: 25
+    prob5: 25
+    angle: 20
+  - bonusID: 11
+    bonus: 1000
+    prob1: 20
+    prob2: 20
+    prob3: 20
+    prob4: 20
+    prob5: 20
+    angle: 20
+  - bonusID: 12
+    bonus: 800
+    prob1: 25
+    prob2: 25
+    prob3: 25
+    prob4: 25
+    prob5: 25
+    angle: 20
+  - bonusID: 13
+    bonus: 1000
+    prob1: 20
+    prob2: 20
+    prob3: 20
+    prob4: 20
+    prob5: 20
+    angle: 20
+  - bonusID: 14
+    bonus: 600
+    prob1: 33
+    prob2: 33
+    prob3: 33
+    prob4: 33
+    prob5: 33
+    angle: 20
+  - bonusID: 15
+    bonus: 400
+    prob1: 50
+    prob2: 50
+    prob3: 50
+    prob4: 50
+    prob5: 50
+    angle: 20

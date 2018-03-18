@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M47_Basic
+  m_EditorClassIdentifier: 
+  SheetName: 
+  WorksheetName: 
+  dataArray:
+  - key: '*Logic General Config*'
+    val: 
+  - key: ReelCount
+    val: 5
+  - key: IsMultiLine
+    val: 1
+  - key: MultiLineMethod
+    val: SymbolProb
+  - key: '*Render General Config*'
+    val: 
+  - key: ReelStartPos
+    val: 9,15,9,15,9
+  - key: SymbolUnitDistanceFactor
+    val: 0.8
+  - key: ReelSpinTimes
+    val: 0.48,0.42,0.42,0.42,0.42
+  - key: ReelSkin
+    val: M47/M47_ReelBack
+  - key: MultiFrameAsset
+    val: Game/MultiLineFrameM47
+  - key: MultiLineBackAsset
+    val: Game/MultiLineBackM47
+  - key: IsReelBackSlice
+    val: 1
+  - key: BackgroundPrefab
+    val: Game/BackgroundM47
+  - key: BackgroundEffectPrefab
+    val: M47/FX_M47_SceneEffect
+  - key: BackgroundEffectStartOn
+    val: 1
+  - key: ReelShadowUp
+    val: M47/M47_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1;4;0.88;-130
+  - key: ReelShadowDown
+    val: M47/M47_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1;3;0.9;132
+  - key: SuperSymbolLightEffect
+    val: M47/FX_M47_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: BackgroundDecoratePrefab
+    val: Game/M47_BackgroundDecorate
+  - key: ReelFrameOffsets
+    val: -20.0,-100.0,0.0
+  - key: ReelFrameTopBoard
+    val: Game/ReelFrameUpBoard_M47
+  - key: DarkSymbolColors
+    val: 1,1,1,0.35
+  - key: MultiLineHypeThreshold
+    val: 400
+  - key: '*Render SmallGame Config*'
+    val: 
+  - key: NormalBlurFactor
+    val: 3

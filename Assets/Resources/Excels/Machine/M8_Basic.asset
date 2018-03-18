@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M8_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M8.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 4,4,4
+  - key: HasSlide
+    val: 0
+  - key: SmallGameTypes
+    val: FixWild
+  - key: FixHitNonWin
+    val: 0.3
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: ReelSkin
+    val: M8/M8_ReelBack
+  - key: ReelSkinFrame
+    val: M8/M8_ReelBack_Icon
+  - key: Background
+    val: 
+  - key: BackgroundEffectPrefab
+    val: M8/FX_M8_SceneEffect
+  - key: PayLine
+    val: M8/M8_PayLine
+  - key: PayLineRectPos
+    val: 60.8625,0,59.3,64
+  - key: HighLight
+    val: 
+  - key: BackgroundPrefab
+    val: Game/BackgroundM8
+  - key: BackgroundUp
+    val: M8/M8_BackgroundUp
+  - key: BackgroundDown
+    val: M8/M8_BackgroundDown
+  - key: BackgroundLeft
+    val: M8/M8_BackgroundLeft
+  - key: BackgroundRight
+    val: M8/M8_BackgroundRight
+  - key: ReelShadowUp
+    val: M8/M8_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1
+  - key: ReelShadowDown
+    val: M8/M8_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1
+  - key: HypeMachineEffect
+    val: M2/M2_HypeMachineEffect
+  - key: SuperSymbolLightEffect
+    val: M8/FX_M8_Spin_SuperSymbol_ReelLight
+  - key: FrozenFadeInEffect
+    val: FX_M8_Frozen
+  - key: FrozenFadeOutEffect
+    val: FX_M8_FrozenEnd
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: NormalHitRate
+    val: 0.347
+  - key: LuckyHitRate
+    val: 0.3709
+  - key: NormalRTP
+    val: 0.8598
+  - key: LuckyRTP
+    val: 2.007
+  - key: NearHitProbs
+    val: 0.3,0.3,0.4
+  - key: SpinReelSoundNumber
+    val: 3
+  - key: ShowBackgroundEffectWhenFix
+    val: 1
+  - key: FrozenAudio
+    val: Frozen
+  - key: BreakFrozenAudio
+    val: M8_BreakIce
+  - key: UserBlurImage
+    val: 1

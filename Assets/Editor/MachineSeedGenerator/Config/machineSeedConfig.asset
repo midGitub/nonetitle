@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 11500000, guid: 120d3c47ee71a4f0ab05c16e81df4bbd, type: 3}
+  m_Name: machineSeedConfig
+  m_EditorClassIdentifier: 
+  _initLucky: 0
+  _initCredit: 300
+  _spinCount: 10
+  _betMode: 0
+  _betAmount: 50
+  _betPercentage: 0
+  _minBetAmountInPercentageMode: 0
+  _stopCredit: -1
+  _userCount: 20
+  _seedMode: 1
+  _startSeedForFixedMode: 1
+  _machineName: M1
+  _isPayProtectionEnable: 0
+  _limitConfigs:
+  - _type: 1
+    _startSpinCount: 1
+    _endSpinCount: 10
+    _spinCount: 5
+    _minCredit: 0
+    _maxCredit: 500
+  - _type: 1
+    _startSpinCount: 0
+    _endSpinCount: 0
+    _spinCount: 10
+    _minCredit: 200
+    _maxCredit: 1000
+  _isOutputUserResult: 1
+  _isOutputSeeds: 1

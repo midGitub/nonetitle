@@ -1,0 +1,564 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a60a04ca74c4b86b097a24046c9ecb, type: 3}
+  m_Name: M26_LuckyPayout
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M26.xls
+  WorksheetName: LuckyPayout
+  dataArray:
+  - id: 1
+    symbols:
+    - Wildx5
+    - Wildx5
+    - Wildx5
+    payoutType: 0
+    count: 3
+    ratio: 2000
+    periodRatios: []
+    jackpotType: 
+    ratioType: 
+    jackpotCount: 0
+    wheelNames: []
+    rewindHits: []
+    overallHit: 0.000002
+    freeSpinOverallHit: 0
+    freeSpinHits: []
+    freeSpinStopProbs: []
+    freeSpinStopOverallHit: 0
+    longLuckySubtractFactor: 1
+    isFixed: 1
+    reel1Wild:
+    - 1
+    - 0
+    - 0
+    reel2Wild:
+    - 1
+    - 0
+    - 0
+    reel3Wild:
+    - 1
+    - 0
+    - 0
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    isShortLucky: 0
+    fix1ReelOverallHit: 0.000004
+    fix2ReelOverallHit: 0.000008
+    fix1Hit: 0.50304
+    fix2Hit: 0.42004
+    nearHitOrLossForFixWild: 0
+  - id: 2
+    symbols:
+    - Wildx3
+    - Wildx3
+    - Wildx3
+    payoutType: 0
+    count: 3
+    ratio: 500
+    periodRatios: []
+    jackpotType: 
+    ratioType: 
+    jackpotCount: 0
+    wheelNames: []
+    rewindHits: []
+    overallHit: 0.000004
+    freeSpinOverallHit: 0
+    freeSpinHits: []
+    freeSpinStopProbs: []
+    freeSpinStopOverallHit: 0
+    longLuckySubtractFactor: 1
+    isFixed: 1
+    reel1Wild:
+    - 0
+    - 1
+    - 0
+    reel2Wild:
+    - 0
+    - 1
+    - 0
+    reel3Wild:
+    - 0
+    - 1
+    - 0
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    isShortLucky: 0
+    fix1ReelOverallHit: 0.000006
+    fix2ReelOverallHit: 0.000012
+    fix1Hit: 0.50304
+    fix2Hit: 0.42004
+    nearHitOrLossForFixWild: 0
+  - id: 3
+    symbols:
+    - Wildx2
+    - Wildx2
+    - Wildx2
+    payoutType: 0
+    count: 3
+    ratio: 100
+    periodRatios: []
+    jackpotType: 
+    ratioType: 
+    jackpotCount: 0
+    wheelNames: []
+    rewindHits: []
+    overallHit: 0.000004
+    freeSpinOverallHit: 0
+    freeSpinHits: []
+    freeSpinStopProbs: []
+    freeSpinStopOverallHit: 0
+    longLuckySubtractFactor: 1
+    isFixed: 1
+    reel1Wild:
+    - 0
+    - 0
+    - 1
+    reel2Wild:
+    - 0
+    - 0
+    - 1
+    reel3Wild:
+    - 0
+    - 0
+    - 1
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    isShortLucky: 0
+    fix1ReelOverallHit: 0.00001
+    fix2ReelOverallHit: 0.00002
+    fix1Hit: 0.50304
+    fix2Hit: 0.42004
+    nearHitOrLossForFixWild: 0
+  - id: 4
+    symbols:
+    - Wildx5
+    - Wildx3
+    - Wildx2
+    payoutType: 2
+    count: 3
+    ratio: 50
+    periodRatios: []
+    jackpotType: 
+    ratioType: 
+    jackpotCount: 0
+    wheelNames: []
+    rewindHits: []
+    overallHit: 0.000008
+    freeSpinOverallHit: 0
+    freeSpinHits: []
+    freeSpinStopProbs: []
+    freeSpinStopOverallHit: 0
+    longLuckySubtractFactor: 1
+    isFixed: 1
+    reel1Wild:
+    - 0.2
+    - 0.4
+    - 0.4
+    reel2Wild:
+    - 0.2
+    - 0.4
+    - 0.4
+    reel3Wild:
+    - 0.2
+    - 0.4
+    - 0.4
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    isShortLucky: 0
+    fix1ReelOverallHit: 0.00002
+    fix2ReelOverallHit: 0
+    fix1Hit: 0.50304
+    fix2Hit: 0.42004
+    nearHitOrLossForFixWild: 0
+  - id: 5
+    symbols:
+    - High7
+    payoutType: 1
+    count: 3
+    ratio: 25
+    periodRatios: []
+    jackpotType: 
+    ratioType: 
+    jackpotCount: 0
+    wheelNames: []
+    rewindHits: []
+    overallHit: 0.001
+    freeSpinOverallHit: 0
+    freeSpinHits: []
+    freeSpinStopProbs: []
+    freeSpinStopOverallHit: 0
+    longLuckySubtractFactor: 1
+    isFixed: 0
+    reel1Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel2Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel3Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    isShortLucky: 1
+    fix1ReelOverallHit: 0.005
+    fix2ReelOverallHit: 0.02
+    fix1Hit: 0.50304
+    fix2Hit: 0.42004
+    nearHitOrLossForFixWild: 0
+  - id: 6
+    symbols:
+    - Low7
+    payoutType: 1
+    count: 3
+    ratio: 10
+    periodRatios: []
+    jackpotType: 
+    ratioType: 
+    jackpotCount: 0
+    wheelNames: []
+    rewindHits: []
+    overallHit: 0.005
+    freeSpinOverallHit: 0
+    freeSpinHits: []
+    freeSpinStopProbs: []
+    freeSpinStopOverallHit: 0
+    longLuckySubtractFactor: 1
+    isFixed: 0
+    reel1Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel2Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel3Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    isShortLucky: 1
+    fix1ReelOverallHit: 0.008
+    fix2ReelOverallHit: 0.1
+    fix1Hit: 0.50304
+    fix2Hit: 0.42004
+    nearHitOrLossForFixWild: 0
+  - id: 7
+    symbols:
+    - TripleBar
+    payoutType: 1
+    count: 3
+    ratio: 5
+    periodRatios: []
+    jackpotType: 
+    ratioType: 
+    jackpotCount: 0
+    wheelNames: []
+    rewindHits: []
+    overallHit: 0.01
+    freeSpinOverallHit: 0
+    freeSpinHits: []
+    freeSpinStopProbs: []
+    freeSpinStopOverallHit: 0
+    longLuckySubtractFactor: 1
+    isFixed: 0
+    reel1Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel2Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel3Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    isShortLucky: 1
+    fix1ReelOverallHit: 0.01
+    fix2ReelOverallHit: 0.1
+    fix1Hit: 0.50304
+    fix2Hit: 0.42004
+    nearHitOrLossForFixWild: 0
+  - id: 8
+    symbols:
+    - DoubleBar
+    payoutType: 1
+    count: 3
+    ratio: 4
+    periodRatios: []
+    jackpotType: 
+    ratioType: 
+    jackpotCount: 0
+    wheelNames: []
+    rewindHits: []
+    overallHit: 0.02
+    freeSpinOverallHit: 0
+    freeSpinHits: []
+    freeSpinStopProbs: []
+    freeSpinStopOverallHit: 0
+    longLuckySubtractFactor: 1
+    isFixed: 0
+    reel1Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel2Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel3Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    isShortLucky: 1
+    fix1ReelOverallHit: 0.02
+    fix2ReelOverallHit: 0.1
+    fix1Hit: 0.50304
+    fix2Hit: 0.42004
+    nearHitOrLossForFixWild: 0
+  - id: 9
+    symbols:
+    - SingleBar
+    payoutType: 1
+    count: 3
+    ratio: 3
+    periodRatios: []
+    jackpotType: 
+    ratioType: 
+    jackpotCount: 0
+    wheelNames: []
+    rewindHits: []
+    overallHit: 0.03
+    freeSpinOverallHit: 0
+    freeSpinHits: []
+    freeSpinStopProbs: []
+    freeSpinStopOverallHit: 0
+    longLuckySubtractFactor: 1
+    isFixed: 0
+    reel1Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel2Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel3Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    isShortLucky: 1
+    fix1ReelOverallHit: 0.03
+    fix2ReelOverallHit: 0.1
+    fix1Hit: 0.50304
+    fix2Hit: 0.42004
+    nearHitOrLossForFixWild: 0
+  - id: 10
+    symbols:
+    - High7
+    - Low7
+    payoutType: 2
+    count: 3
+    ratio: 2
+    periodRatios: []
+    jackpotType: 
+    ratioType: 
+    jackpotCount: 0
+    wheelNames: []
+    rewindHits: []
+    overallHit: 0.05
+    freeSpinOverallHit: 0
+    freeSpinHits: []
+    freeSpinStopProbs: []
+    freeSpinStopOverallHit: 0
+    longLuckySubtractFactor: 1
+    isFixed: 0
+    reel1Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel2Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel3Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    isShortLucky: 0
+    fix1ReelOverallHit: 0.08
+    fix2ReelOverallHit: 0
+    fix1Hit: 0.50304
+    fix2Hit: 0.42004
+    nearHitOrLossForFixWild: 0
+  - id: 11
+    symbols:
+    - TripleBar
+    - DoubleBar
+    - SingleBar
+    payoutType: 2
+    count: 3
+    ratio: 1
+    periodRatios: []
+    jackpotType: 
+    ratioType: 
+    jackpotCount: 0
+    wheelNames: []
+    rewindHits: []
+    overallHit: 0.09
+    freeSpinOverallHit: 0
+    freeSpinHits: []
+    freeSpinStopProbs: []
+    freeSpinStopOverallHit: 0
+    longLuckySubtractFactor: 1
+    isFixed: 0
+    reel1Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel2Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel3Wild:
+    - 0.02
+    - 0.04
+    - 0.04
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    isShortLucky: 0
+    fix1ReelOverallHit: 0.15
+    fix2ReelOverallHit: 0
+    fix1Hit: 0.50304
+    fix2Hit: 0.42004
+    nearHitOrLossForFixWild: 0
+  - id: 12
+    symbols:
+    - Wildx5
+    - Wildx3
+    - Wildx2
+    payoutType: 2
+    count: 2
+    ratio: 0
+    periodRatios: []
+    jackpotType: 
+    ratioType: 
+    jackpotCount: 0
+    wheelNames: []
+    rewindHits: []
+    overallHit: 0.012
+    freeSpinOverallHit: 0
+    freeSpinHits: []
+    freeSpinStopProbs: []
+    freeSpinStopOverallHit: 0
+    longLuckySubtractFactor: 1
+    isFixed: 0
+    reel1Wild:
+    - 0.2
+    - 0.4
+    - 0.4
+    reel2Wild:
+    - 0.2
+    - 0.4
+    - 0.4
+    reel3Wild:
+    - 0.2
+    - 0.4
+    - 0.4
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    isShortLucky: 0
+    fix1ReelOverallHit: 0.2
+    fix2ReelOverallHit: 0
+    fix1Hit: 0.50304
+    fix2Hit: 0.42004
+    nearHitOrLossForFixWild: 1
+  - id: 13
+    symbols:
+    - Wildx5
+    - Wildx3
+    - Wildx2
+    payoutType: 2
+    count: 1
+    ratio: 0
+    periodRatios: []
+    jackpotType: 
+    ratioType: 
+    jackpotCount: 0
+    wheelNames: []
+    rewindHits: []
+    overallHit: 0.1
+    freeSpinOverallHit: 0
+    freeSpinHits: []
+    freeSpinStopProbs: []
+    freeSpinStopOverallHit: 0
+    longLuckySubtractFactor: 1
+    isFixed: 0
+    reel1Wild:
+    - 0.2
+    - 0.4
+    - 0.4
+    reel2Wild:
+    - 0.2
+    - 0.4
+    - 0.4
+    reel3Wild:
+    - 0.2
+    - 0.4
+    - 0.4
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    isShortLucky: 0
+    fix1ReelOverallHit: 0
+    fix2ReelOverallHit: 0
+    fix1Hit: 0.50304
+    fix2Hit: 0.42004
+    nearHitOrLossForFixWild: 1

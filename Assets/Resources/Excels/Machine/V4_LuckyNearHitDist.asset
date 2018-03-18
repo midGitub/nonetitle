@@ -1,0 +1,349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3232d92ebf7940f88c2d126ad3c629f, type: 3}
+  m_Name: V4_LuckyNearHitDist
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/V4.xls
+  WorksheetName: LuckyNearHitDist
+  dataArray:
+  - id: 1
+    reward: 2575
+    overallHit: 0.002
+  - id: 2
+    reward: 2232
+    overallHit: 0.002
+  - id: 3
+    reward: 2085
+    overallHit: 0.002
+  - id: 4
+    reward: 2050
+    overallHit: 0.002
+  - id: 5
+    reward: 1987
+    overallHit: 0.002
+  - id: 6
+    reward: 1889
+    overallHit: 0.002
+  - id: 7
+    reward: 1840
+    overallHit: 0.002
+  - id: 8
+    reward: 1827
+    overallHit: 0.002
+  - id: 9
+    reward: 1742
+    overallHit: 0.002
+  - id: 10
+    reward: 1735
+    overallHit: 0.002
+  - id: 11
+    reward: 1729
+    overallHit: 0.002
+  - id: 12
+    reward: 1715
+    overallHit: 0.002
+  - id: 13
+    reward: 1644
+    overallHit: 0.002
+  - id: 14
+    reward: 1595
+    overallHit: 0.002
+  - id: 15
+    reward: 1525
+    overallHit: 0.002
+  - id: 16
+    reward: 1497
+    overallHit: 0.002
+  - id: 17
+    reward: 1490
+    overallHit: 0.002
+  - id: 18
+    reward: 1448
+    overallHit: 0.002
+  - id: 19
+    reward: 1399
+    overallHit: 0.002
+  - id: 20
+    reward: 1350
+    overallHit: 0.002
+  - id: 21
+    reward: 1343
+    overallHit: 0.002
+  - id: 22
+    reward: 1315
+    overallHit: 0.002
+  - id: 23
+    reward: 1252
+    overallHit: 0.002
+  - id: 24
+    reward: 1245
+    overallHit: 0.002
+  - id: 25
+    reward: 1210
+    overallHit: 0.002
+  - id: 26
+    reward: 1147
+    overallHit: 0.002
+  - id: 27
+    reward: 1098
+    overallHit: 0.002
+  - id: 28
+    reward: 995
+    overallHit: 0.002
+  - id: 29
+    reward: 987
+    overallHit: 0.002
+  - id: 30
+    reward: 960
+    overallHit: 0.002
+  - id: 31
+    reward: 945
+    overallHit: 0.002
+  - id: 32
+    reward: 910
+    overallHit: 0.002
+  - id: 33
+    reward: 889
+    overallHit: 0.002
+  - id: 34
+    reward: 854
+    overallHit: 0.002
+  - id: 35
+    reward: 848
+    overallHit: 0.002
+  - id: 36
+    reward: 847
+    overallHit: 0.002
+  - id: 37
+    reward: 840
+    overallHit: 0.002
+  - id: 38
+    reward: 833
+    overallHit: 0.002
+  - id: 39
+    reward: 750
+    overallHit: 0.002
+  - id: 40
+    reward: 742
+    overallHit: 0.002
+  - id: 41
+    reward: 640
+    overallHit: 0.002
+  - id: 42
+    reward: 568
+    overallHit: 0.002
+  - id: 43
+    reward: 560
+    overallHit: 0.002
+  - id: 44
+    reward: 505
+    overallHit: 0.002
+  - id: 45
+    reward: 497
+    overallHit: 0.002
+  - id: 46
+    reward: 448
+    overallHit: 0.002
+  - id: 47
+    reward: 434
+    overallHit: 0.002
+  - id: 48
+    reward: 420
+    overallHit: 0.002
+  - id: 49
+    reward: 406
+    overallHit: 0.002
+  - id: 50
+    reward: 400
+    overallHit: 0.002
+  - id: 51
+    reward: 392
+    overallHit: 0.002
+  - id: 52
+    reward: 358
+    overallHit: 0.002
+  - id: 53
+    reward: 350
+    overallHit: 0.002
+  - id: 54
+    reward: 320
+    overallHit: 0.002
+  - id: 55
+    reward: 288
+    overallHit: 0.002
+  - id: 56
+    reward: 280
+    overallHit: 0.002
+  - id: 57
+    reward: 260
+    overallHit: 0.002
+  - id: 58
+    reward: 259
+    overallHit: 0.002
+  - id: 59
+    reward: 252
+    overallHit: 0.002
+  - id: 60
+    reward: 192
+    overallHit: 0.002
+  - id: 61
+    reward: 176
+    overallHit: 0.002
+  - id: 62
+    reward: 168
+    overallHit: 0.002
+  - id: 63
+    reward: 162
+    overallHit: 0.002
+  - id: 64
+    reward: 154
+    overallHit: 0.004
+  - id: 65
+    reward: 149
+    overallHit: 0.004
+  - id: 66
+    reward: 147
+    overallHit: 0.004
+  - id: 67
+    reward: 141
+    overallHit: 0.004
+  - id: 68
+    reward: 133
+    overallHit: 0.004
+  - id: 69
+    reward: 128
+    overallHit: 0.004
+  - id: 70
+    reward: 126
+    overallHit: 0.004
+  - id: 71
+    reward: 120
+    overallHit: 0.004
+  - id: 72
+    reward: 114
+    overallHit: 0.01603225
+  - id: 73
+    reward: 113
+    overallHit: 0.01603225
+  - id: 74
+    reward: 112
+    overallHit: 0.01603225
+  - id: 75
+    reward: 106
+    overallHit: 0.01603225
+  - id: 76
+    reward: 105
+    overallHit: 0.01603225
+  - id: 77
+    reward: 88
+    overallHit: 0.01603225
+  - id: 78
+    reward: 80
+    overallHit: 0.01603225
+  - id: 79
+    reward: 79
+    overallHit: 0.01603225
+  - id: 80
+    reward: 77
+    overallHit: 0.01603225
+  - id: 81
+    reward: 71
+    overallHit: 0.01603225
+  - id: 82
+    reward: 70
+    overallHit: 0.01603225
+  - id: 83
+    reward: 64
+    overallHit: 0.01603225
+  - id: 84
+    reward: 58
+    overallHit: 0.01603225
+  - id: 85
+    reward: 56
+    overallHit: 0.01603225
+  - id: 86
+    reward: 50
+    overallHit: 0.01603225
+  - id: 87
+    reward: 48
+    overallHit: 0.01603225
+  - id: 88
+    reward: 44
+    overallHit: 0.01603225
+  - id: 89
+    reward: 42
+    overallHit: 0.01603225
+  - id: 90
+    reward: 40
+    overallHit: 0.01603225
+  - id: 91
+    reward: 36
+    overallHit: 0.01603225
+  - id: 92
+    reward: 32
+    overallHit: 0.01603225
+  - id: 93
+    reward: 30
+    overallHit: 0.01603225
+  - id: 94
+    reward: 28
+    overallHit: 0.01603225
+  - id: 95
+    reward: 24
+    overallHit: 0.01603225
+  - id: 96
+    reward: 23
+    overallHit: 0.01603225
+  - id: 97
+    reward: 22
+    overallHit: 0.01603225
+  - id: 98
+    reward: 21
+    overallHit: 0.01603225
+  - id: 99
+    reward: 18
+    overallHit: 0.01603225
+  - id: 100
+    reward: 16
+    overallHit: 0.01603225
+  - id: 101
+    reward: 15
+    overallHit: 0.01603225
+  - id: 102
+    reward: 14
+    overallHit: 0.01603225
+  - id: 103
+    reward: 13
+    overallHit: 0.01603225
+  - id: 104
+    reward: 11
+    overallHit: 0.01603225
+  - id: 105
+    reward: 10
+    overallHit: 0.01603225
+  - id: 106
+    reward: 8
+    overallHit: 0.01603225
+  - id: 107
+    reward: 6
+    overallHit: 0.01603225
+  - id: 108
+    reward: 5
+    overallHit: 0.01603225
+  - id: 109
+    reward: 4
+    overallHit: 0.01603225
+  - id: 110
+    reward: 3
+    overallHit: 0.01603225
+  - id: 111
+    reward: 2
+    overallHit: 0.01603225

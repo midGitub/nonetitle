@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M30_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M30.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 8,8,8
+  - key: HasSlide
+    val: 0
+  - key: SmallGameTypes
+    val: FreeSpin
+  - key: FreeSpinType
+    val: ReachBonusWild
+  - key: IsFreeSpinFixBonus
+    val: 0
+  - key: FreeSpinStopCountOfBonusWild
+    val: 3
+  - key: FreeSpinStopSymbolNames
+    val: Box
+  - key: FreeSpinTriggerCount
+    val: 3
+  - key: FreeSpinTriggerSymbolNames
+    val: Bonus
+  - key: FreeSpinHitsNonWin
+    val: 1,0.9,0.8,0.6
+  - key: SmallGameEffect
+    val: M30/FX_M30_FreeSpin
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: ReelSkin
+    val: M30/M30_ReelBack
+  - key: ReelSkinFrame
+    val: M30/M30_ReelBack2
+  - key: Background
+    val: 
+  - key: BackgroundIdleEffect
+    val: 
+  - key: BackgroundSpinEffect
+    val: 
+  - key: BackgroundFreespinEffect
+    val: 
+  - key: PayLine
+    val: 
+  - key: HighLight
+    val: 
+  - key: BackgroundPrefab
+    val: Game/BackgroundM30
+  - key: BackgroundUp
+    val: M30/M30_BackgroundUp
+  - key: BackgroundDown
+    val: M30/M30_BackgroundDown
+  - key: BackgroundLeft
+    val: M30/M30_BackgroundLeft
+  - key: BackgroundRight
+    val: M30/M30_BackgroundRight
+  - key: ReelShadowUp
+    val: M30/M30_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1;5;1.02;-42
+  - key: ReelShadowDown
+    val: M30/M30_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1;4.1;1.02;43
+  - key: SuperSymbolLightEffect
+    val: M30/FX_M30_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: NormalHitRate
+    val: 0.14136
+  - key: LuckyHitRate
+    val: 0.20419
+  - key: NormalRTP
+    val: 0.8447
+  - key: LuckyRTP
+    val: 2.2673
+  - key: NearHitProbs
+    val: 0.3,0.3,0.4
+  - key: FreespinBGM
+    val: M30_FreespinBGM
+  - key: FreespinHintDelay
+    val: 0
+  - key: FreespinHintAudio
+    val: M30_FreespinSwitch
+  - key: EnableTriggerSmallGameDelay
+    val: 1
+  - key: TriggerSmallGameDelay
+    val: 3.8
+  - key: NormalBlurFactor
+    val: 2

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24ee9489c51e74edf944b9d64a88d850, type: 3}
+  m_Name: CoreSetting_JackpotSetting
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Core/CoreSetting.xls
+  WorksheetName: JackpotSetting
+  dataArray:
+  - key: PointIncreaseFactor
+    val: 1
+  - key: WinLuckyFactor
+    val: 0
+  - key: WinCalculateFactor
+    val: 1E-05
+  - key: SingleJackpotPointThreshold
+    val: 100000000
+  - key: FourJackpotColossalPointThreshold
+    val: 10000000
+  - key: FourJackpotMegaPointThreshold
+    val: 2000000
+  - key: FourJackpotHugePointThreshold
+    val: 500000
+  - key: FourJackpotBigPointThreshold
+    val: 100000
+  - key: SingleJackpotPointInit
+    val: 0
+  - key: FourJackpotColossalPointInit
+    val: 0
+  - key: FourJackpotMegaPointInit
+    val: 0
+  - key: FourJackpotHugePointInit
+    val: 0
+  - key: FourJackpotBigPointInit
+    val: 0
+  - key: StartWinFactor
+    val: 0.7

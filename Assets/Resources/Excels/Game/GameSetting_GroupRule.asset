@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da96b56f37d054e7eb3d75bbcfed8c91, type: 3}
+  m_Name: GameSetting_GroupRule
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Game/GameSetting.xls
+  WorksheetName: GroupRule
+  dataArray:
+  - iD: 2
+    hasPayInWeek: 00000000
+    payCount: 00000000
+    payAmout: 00000000
+    historyMaxPaid: 00000000
+  - iD: 3
+    hasPayInWeek: 00000000
+    payCount: 00000000
+    payAmout: 01000000
+    historyMaxPaid: 00000000
+  - iD: 4
+    hasPayInWeek: 00000000
+    payCount: 00000000
+    payAmout: 02000000
+    historyMaxPaid: 00000000
+  - iD: 5
+    hasPayInWeek: 00000000
+    payCount: 00000000
+    payAmout: 03000000
+    historyMaxPaid: 00000000
+  - iD: 6
+    hasPayInWeek: 00000000
+    payCount: 01000000
+    payAmout: 00000000
+    historyMaxPaid: 00000000
+  - iD: 7
+    hasPayInWeek: 00000000
+    payCount: 01000000
+    payAmout: 01000000
+    historyMaxPaid: 00000000
+  - iD: 8
+    hasPayInWeek: 00000000
+    payCount: 01000000
+    payAmout: 02000000
+    historyMaxPaid: 00000000
+  - iD: 9
+    hasPayInWeek: 00000000
+    payCount: 01000000
+    payAmout: 03000000
+    historyMaxPaid: 00000000
+  - iD: 10
+    hasPayInWeek: 00000000
+    payCount: 02000000
+    payAmout: 00000000
+    historyMaxPaid: 00000000
+  - iD: 11
+    hasPayInWeek: 00000000
+    payCount: 02000000
+    payAmout: 01000000
+    historyMaxPaid: 00000000
+  - iD: 12
+    hasPayInWeek: 00000000
+    payCount: 02000000
+    payAmout: 02000000
+    historyMaxPaid: 00000000
+  - iD: 13
+    hasPayInWeek: 00000000
+    payCount: 02000000
+    payAmout: 03000000
+    historyMaxPaid: 00000000
+  - iD: 14
+    hasPayInWeek: 01000000
+    payCount: 00000000
+    payAmout: 00000000
+    historyMaxPaid: 00000000
+  - iD: 15
+    hasPayInWeek: 01000000
+    payCount: 00000000
+    payAmout: 01000000
+    historyMaxPaid: 00000000
+  - iD: 16
+    hasPayInWeek: 01000000
+    payCount: 00000000
+    payAmout: 02000000
+    historyMaxPaid: 00000000
+  - iD: 17
+    hasPayInWeek: 01000000
+    payCount: 00000000
+    payAmout: 03000000
+    historyMaxPaid: 00000000
+  - iD: 18
+    hasPayInWeek: 01000000
+    payCount: 01000000
+    payAmout: 00000000
+    historyMaxPaid: 00000000
+  - iD: 19
+    hasPayInWeek: 01000000
+    payCount: 01000000
+    payAmout: 01000000
+    historyMaxPaid: 00000000
+  - iD: 20
+    hasPayInWeek: 01000000
+    payCount: 01000000
+    payAmout: 02000000
+    historyMaxPaid: 00000000
+  - iD: 21
+    hasPayInWeek: 01000000
+    payCount: 01000000
+    payAmout: 03000000
+    historyMaxPaid: 00000000
+  - iD: 22
+    hasPayInWeek: 01000000
+    payCount: 02000000
+    payAmout: 00000000
+    historyMaxPaid: 00000000
+  - iD: 23
+    hasPayInWeek: 01000000
+    payCount: 02000000
+    payAmout: 01000000
+    historyMaxPaid: 00000000
+  - iD: 24
+    hasPayInWeek: 01000000
+    payCount: 02000000
+    payAmout: 02000000
+    historyMaxPaid: 00000000
+  - iD: 25
+    hasPayInWeek: 01000000
+    payCount: 02000000
+    payAmout: 03000000
+    historyMaxPaid: 00000000
+  - iD: 26
+    hasPayInWeek: 00000000
+    payCount: 00000000
+    payAmout: 04000000
+    historyMaxPaid: 00000000
+  - iD: 26
+    hasPayInWeek: 00000000
+    payCount: 01000000
+    payAmout: 04000000
+    historyMaxPaid: 00000000
+  - iD: 26
+    hasPayInWeek: 00000000
+    payCount: 02000000
+    payAmout: 04000000
+    historyMaxPaid: 00000000
+  - iD: 26
+    hasPayInWeek: 01000000
+    payCount: 00000000
+    payAmout: 04000000
+    historyMaxPaid: 00000000
+  - iD: 26
+    hasPayInWeek: 01000000
+    payCount: 01000000
+    payAmout: 04000000
+    historyMaxPaid: 00000000
+  - iD: 26
+    hasPayInWeek: 01000000
+    payCount: 02000000
+    payAmout: 04000000
+    historyMaxPaid: 00000000
+  - iD: 26
+    hasPayInWeek: 0000000001000000
+    payCount: 000000000100000002000000
+    payAmout: 0000000001000000020000000300000004000000
+    historyMaxPaid: 02000000
+  - iD: 25
+    hasPayInWeek: 0000000001000000
+    payCount: 000000000100000002000000
+    payAmout: 0000000001000000020000000300000004000000
+    historyMaxPaid: 01000000

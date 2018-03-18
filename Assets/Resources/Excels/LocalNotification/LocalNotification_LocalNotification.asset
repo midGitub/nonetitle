@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3c301d0d611d46968023794ba821ed4, type: 3}
+  m_Name: LocalNotification_LocalNotification
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/LocalNotification/LocalNotification.xls
+  WorksheetName: LocalNotification
+  dataArray:
+  - iD: 1
+    key: hourBonus
+    lostDays: 
+    time: 
+    title: FREE CREDITS!
+    content: Hourly Bonus is ready! Tap HERE to CLAIM!
+    contentIOS: "\U0001F381Hourly Bonus\U0001F381 is ready! Tap HERE to CLAIM!\U0001F4B0"
+  - iD: 2
+    key: dayBonus
+    lostDays: 
+    time: 20:30
+    title: FREE CREDITS!
+    content: Daily Bonus is ready! Tap HERE to CLAIM!
+    contentIOS: "\U0001F381Daily Bonus\U0001F381 is ready! Tap HERE to CLAIM!\U0001F4B0"
+  - iD: 3
+    key: week
+    lostDays: 
+    time: 19:30
+    title: HAPPY NEW WEEK!
+    content: It's a new week! Start it off with some Huge Wins! PLAY NOW!
+    contentIOS: "It's a new week!\U0001F609 Start it off with some Huge Wins!\U0001F3B0
+      PLAY NOW!"
+  - iD: 4
+    key: backFlow
+    lostDays: 
+    time: 12:10
+    title: MYSTERY BONUS!
+    content: You got a Mystery Bonus! Come play and Win Big!
+    contentIOS: "You got a \U0001F381Mystery Bonus!\U0001F381 Come play and Win Big!\U0001F4B0"
+  - iD: 5
+    key: doubleLevelUp
+    lostDays: 
+    time: 9:00
+    title: DOUBLE LEVEL UP!
+    content: Level Boom! Double level up is open! PLAY NOW!
+    contentIOS: "\U0001F4A5Level Boom!\U0001F4A5 Double level up is open! \U0001F3B0
+      PLAY NOW!"
+  - iD: 6
+    key: doubleLevelUp_2hour
+    lostDays: 04000000070000000e000000
+    time: 18:00
+    title: DOUBLE LEVEL UP!
+    content: Level Boom! Double level up is open! PLAY NOW!
+    contentIOS: "\U0001F4A5Level Boom!\U0001F4A5 Double level up is open! \U0001F3B0
+      PLAY NOW!"

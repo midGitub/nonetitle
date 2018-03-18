@@ -1,0 +1,368 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5c72ea9b4f449b5806d52db47f68b2, type: 3}
+  m_Name: M10_Reel
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M10.xls
+  WorksheetName: Reel
+  dataArray:
+  - id: 1
+    reel1: Blank
+    prob1: 0
+    luckyProb1: 0
+    reel2: Blank
+    prob2: 0
+    luckyProb2: 0
+    reel3: Blank
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 2
+    reel1: Bonus
+    prob1: 0
+    luckyProb1: 0
+    reel2: High7
+    prob2: 0
+    luckyProb2: 0
+    reel3: High7
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 3
+    reel1: Blank
+    prob1: 0
+    luckyProb1: 0
+    reel2: Blank
+    prob2: 0
+    luckyProb2: 0
+    reel3: Blank
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 4
+    reel1: SingleBar
+    prob1: 0
+    luckyProb1: 0
+    reel2: SingleBar
+    prob2: 0
+    luckyProb2: 0
+    reel3: SingleBar
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 5
+    reel1: Blank
+    prob1: 0
+    luckyProb1: 0
+    reel2: Blank
+    prob2: 0
+    luckyProb2: 0
+    reel3: Blank
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 6
+    reel1: High7
+    prob1: 0
+    luckyProb1: 0
+    reel2: Bonus
+    prob2: 0
+    luckyProb2: 0
+    reel3: Bonus
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 7
+    reel1: Blank
+    prob1: 0
+    luckyProb1: 0
+    reel2: Blank
+    prob2: 0
+    luckyProb2: 0
+    reel3: Blank
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 8
+    reel1: Mid7
+    prob1: 0
+    luckyProb1: 0
+    reel2: Mid7
+    prob2: 0
+    luckyProb2: 0
+    reel3: Mid7
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 9
+    reel1: Blank
+    prob1: 0
+    luckyProb1: 0
+    reel2: Blank
+    prob2: 0
+    luckyProb2: 0
+    reel3: Blank
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 10
+    reel1: Low7
+    prob1: 0
+    luckyProb1: 0
+    reel2: Low7
+    prob2: 0
+    luckyProb2: 0
+    reel3: Low7
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 11
+    reel1: Blank
+    prob1: 0
+    luckyProb1: 0
+    reel2: Blank
+    prob2: 0
+    luckyProb2: 0
+    reel3: Blank
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 12
+    reel1: TripleBar
+    prob1: 0
+    luckyProb1: 0
+    reel2: TripleBar
+    prob2: 0
+    luckyProb2: 0
+    reel3: TripleBar
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 13
+    reel1: Blank
+    prob1: 0
+    luckyProb1: 0
+    reel2: Blank
+    prob2: 0
+    luckyProb2: 0
+    reel3: Blank
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 14
+    reel1: SingleBar
+    prob1: 0
+    luckyProb1: 0
+    reel2: High7
+    prob2: 0
+    luckyProb2: 0
+    reel3: High7
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 15
+    reel1: Blank
+    prob1: 0
+    luckyProb1: 0
+    reel2: Blank
+    prob2: 0
+    luckyProb2: 0
+    reel3: Blank
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 16
+    reel1: Low7
+    prob1: 0
+    luckyProb1: 0
+    reel2: Low7
+    prob2: 0
+    luckyProb2: 0
+    reel3: Low7
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 17
+    reel1: Blank
+    prob1: 0
+    luckyProb1: 0
+    reel2: Blank
+    prob2: 0
+    luckyProb2: 0
+    reel3: Blank
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 18
+    reel1: Bonus
+    prob1: 0
+    luckyProb1: 0
+    reel2: Bonus
+    prob2: 0
+    luckyProb2: 0
+    reel3: Bonus
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 19
+    reel1: Blank
+    prob1: 0
+    luckyProb1: 0
+    reel2: Blank
+    prob2: 0
+    luckyProb2: 0
+    reel3: Blank
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 20
+    reel1: DoubleBar
+    prob1: 0
+    luckyProb1: 0
+    reel2: DoubleBar
+    prob2: 0
+    luckyProb2: 0
+    reel3: DoubleBar
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 21
+    reel1: Blank
+    prob1: 0
+    luckyProb1: 0
+    reel2: Blank
+    prob2: 0
+    luckyProb2: 0
+    reel3: Blank
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0
+  - id: 22
+    reel1: SingleBar
+    prob1: 0
+    luckyProb1: 0
+    reel2: SingleBar
+    prob2: 0
+    luckyProb2: 0
+    reel3: SingleBar
+    prob3: 0
+    luckyProb3: 0
+    reel4: 
+    prob4: 0
+    luckyProb4: 0
+    reel5: 
+    prob5: 0
+    luckyProb5: 0

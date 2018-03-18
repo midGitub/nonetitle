@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M23_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M23.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 4
+  - key: ReelStartPos
+    val: 2,17,2,1
+  - key: HasSlide
+    val: 0
+  - key: SmallGameTypes
+    val: None
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: ReelSkin
+    val: M23/M23_ReelBack
+  - key: IsReelBackSlice
+    val: 1
+  - key: Background
+    val: 
+  - key: BackgroundEffectPrefab
+    val: M23/FX_M23_SceneEffect
+  - key: PayLine
+    val: M23/M23_PayLine
+  - key: HighLight
+    val: 
+  - key: BackgroundPrefab
+    val: Game/BackgroundM23
+  - key: BackgroundUp
+    val: M23/M23_BackgroundUp
+  - key: BackgroundDown
+    val: M23/M23_BackgroundDown
+  - key: BackgroundLeft
+    val: M23/M23_BackgroundLeft
+  - key: BackgroundRight
+    val: M23/M23_BackgroundRight
+  - key: ReelShadowUp
+    val: M23/M23_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1;5;0.986;-66
+  - key: ReelShadowDown
+    val: M23/M23_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1;4;0.986;59.5
+  - key: SuperSymbolLightEffect
+    val: M23/FX_M23_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: NormalHitRate
+    val: 0.1453
+  - key: LuckyHitRate
+    val: 0.2
+  - key: NormalRTP
+    val: 0.82873
+  - key: LuckyRTP
+    val: 2.30865
+  - key: NearHitProbs
+    val: 0.2,0.3,0.5
+  - key: ShowBackgroundEffectType
+    val: HighOrSpecialWin
+  - key: CloseBackgroundEffectType
+    val: None
+  - key: UserBlurImage
+    val: 1

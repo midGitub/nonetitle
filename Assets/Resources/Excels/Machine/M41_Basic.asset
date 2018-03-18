@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M41_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M41.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 3,3,3
+  - key: HasSlide
+    val: 0
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: IsBonusValidOnNonPayline
+    val: 1
+  - key: ReelSkin
+    val: M41/M41_ReelBack
+  - key: Background
+    val: 
+  - key: PayLine
+    val: M41/M41_PayLine
+  - key: HighLight
+    val: 
+  - key: BackgroundPrefab
+    val: Game/BackgroundM41
+  - key: BackgroundUp
+    val: M41/M41_BackgroundUp
+  - key: BackgroundDown
+    val: M41/M41_BackgroundDown
+  - key: BackgroundLeft
+    val: M41/M41_BackgroundLeft
+  - key: BackgroundRight
+    val: M41/M41_BackgroundRight
+  - key: JackpotScore
+    val: Game/JackpotSinglePoolM41
+  - key: ReelShadowUp
+    val: M41/M41_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1;5;1.05;-88.8
+  - key: ReelShadowDown
+    val: M41/M41_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1;3.8;1.05;82
+  - key: SuperSymbolLightEffect
+    val: M41/FX_M41_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: TriggerType
+    val: Payout
+  - key: SmallGameTypes
+    val: FreeSpin
+  - key: SmallGameEffect
+    val: M41/FX_M41_RespinSpin
+  - key: FreeSpinType
+    val: SpinUntilLose
+  - key: FreeSpinTriggerCount
+    val: 1
+  - key: FreeSpinTriggerSymbolNames
+    val: BonusWild
+  - key: FreeSpinHitsNonWin
+    val: 1,0.9,0.8,0.6
+  - key: IsFreeSpinFixBonus
+    val: 1
+  - key: LeastBet
+    val: 50
+  - key: JackpotMinBet
+    val: 10000
+  - key: SymbolUnitDistanceFactor
+    val: 0.8
+  - key: NormalHitRate
+    val: 0.161
+  - key: LuckyHitRate
+    val: 0.21
+  - key: NormalRTP
+    val: 0.893
+  - key: LuckyRTP
+    val: 2.06
+  - key: IsJackpot
+    val: 1
+  - key: IsPaylineStrongSpecialEffect
+    val: 0
+  - key: NearHitProbs
+    val: 0.2,0.3,0.5
+  - key: JackpotTips
+    val: Map/Tip/JackpotTips
+  - key: JackpotSelect
+    val: Map/Jackpot/JackpotSelect
+  - key: IsSpecialMachine
+    val: 1
+  - key: ReelFrameOffsets
+    val: 0,-41,0
+  - key: FreespinHintDelay
+    val: 0.5
+  - key: FreespinHintAudio
+    val: FreeSpinSwitch2
+  - key: FreespinBGM
+    val: M41_Freespin
+  - key: NormalBlurFactor
+    val: 2

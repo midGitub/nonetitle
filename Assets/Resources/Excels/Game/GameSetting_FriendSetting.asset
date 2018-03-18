@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8366d5b725c234ec38e6b178ec2be086, type: 3}
+  m_Name: GameSetting_FriendSetting
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Game/GameSetting.xls
+  WorksheetName: FriendSetting
+  dataArray:
+  - key: CollectNumMax
+    val: 20
+  - key: SendNumMax
+    val: 20
+  - key: CreditsToLuckyFactor
+    val: 10
+  - key: GiftCoins
+    val: 100

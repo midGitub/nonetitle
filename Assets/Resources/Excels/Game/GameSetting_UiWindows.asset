@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69162b6305e33c84fb8cd54379feef7c, type: 3}
+  m_Name: GameSetting_UiWindows
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Game/GameSetting.xls
+  WorksheetName: UiWindows
+  dataArray:
+  - iD: 1
+    showTime: 1
+    windowType: 1
+  - iD: 2
+    showTime: 1
+    windowType: 1
+  - iD: 3
+    showTime: 1
+    windowType: 1
+  - iD: 4
+    showTime: 2
+    windowType: 1
+  - iD: 5
+    showTime: 2
+    windowType: 1
+  - iD: 6
+    showTime: 3
+    windowType: 1
+  - iD: 7
+    showTime: 3
+    windowType: 1
+  - iD: 8
+    showTime: 1
+    windowType: 1
+  - iD: 9
+    showTime: 1
+    windowType: 1

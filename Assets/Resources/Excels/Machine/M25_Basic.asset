@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M25_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M25.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: '*Logic General Config*'
+    val: 
+  - key: ReelCount
+    val: 3
+  - key: IsMultiLine
+    val: 1
+  - key: NearHitProbs
+    val: 0.3,0.3,0.4
+  - key: '*Logic SmallGame Config*'
+    val: 
+  - key: HasSlide
+    val: 0
+  - key: SmallGameTypes
+    val: FreeSpin
+  - key: TriggerType
+    val: UnorderCount
+  - key: FreeSpinType
+    val: FixCount
+  - key: FreeSpinFixCounts
+    val: 1,3,7
+  - key: FreeSpinTriggerCount
+    val: 1
+  - key: FreeSpinTriggerSymbolNames
+    val: Bonus
+  - key: FreeSpinHits
+    val: 1,0.7
+  - key: LuckyFreeSpinHits
+    val: 1,0.7
+  - key: FreeSpinHitsNonWin
+    val: 1,0.7
+  - key: '*Render General Config*'
+    val: 
+  - key: ReelStartPos
+    val: 10,10,10
+  - key: SymbolUnitDistanceFactor
+    val: 0.8
+  - key: ReelSkin
+    val: M25/M25_ReelBack
+  - key: PayLine
+    val: M25/M25_PayLine
+  - key: HighLight
+    val: M25/M25_HighLight
+  - key: BackgroundPrefab
+    val: Game/BackgroundM25
+  - key: BackgroundUp
+    val: M25/M25_BackgroundUp
+  - key: BackgroundDown
+    val: M25/M25_BackgroundDown
+  - key: BackgroundLeft
+    val: M25/M25_BackgroundLeft
+  - key: BackgroundRight
+    val: M25/M25_BackgroundRight
+  - key: ReelShadowUp
+    val: M25/M25_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;0.6;5;1;-39
+  - key: ReelShadowDown
+    val: M25/M25_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;0.6
+  - key: SuperSymbolLightEffect
+    val: M25/FX_M25_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: ReelNormalWinEffectOffsets
+    val: -9,0,0,0,9,0
+  - key: ReelBigWinEffectOffsets
+    val: -9,0,0,0,9,0
+  - key: MultiLinePayLineNumber
+    val: M25/M25_PayLine_Number
+  - key: '*Render SmallGame Config*'
+    val: 
+  - key: SmallGameEffect
+    val: M25/FX_M25_FreeSpin
+  - key: FreespinHintDelay
+    val: 1
+  - key: FreespinHintAudio
+    val: M25_FreeSpinSwitch
+  - key: RespinPreEffect
+    val: M25/FX_M25_Respin_PreEffect
+  - key: FreeSpinSymbolFlyEffect
+    val: M25/FX_M25_Fly
+  - key: SpecialBGM
+    val: M25_FreeSpin_Loop
+  - key: SpinSpeed
+    val: 24
+  - key: ReelSpinTimes
+    val: 0.4,0.46,0.51,0.4
+  - key: NormalBlurFactor
+    val: 2

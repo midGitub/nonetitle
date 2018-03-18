@@ -1,0 +1,295 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a274cca6c62e4868990d281284fbf7c, type: 3}
+  m_Name: LocalNotification_LocalNotificationfestival
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/LocalNotification/LocalNotification.xls
+  WorksheetName: LocalNotificationfestival
+  dataArray:
+  - iD: 1
+    key: Halloween_2xSale_Coming
+    startDate: 2017_10_30
+    endDate: 2017_10_30
+    time: 23:15:00
+    title: CELEBRATE HALLOWEEN!
+    content: "\U0001F383 Halloween is coming! We have some thing special for you!
+      Keep your eyes peeled!"
+    contentIOS: "\U0001F383 Halloween is coming! We have some thing special for you!
+      Keep your eyes peeled!"
+  - iD: 2
+    key: Halloween_2xSale
+    startDate: 2017_10_31
+    endDate: 2017_11_1
+    time: 9:00:00
+    title: CELEBRATE HALLOWEEN!
+    content: "\U0001F383 Celebrate Halloween! \U0001F4A52X\U0001F4A5 Credits on sale!"
+    contentIOS: "\U0001F383 Celebrate Halloween! \U0001F4A52X\U0001F4A5 Credits on
+      sale!"
+  - iD: 3
+    key: BlackFriday_2xSale_Coming
+    startDate: 2017_11_23
+    endDate: 2017_11_23
+    time: 23:15:00
+    title: EARLY BIRD!
+    content: BLACK FRIDAY is coming! We have some thing special for you! Keep your
+      eyes peeled!
+    contentIOS: BLACK FRIDAY is coming! We have some thing special for you! Keep your
+      eyes peeled!
+  - iD: 4
+    key: BlackFriday_2xSale
+    startDate: 2017_11_24
+    endDate: 2017_11_24
+    time: 9:00:00
+    title: BLACK FRIDAY SALE!
+    content: "BLACK FRIDAY SALE! \U0001F4A52X\U0001F4A5 Credits on sale!"
+    contentIOS: "BLACK FRIDAY SALE! \U0001F4A52X\U0001F4A5 Credits on sale!"
+  - iD: 5
+    key: Christmas_2XSale_Coming
+    startDate: 2017_12_21
+    endDate: 2017_12_21
+    time: 23:15:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F384 Christmas is coming! \U0001F385 We have some thing special
+      for you! Keep your eyes peeled!"
+    contentIOS: "\U0001F384 Christmas is coming! \U0001F385 We have some thing special
+      for you! Keep your eyes peeled!"
+  - iD: 6
+    key: Christmas_DoubleMaxWin
+    startDate: 2017_12_22
+    endDate: 2017_12_22
+    time: 9:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F384 Merry Christmas! Collect \U0001F4A5DOUBLE\U0001F4A5 BONUS
+      and Win DOUBLE PRIZE!\U0001F4B0"
+    contentIOS: "\U0001F384 Merry Christmas! Collect \U0001F4A5DOUBLE\U0001F4A5 BONUS
+      and Win DOUBLE PRIZE!\U0001F4B0"
+  - iD: 7
+    key: Christmas_2xSale
+    startDate: 2017_12_23
+    endDate: 2017_12_23
+    time: 9:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F384 Merry Christmas! \U0001F4A52X\U0001F4A5 Credits on sale!"
+    contentIOS: "\U0001F384 Merry Christmas! \U0001F4A52X\U0001F4A5 Credits on sale!"
+  - iD: 8
+    key: Christmas_DoubleMaxWin_Reward
+    startDate: 2017_12_24
+    endDate: 2017_12_24
+    time: 1:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F4A52X\U0001F4A5 your biggest WIN! Tap HERE to CLAIM!\U0001F4B0"
+    contentIOS: "\U0001F4A52X\U0001F4A5 your biggest WIN! Tap HERE to CLAIM!\U0001F4B0"
+  - iD: 9
+    key: Christmas_DoubleMaxWin
+    startDate: 2017_12_24
+    endDate: 2017_12_24
+    time: 9:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F384 Merry Christmas! Collect \U0001F4A5DOUBLE\U0001F4A5 BONUS
+      and Win DOUBLE PRIZE!\U0001F4B0"
+    contentIOS: "\U0001F384 Merry Christmas! Collect \U0001F4A5DOUBLE\U0001F4A5 BONUS
+      and Win DOUBLE PRIZE!\U0001F4B0"
+  - iD: 10
+    key: Christmas_2xSale
+    startDate: 2017_12_25
+    endDate: 2017_12_25
+    time: 9:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F384 Merry Christmas! \U0001F4A52X\U0001F4A5 Credits on sale!"
+    contentIOS: "\U0001F384 Merry Christmas! \U0001F4A52X\U0001F4A5 Credits on sale!"
+  - iD: 11
+    key: Christmas_DoubleMaxWin_Reward
+    startDate: 2017_12_26
+    endDate: 2017_12_26
+    time: 1:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F4A52X\U0001F4A5 your biggest WIN! Tap HERE to CLAIM!\U0001F4B0"
+    contentIOS: "\U0001F4A52X\U0001F4A5 your biggest WIN! Tap HERE to CLAIM!\U0001F4B0"
+  - iD: 12
+    key: Christmas_DoubleMaxWin
+    startDate: 2017_12_26
+    endDate: 2017_12_26
+    time: 9:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F384 Merry Christmas! Collect \U0001F4A5DOUBLE\U0001F4A5 BONUS
+      and Win DOUBLE PRIZE!\U0001F4B0"
+    contentIOS: "\U0001F384 Merry Christmas! Collect \U0001F4A5DOUBLE\U0001F4A5 BONUS
+      and Win DOUBLE PRIZE!\U0001F4B0"
+  - iD: 13
+    key: Christmas_2xSale_Coming
+    startDate: 2017_12_27
+    endDate: 2017_12_27
+    time: 23:15:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F384 Christmas is coming! \U0001F385 We have some thing special
+      for you! Keep your eyes peeled!"
+    contentIOS: "\U0001F384 Christmas is coming! \U0001F385 We have some thing special
+      for you! Keep your eyes peeled!"
+  - iD: 14
+    key: Christmas_DoubleMaxWin_Reward
+    startDate: 2017_12_28
+    endDate: 2017_12_28
+    time: 1:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F4A52X\U0001F4A5 your biggest WIN! Tap HERE to CLAIM!\U0001F4B0"
+    contentIOS: "\U0001F4A52X\U0001F4A5 your biggest WIN! Tap HERE to CLAIM!\U0001F4B0"
+  - iD: 15
+    key: Christmas_DoubleMaxWin
+    startDate: 2017_12_28
+    endDate: 2017_12_28
+    time: 9:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F384 Merry Christmas! Collect \U0001F4A5DOUBLE\U0001F4A5 BONUS
+      and Win DOUBLE PRIZE!\U0001F4B0"
+    contentIOS: "\U0001F384 Merry Christmas! Collect \U0001F4A5DOUBLE\U0001F4A5 BONUS
+      and Win DOUBLE PRIZE!\U0001F4B0"
+  - iD: 16
+    key: Christmas_2xSale
+    startDate: 2017_12_29
+    endDate: 2017_12_29
+    time: 9:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F384 Merry Christmas! \U0001F4A52X\U0001F4A5 Credits on sale!"
+    contentIOS: "\U0001F384 Merry Christmas! \U0001F4A52X\U0001F4A5 Credits on sale!"
+  - iD: 17
+    key: Christmas_DoubleMaxWin_Reward
+    startDate: 2017_12_30
+    endDate: 2017_12_30
+    time: 1:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F4A52X\U0001F4A5 your biggest WIN! Tap HERE to CLAIM!\U0001F4B0"
+    contentIOS: "\U0001F4A52X\U0001F4A5 your biggest WIN! Tap HERE to CLAIM!\U0001F4B0"
+  - iD: 18
+    key: Christmas_DoubleMaxWin
+    startDate: 2017_12_30
+    endDate: 2017_12_30
+    time: 9:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F384 Merry Christmas! Collect \U0001F4A5DOUBLE\U0001F4A5 BONUS
+      and Win DOUBLE PRIZE!\U0001F4B0"
+    contentIOS: "\U0001F384 Merry Christmas! Collect \U0001F4A5DOUBLE\U0001F4A5 BONUS
+      and Win DOUBLE PRIZE!\U0001F4B0"
+  - iD: 19
+    key: Christmas_2xSale_Coming
+    startDate: 2017_12_31
+    endDate: 2017_12_31
+    time: 23:15:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F384 Christmas is coming! \U0001F385 We have some thing special
+      for you! Keep your eyes peeled!"
+    contentIOS: "\U0001F384 Christmas is coming! \U0001F385 We have some thing special
+      for you! Keep your eyes peeled!"
+  - iD: 20
+    key: Christmas_DoubleMaxWin_Reward
+    startDate: 2018_1_1
+    endDate: 2018_1_1
+    time: 1:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F4A52X\U0001F4A5 your biggest WIN! Tap HERE to CLAIM!\U0001F4B0"
+    contentIOS: "\U0001F4A52X\U0001F4A5 your biggest WIN! Tap HERE to CLAIM!\U0001F4B0"
+  - iD: 21
+    key: Christmas_DoubleMaxWin
+    startDate: 2018_1_1
+    endDate: 2018_1_1
+    time: 9:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F384 Merry Christmas! Collect \U0001F4A5DOUBLE\U0001F4A5 BONUS
+      and Win DOUBLE PRIZE!\U0001F4B0"
+    contentIOS: "\U0001F384 Merry Christmas! Collect \U0001F4A5DOUBLE\U0001F4A5 BONUS
+      and Win DOUBLE PRIZE!\U0001F4B0"
+  - iD: 22
+    key: Christmas_2xSale
+    startDate: 2018_1_2
+    endDate: 2018_1_2
+    time: 9:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F384 Merry Christmas! \U0001F4A52X\U0001F4A5 Credits on sale!"
+    contentIOS: "\U0001F384 Merry Christmas! \U0001F4A52X\U0001F4A5 Credits on sale!"
+  - iD: 23
+    key: Christmas_DoubleMaxWin_Reward
+    startDate: 2018_1_3
+    endDate: 2018_1_3
+    time: 1:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F4A52X\U0001F4A5 your biggest WIN! Tap HERE to CLAIM!\U0001F4B0"
+    contentIOS: "\U0001F4A52X\U0001F4A5 your biggest WIN! Tap HERE to CLAIM!\U0001F4B0"
+  - iD: 24
+    key: Christmas_DoubleMaxWin
+    startDate: 2018_1_3
+    endDate: 2018_1_3
+    time: 9:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F384 Merry Christmas! Collect \U0001F4A5DOUBLE\U0001F4A5 BONUS
+      and Win DOUBLE PRIZE!\U0001F4B0"
+    contentIOS: "\U0001F384 Merry Christmas! Collect \U0001F4A5DOUBLE\U0001F4A5 BONUS
+      and Win DOUBLE PRIZE!\U0001F4B0"
+  - iD: 25
+    key: Christmas_2xSale
+    startDate: 2018_1_4
+    endDate: 2018_1_4
+    time: 9:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F384 Merry Christmas! \U0001F4A52X\U0001F4A5 Credits on sale!"
+    contentIOS: "\U0001F384 Merry Christmas! \U0001F4A52X\U0001F4A5 Credits on sale!"
+  - iD: 26
+    key: Christmas_DoubleHourlyBonus_End
+    startDate: 2018_1_4
+    endDate: 2018_1_4
+    time: 19:30:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F384 Merry Christmas! Collect \U0001F4A5DOUBLE\U0001F4A5 BONUS
+      and Win DOUBLE PRIZE!\U0001F4B0"
+    contentIOS: "\U0001F384 Merry Christmas! Collect \U0001F4A5DOUBLE\U0001F4A5 BONUS
+      and Win DOUBLE PRIZE!\U0001F4B0"
+  - iD: 27
+    key: Christmas_DoubleMaxWin_Reward
+    startDate: 2018_1_5
+    endDate: 2018_1_5
+    time: 1:00:00
+    title: MERRY CHRISTMAS!
+    content: "\U0001F4A52X\U0001F4A5 your biggest WIN! Tap HERE to CLAIM!\U0001F4B0"
+    contentIOS: "\U0001F4A52X\U0001F4A5 your biggest WIN! Tap HERE to CLAIM!\U0001F4B0"
+  - iD: 28
+    key: MardiGras_2xSale_Coming
+    startDate: 2018_2_12
+    endDate: 2018_2_12
+    time: 23:15:00
+    title: EARLY BIRD!
+    content: MARDI GRAS is coming! We have some thing special for you! Keep your eyes
+      peeled!
+    contentIOS: MARDI GRAS is coming! We have some thing special for you! Keep your
+      eyes peeled!
+  - iD: 29
+    key: MardiGras_2xSale
+    startDate: 2018_2_13
+    endDate: 2018_2_13
+    time: 9:00:00
+    title: MARDI GRAS SALE!
+    content: "MARDI GRAS SALE! \U0001F4A52X\U0001F4A5 Credits on sale!"
+    contentIOS: "MARDI GRAS SALE! \U0001F4A52X\U0001F4A5 Credits on sale!"
+  - iD: 30
+    key: PresidentsDay_2xSale_Coming
+    startDate: 2018_2_16
+    endDate: 2018_2_16
+    time: 23:15:00
+    title: EARLY BIRD!
+    content: PRESIDENTS' DAY is coming! We have some thing special for you! Keep your
+      eyes peeled!
+    contentIOS: PRESIDENTS' DAY is coming! We have some thing special for you! Keep
+      your eyes peeled!
+  - iD: 31
+    key: PresidentsDay_2xSale
+    startDate: 2018_2_17
+    endDate: 2018_2_17
+    time: 9:00:00
+    title: PRESIDENTS' DAY SALE!
+    content: "PRESIDENTS' DAY SALE! \U0001F4A52X\U0001F4A5 Credits on sale!"
+    contentIOS: "PRESIDENTS' DAY SALE! \U0001F4A52X\U0001F4A5 Credits on sale!"

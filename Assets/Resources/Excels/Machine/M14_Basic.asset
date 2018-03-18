@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M14_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M14.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 4,14,4
+  - key: HasSlide
+    val: 0
+  - key: SmallGameTypes
+    val: FreeSpin
+  - key: FreeSpinType
+    val: FixCount
+  - key: SmallGameEffect
+    val: M14/FX_M14_FreeSpin
+  - key: ButterFlyHitEffect
+    val: M14/FX_M14_ButterflyHit
+  - key: ButterFlyHitTwinkleEffect
+    val: M14/FX_M14_ButterflyToWinBetHit
+  - key: FreeSpinFixCounts
+    val: 1
+  - key: IsFreeSpinFixBonus
+    val: 0
+  - key: FreeSpinTriggerCount
+    val: 1
+  - key: FreeSpinTriggerSymbolNames
+    val: Cherry
+  - key: IsFreeSpinLuckyPayout
+    val: 1
+  - key: FreeSpinHitsNonWin
+    val: 1,0.9,0.8,0.6
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: IsBonusValidOnNonPayline
+    val: 0
+  - key: ReelSkin
+    val: M14/M14_ReelBack
+  - key: ReelSkinFrame
+    val: M14/M14_ReelUp
+  - key: Background
+    val: 
+  - key: PayLine
+    val: M14/M14_PayLine
+  - key: HighLight
+    val: 
+  - key: BackgroundPrefab
+    val: Game/BackgroundM14
+  - key: BackgroundUp
+    val: M14/M14_BackgroundUp
+  - key: BackgroundDown
+    val: M14/M14_BackgroundDown
+  - key: BackgroundLeft
+    val: M14/M14_BackgroundLeft
+  - key: BackgroundRight
+    val: M14/M14_BackgroundRight
+  - key: ReelShadowUp
+    val: M14/M14_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1
+  - key: ReelShadowDown
+    val: M14/M14_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1;4.128;1;33.5
+  - key: SuperSymbolLightEffect
+    val: M14/FX_M14_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: NormalHitRate
+    val: 
+  - key: LuckyHitRate
+    val: 
+  - key: NormalRTP
+    val: 
+  - key: LuckyRTP
+    val: 
+  - key: NearHitProbs
+    val: 0.2,0.3,0.5
+  - key: ButterFlyHitTwinkleEnterDelay
+    val: 1.3
+  - key: ButterFlyHitTwinkleEnterAndLeaveDelay
+    val: 1.6
+  - key: ButterflyUpAudio
+    val: M14_ButterFlying
+  - key: ButterflyDownAudio
+    val: M14_ButterFlying
+  - key: HitTwinkle
+    val: 1
+  - key: FreespinHintDelay
+    val: 0.6
+  - key: FreespinHintAudio
+    val: M14_FreeSpinSwitch
+  - key: FreespinEffectNoDelay
+    val: 1
+  - key: NormalBlurFactor
+    val: 2

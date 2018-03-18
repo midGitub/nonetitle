@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495b9fa2cf2d90f43a0a65b61ce5ed48, type: 3}
+  m_Name: GameSetting_AdStrategy
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Game/GameSetting.xls
+  WorksheetName: AdStrategy
+  dataArray:
+  - iD: 1
+    interstitialMachine: 1
+    interstitialHomeIn: 1
+    rewardLobby: 1
+    rewardDoubleWin: 1
+  - iD: 2
+    interstitialMachine: 1
+    interstitialHomeIn: 1
+    rewardLobby: 0
+    rewardDoubleWin: 1
+  - iD: 3
+    interstitialMachine: 1
+    interstitialHomeIn: 1
+    rewardLobby: 0
+    rewardDoubleWin: 1
+  - iD: 4
+    interstitialMachine: 0
+    interstitialHomeIn: 1
+    rewardLobby: 1
+    rewardDoubleWin: 1

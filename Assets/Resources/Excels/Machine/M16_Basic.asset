@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M16_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M16.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 14,14,14
+  - key: HasSlide
+    val: 0
+  - key: SmallGameTypes
+    val: None
+  - key: IsMultiLine
+    val: 1
+  - key: MultiLineNum
+    val: 9
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: ReelSkin
+    val: M16/M16_ReelBack
+  - key: IsReelBackSlice
+    val: 1
+  - key: Background
+    val: 
+  - key: PayLine
+    val: M16/M16_PayLine
+  - key: HighLight
+    val: M16/M16_HighLight
+  - key: BackgroundPrefab
+    val: Game/BackgroundM16
+  - key: BackgroundUp
+    val: M16/M16_BackgroundUp
+  - key: BackgroundDown
+    val: M16/M16_BackgroundDown
+  - key: BackgroundLeft
+    val: M16/M16_BackgroundLeft
+  - key: BackgroundRight
+    val: M16/M16_BackgroundRight
+  - key: ReelShadowUp
+    val: M16/M16_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1;5;1;-39
+  - key: ReelShadowDown
+    val: M16/M16_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1
+  - key: HypeMachineEffect
+    val: M2/M2_HypeMachineEffect
+  - key: SuperSymbolLightEffect
+    val: M16/FX_M16_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: SymbolUnitDistanceFactor
+    val: 0.8
+  - key: NormalHitRate
+    val: 0.2125
+  - key: LuckyHitRate
+    val: 0.251
+  - key: NormalRTP
+    val: 0.7798
+  - key: LuckyRTP
+    val: 1.688
+  - key: NearHitProbs
+    val: 0.3,0.3,0.4
+  - key: LeastBet
+    val: 50
+  - key: JackpotMinBet
+    val: 1000
+  - key: JackpotScore
+    val: Game/JackpotSinglePool
+  - key: JackpotSelect
+    val: Map/Jackpot/JackpotSelect
+  - key: JackpotTips
+    val: Map/Tip/JackpotTips
+  - key: IsJackpot
+    val: 1
+  - key: JackpotPayoutIndexes
+    val: 1,2,4,5,6,7,8
+  - key: JackpotPoolOffsets
+    val: 0,-56,0
+  - key: SpinSpeed
+    val: 30
+  - key: ReelSpinTimes
+    val: 0.4,0.46,0.51,0.4
+  - key: UserBlurImage
+    val: 1

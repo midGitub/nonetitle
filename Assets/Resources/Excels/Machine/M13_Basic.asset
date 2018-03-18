@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M13_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M13.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 6,6,6
+  - key: HasSlide
+    val: 0
+  - key: SmallGameTypes
+    val: FixWild
+  - key: FixWildType
+    val: FishHunting
+  - key: FixHitNonWin
+    val: 0.3
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: ReelSkin
+    val: M13/M13_ReelBack
+  - key: ReelSkinFrame
+    val: M13/M13_ReelUp
+  - key: Background
+    val: 
+  - key: PayLine
+    val: M13/M13_PayLine
+  - key: PayLineRectPos
+    val: 
+  - key: HighLight
+    val: 
+  - key: BackgroundPrefab
+    val: Game/BackgroundM13
+  - key: BackgroundUp
+    val: M13/M13_BackgroundUp
+  - key: BackgroundDown
+    val: M13/M13_BackgroundDown
+  - key: BackgroundLeft
+    val: M13/M13_BackgroundLeft
+  - key: BackgroundRight
+    val: M13/M13_BackgroundRight
+  - key: NoReelShadow
+    val: 1
+  - key: SingleReelShadowUp
+    val: M13/M13_ReelShadowUp
+  - key: ReelShadowUp
+    val: 
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1;5;0.95
+  - key: SingleReelShadowDown
+    val: M13/M13_ReelShadowDown
+  - key: ReelShadowDown
+    val: 
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1;5;0.95
+  - key: HypeMachineEffect
+    val: M2/M2_HypeMachineEffect
+  - key: SuperSymbolLightEffect
+    val: M13/FX_M13_Spin_SuperSymbol_ReelLight
+  - key: FrozenFadeInEffect
+    val: M13/FX_M13_Frozen
+  - key: FrozenFadeOutEffect
+    val: M13/FX_M13_FrozenEnd
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: NormalHitRate
+    val: 0.1446
+  - key: LuckyHitRate
+    val: 0.2073
+  - key: NormalRTP
+    val: 0.8458
+  - key: LuckyRTP
+    val: 1.9683
+  - key: NearHitProbs
+    val: 0.3,0.2,0.5
+  - key: ShowBackgroundEffectWhenFix
+    val: 1
+  - key: FrozenAudio
+    val: M13LockWild
+  - key: BreakFrozenAudio
+    val: M13UnlockWild
+  - key: NormalBlurFactor
+    val: 2

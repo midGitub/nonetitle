@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a61d248b7e409460ab15f47aa6f54c27, type: 3}
+  m_Name: GameSetting_PiggyInfo
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Game/GameSetting.xls
+  WorksheetName: PiggyInfo
+  dataArray:
+  - iD: 1
+    minPayTimes: 1
+    maxPayTimes: 1
+    curItemId: 8
+    initCredit: 1200
+  - iD: 2
+    minPayTimes: 2
+    maxPayTimes: 2
+    curItemId: 9
+    initCredit: 2500
+  - iD: 3
+    minPayTimes: 3
+    maxPayTimes: 3
+    curItemId: 10
+    initCredit: 5000
+  - iD: 4
+    minPayTimes: 4
+    maxPayTimes: 4
+    curItemId: 11
+    initCredit: 8200
+  - iD: 5
+    minPayTimes: 5
+    maxPayTimes: 7
+    curItemId: 11
+    initCredit: 9700
+  - iD: 6
+    minPayTimes: 8
+    maxPayTimes: 0
+    curItemId: 11
+    initCredit: 11200

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d721c8fe960145e3843c9800807a3b1, type: 3}
+  m_Name: CoreSetting_Lucky
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Core/CoreSetting.xls
+  WorksheetName: Lucky
+  dataArray:
+  - key: LongLuckyThreshold
+    val: 5000
+  - key: LongLuckyFactorThreshold
+    val: 4
+  - key: DailyCreditsAddLongLucky
+    val: 30000
+  - key: HourlyCreditsAddLongLucky
+    val: 30000
+  - key: FirstGameShortLuckyRandomArray
+    val: 4,5,6
+  - key: ShortLuckyMax
+    val: 28
+  - key: ShortLuckyMin
+    val: 12
+  - key: ShortLuckyMaxAfterPay
+    val: 18
+  - key: ShortLuckyMinAfterPay
+    val: 8
+  - key: HitRateIncreaseAfterPay
+    val: 0.005
+  - key: ShortLuckyExponent
+    val: 4
+  - key: ShortLuckyStep
+    val: 1
+  - key: LoginFaceBookCreditsAddLongLucky
+    val: 60000
+  - key: FistStartGameBonusLongLucky
+    val: 200000
+  - key: LoginFaceBookCreditsAddCredits
+    val: 2000
+  - key: TournamentRewardFactor
+    val: 10
+  - key: PayProtectionBankruptIndexes
+    val: 1,4,7,10,13
+  - key: PayProtectionBankruptMaxInterval
+    val: 3
+  - key: LongLuckyAdd_CreditsFactor1
+    val: 3
+  - key: LongLuckyAdd_LuckyFactor1
+    val: 0.5
+  - key: LongLuckyAdd_CreditsFactor2
+    val: 1.5
+  - key: LongLuckyAdd_LuckyFactor2
+    val: 0.25

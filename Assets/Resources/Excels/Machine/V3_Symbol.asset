@@ -1,0 +1,340 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f9999f0eb68e499d999d210974bea2e, type: 3}
+  m_Name: V3_Symbol
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/V3.xls
+  WorksheetName: Symbol
+  dataArray:
+  - name: Jackpot1
+    symbolType: 2
+    slideType: 0
+    artAsset: V3/V3_Jackpot_1
+    jackpotCount: 1
+    multiplier: 0
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: 
+    winEffect3D: V3/FX_V3_Win_Jackpot_1_3D
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: Jackpot2
+    symbolType: 2
+    slideType: 0
+    artAsset: V3/V3_Jackpot_2
+    jackpotCount: 2
+    multiplier: 0
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: 
+    winEffect3D: V3/FX_V3_Win_Jackpot_2_3D
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: Jackpot3
+    symbolType: 2
+    slideType: 0
+    artAsset: V3/V3_Jackpot_3
+    jackpotCount: 3
+    multiplier: 0
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: 
+    winEffect3D: V3/FX_V3_Win_Jackpot_3_3D
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: Wildx5
+    symbolType: 0
+    slideType: 3
+    artAsset: V3/V3_Wildx5
+    jackpotCount: 0
+    multiplier: 5
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: 
+    winEffect3D: V3/FX_V3_Win_Wildx5_3D
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: Wildx3
+    symbolType: 0
+    slideType: 3
+    artAsset: V3/V3_Wildx3
+    jackpotCount: 0
+    multiplier: 3
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: 
+    winEffect3D: V3/FX_V3_Win_Wildx3_3D
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: Wildx2
+    symbolType: 0
+    slideType: 3
+    artAsset: V3/V3_Wildx2
+    jackpotCount: 0
+    multiplier: 2
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: 
+    winEffect3D: V3/FX_V3_Win_Wildx2_3D
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: High7
+    symbolType: 4
+    slideType: 0
+    artAsset: V3/V3_High7
+    jackpotCount: 0
+    multiplier: 0
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: V3/FX_V3_Win_High7_HighLight
+    winEffect3D: 
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: 7Bar
+    symbolType: 5
+    slideType: 0
+    artAsset: V3/V3_7Bar
+    jackpotCount: 0
+    multiplier: 0
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: V3/FX_V3_Win_7Bar_HighLight
+    winEffect3D: 
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: TripleBar
+    symbolType: 6
+    slideType: 0
+    artAsset: V3/V3_Bar3
+    jackpotCount: 0
+    multiplier: 0
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: V3/FX_V3_Win_Bar3_HighLight
+    winEffect3D: 
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: DoubleBar
+    symbolType: 6
+    slideType: 0
+    artAsset: V3/V3_Bar2
+    jackpotCount: 0
+    multiplier: 0
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: V3/FX_V3_Win_Bar2_HighLight
+    winEffect3D: 
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: SingleBar
+    symbolType: 6
+    slideType: 0
+    artAsset: V3/V3_Bar1
+    jackpotCount: 0
+    multiplier: 0
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: V3/FX_V3_Win_Bar1_HighLight
+    winEffect3D: 
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: Blank
+    symbolType: 7
+    slideType: 0
+    artAsset: Blank
+    jackpotCount: 0
+    multiplier: 0
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: 
+    winEffect3D: 
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []

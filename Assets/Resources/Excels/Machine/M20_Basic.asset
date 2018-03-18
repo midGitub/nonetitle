@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M20_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M20.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 2,6,6
+  - key: HasSlide
+    val: 0
+  - key: SmallGameTypes
+    val: TapBox
+  - key: TapBoxPuzzleType
+    val: PuzzleTapChip
+  - key: SmallGamePrefab
+    val: Game/M20/TapChip
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: ReelSkin
+    val: M20/M20_ReelBack
+  - key: Background
+    val: 
+  - key: PayLine
+    val: M20/M20_PayLine
+  - key: HighLight
+    val: 
+  - key: BackgroundPrefab
+    val: Game/BackgroundM20
+  - key: BackgroundUp
+    val: M20/M20_BackgroundUp
+  - key: BackgroundDown
+    val: M20/M20_BackgroundDown
+  - key: BackgroundLeft
+    val: M20/M20_BackgroundLeft
+  - key: BackgroundRight
+    val: M20/M20_BackgroundRight
+  - key: ReelShadowUp
+    val: M20/M20_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1;3;1;-41.6
+  - key: ReelShadowDown
+    val: M20/M20_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1;3;1;28
+  - key: HypeMachineEffect
+    val: M2/M2_HypeMachineEffect
+  - key: SuperSymbolLightEffect
+    val: M20/FX_M20_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: TriggerType
+    val: Payout
+  - key: TapBoxWinProbsOfNormal
+    val: 1,1,0.8,0.6,0.5,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0
+  - key: TapBoxWinProbsOfLucky
+    val: 1,1,1,0.8,0.8,0.7,0.4,0.4,0.4,0.4,0.4,0.4,0
+  - key: TapBoxWinRatios
+    val: 100,50,20,15,10,5,3
+  - key: TapBoxRatioProbsOfNormal
+    val: 0.003,0.007,0.03,0.03,0.28,0.325,0.325
+  - key: TapBoxRatioProbsOfLucky
+    val: 0.003,0.007,0.06,0.1,0.21,0.31,0.31
+  - key: NormalCollectRate
+    val: 0.15
+  - key: LuckyCollectRate
+    val: 0.2
+  - key: NormalHitRate
+    val: 0.131
+  - key: LuckyHitRate
+    val: 0.211
+  - key: NormalRTP
+    val: 0.8494
+  - key: LuckyRTP
+    val: 2.0289
+  - key: NearHitProbs
+    val: 0.3,0.2,0.5
+  - key: NormalBlurFactor
+    val: 2

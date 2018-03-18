@@ -1,0 +1,280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47112e5110d474ab5a6d88876d31d895, type: 3}
+  m_Name: GameSetting_MachineUnlockSetting
+  m_EditorClassIdentifier: 
+  SheetName: 
+  WorksheetName: 
+  dataArray:
+  - key: M1
+    val: 1
+    unlockVipLv: 0
+    starDelay: 1
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M28
+    val: 1
+    unlockVipLv: 0
+    starDelay: 5
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M2
+    val: 1
+    unlockVipLv: 0
+    starDelay: 9
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M16
+    val: 2
+    unlockVipLv: 0
+    starDelay: 1
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M37
+    val: 3
+    unlockVipLv: 0
+    starDelay: 5
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M10
+    val: 4
+    unlockVipLv: 0
+    starDelay: 9
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M18
+    val: 5
+    unlockVipLv: 0
+    starDelay: 1
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M23
+    val: 6
+    unlockVipLv: 0
+    starDelay: 5
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M8
+    val: 7
+    unlockVipLv: 0
+    starDelay: 9
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M27
+    val: 8
+    unlockVipLv: 0
+    starDelay: 1
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M32
+    val: 9
+    unlockVipLv: 0
+    starDelay: 5
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M5
+    val: 10
+    unlockVipLv: 0
+    starDelay: 9
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M36
+    val: 11
+    unlockVipLv: 0
+    starDelay: 1
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M30
+    val: 12
+    unlockVipLv: 0
+    starDelay: 5
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M9
+    val: 13
+    unlockVipLv: 0
+    starDelay: 9
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M12
+    val: 14
+    unlockVipLv: 0
+    starDelay: 1
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M34
+    val: 15
+    unlockVipLv: 0
+    starDelay: 5
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M24
+    val: 16
+    unlockVipLv: 0
+    starDelay: 9
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M38
+    val: 1
+    unlockVipLv: 0
+    starDelay: 1
+    playAgainDelay: 15
+    mapMachineType: 0
+  - key: M29
+    val: 18
+    unlockVipLv: 0
+    starDelay: 5
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M20
+    val: 19
+    unlockVipLv: 0
+    starDelay: 9
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M11
+    val: 20
+    unlockVipLv: 0
+    starDelay: 1
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M13
+    val: 21
+    unlockVipLv: 0
+    starDelay: 5
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M15
+    val: 22
+    unlockVipLv: 0
+    starDelay: 9
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M21
+    val: 23
+    unlockVipLv: 0
+    starDelay: 1
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M4
+    val: 24
+    unlockVipLv: 0
+    starDelay: 5
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M14
+    val: 25
+    unlockVipLv: 0
+    starDelay: 9
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M22
+    val: 26
+    unlockVipLv: 0
+    starDelay: 1
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M3
+    val: 27
+    unlockVipLv: 0
+    starDelay: 5
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M7
+    val: 28
+    unlockVipLv: 0
+    starDelay: 9
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M26
+    val: 29
+    unlockVipLv: 0
+    starDelay: 1
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M40
+    val: 30
+    unlockVipLv: 0
+    starDelay: 5
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M41
+    val: 31
+    unlockVipLv: 0
+    starDelay: 9
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M17
+    val: 32
+    unlockVipLv: 0
+    starDelay: 1
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M25
+    val: 33
+    unlockVipLv: 0
+    starDelay: 5
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M42
+    val: 34
+    unlockVipLv: 0
+    starDelay: 9
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M19
+    val: 35
+    unlockVipLv: 0
+    starDelay: 1
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M6
+    val: 36
+    unlockVipLv: 0
+    starDelay: 5
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: M46
+    val: 37
+    unlockVipLv: 0
+    starDelay: 9
+    playAgainDelay: 15
+    mapMachineType: 1
+  - key: V1
+    val: 1
+    unlockVipLv: 1
+    starDelay: 1
+    playAgainDelay: 15
+    mapMachineType: 2
+  - key: V2
+    val: 1
+    unlockVipLv: 1
+    starDelay: 5
+    playAgainDelay: 15
+    mapMachineType: 2
+  - key: V5
+    val: 1
+    unlockVipLv: 2
+    starDelay: 9
+    playAgainDelay: 15
+    mapMachineType: 2
+  - key: V4
+    val: 1
+    unlockVipLv: 2
+    starDelay: 1
+    playAgainDelay: 15
+    mapMachineType: 2
+  - key: V3
+    val: 1
+    unlockVipLv: 3
+    starDelay: 5
+    playAgainDelay: 15
+    mapMachineType: 2

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M5_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M5.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 4,7,4
+  - key: HasSlide
+    val: 1
+  - key: SmallGameTypes
+    val: None
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: ReelSkin
+    val: M5/M5_ReelBack
+  - key: IsReelBackSlice
+    val: 1
+  - key: Background
+    val: 
+  - key: PayLine
+    val: M5/M5_PayLine
+  - key: HighLight
+    val: 
+  - key: BackgroundPrefab
+    val: Game/BackgroundM5
+  - key: BackgroundEffectPrefab
+    val: M5/FX_M5_SceneEffect
+  - key: BackgroundEffectStartOn
+    val: 1
+  - key: BackgroundUp
+    val: M5/M5_BackgroundUp
+  - key: BackgroundDown
+    val: M5/M5_BackgroundDown
+  - key: BackgroundLeft
+    val: M5/M5_BackgroundLeft
+  - key: BackgroundRight
+    val: M5/M5_BackgroundLeft
+  - key: ReelShadowUp
+    val: M5/M5_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;0.8
+  - key: ReelShadowDown
+    val: M5/M5_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;0.8
+  - key: SuperSymbolLightEffect
+    val: M5/FX_M5_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 1
+  - key: HasSpinReelSideEffect
+    val: 1
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: NormalHitRate
+    val: 0.1692
+  - key: LuckyHitRate
+    val: 0.1664
+  - key: NormalRTP
+    val: 0.6344
+  - key: LuckyRTP
+    val: 2.5062
+  - key: NearHitProbs
+    val: 0.2,0.3,0.5
+  - key: SpinReelSoundNumber
+    val: 3

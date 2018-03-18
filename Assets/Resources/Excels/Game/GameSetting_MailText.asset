@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f020b7e71ddc4100980238e3fcb7f5a, type: 3}
+  m_Name: GameSetting_MailText
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Game/GameSetting.xls
+  WorksheetName: MailText
+  dataArray:
+  - key: sys_update
+    val: Congratulations! Updating is successful. Here is your reward and enjoy yourself!
+    bonus: 2000
+  - key: game_tournament
+    val: Congratulations! You win the * prize in tournament. Here is your reward!
+    bonus: 0
+  - key: activity_christmas_max_win
+    val: MERRY CHRISTMAS! You DOUBLED your biggest WIN! Good luck every spin!
+    bonus: 0

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M10_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M10.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 18,18,18
+  - key: HasSlide
+    val: 0
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: IsBonusValidOnNonPayline
+    val: 1
+  - key: ReelSkin
+    val: M10/M10_ReelBack
+  - key: Background
+    val: 
+  - key: BackgroundEffectPrefab
+    val: M10/FX_M10_SceneEffect
+  - key: PayLine
+    val: M10/M10_PayLine
+  - key: HighLight
+    val: M10/M10_HighLight
+  - key: BackgroundPrefab
+    val: Game/BackgroundM10
+  - key: BackgroundUp
+    val: M10/M10_BackgroundUp
+  - key: BackgroundDown
+    val: M10/M10_BackgroundDown
+  - key: BackgroundLeft
+    val: M10/M10_BackgroundLeft
+  - key: BackgroundRight
+    val: M10/M10_BackgroundRight
+  - key: ReelShadowUp
+    val: M10/M10_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1
+  - key: ReelShadowDown
+    val: M10/M10_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1
+  - key: HypeMachineEffect
+    val: M2/M2_HypeMachineEffect
+  - key: SuperSymbolLightEffect
+    val: M10/FX_M10_Spin_SuperSymbol_ReelLight
+  - key: SpecialSymbolLightEffect
+    val: M10/FX_M10_Bonus_ReelKeepLight
+  - key: HasIdleReelSideEffect
+    val: 1
+  - key: HasSpinReelSideEffect
+    val: 1
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 1
+  - key: TriggerType
+    val: Payout
+  - key: SmallGameTypes
+    val: Wheel
+  - key: WheelSheetNames
+    val: Wheel
+  - key: WheelPrefabNameDict
+    val: 1,Game/MachineWheel
+  - key: SymbolUnitDistanceFactor
+    val: 0.8
+  - key: NormalHitRate
+    val: 0.166
+  - key: LuckyHitRate
+    val: 0.2
+  - key: NormalRTP
+    val: 0.833
+  - key: LuckyRTP
+    val: 2.54
+  - key: IsPaylineStrongSpecialEffect
+    val: 0
+  - key: NearHitProbs
+    val: 0.2,0.2,0.6
+  - key: IsSpecialMachine
+    val: 1
+  - key: UserBlurImage
+    val: 1

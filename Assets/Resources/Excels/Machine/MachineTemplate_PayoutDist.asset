@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e45c15549d6cf45398fef3cb93074b01, type: 3}
+  m_Name: MachineTemplate_PayoutDist
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/MachineTemplate.xls
+  WorksheetName: PayoutDist
+  dataArray:
+  - id: 1
+    reward: 100
+    overallHit: 0.00002
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 2
+    reward: 90
+    overallHit: 0.00005
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 0
+  - id: 3
+    reward: 80
+    overallHit: 0.0001
+    freeSpinOverallHit: 0.00001
+    isShortLucky: 1

@@ -1,0 +1,1423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4076056e656c8438ab4f46330ef35f6c, type: 3}
+  m_Name: GameSetting_LevelConfig
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Game/GameSetting.xls
+  WorksheetName: LevelConfig
+  dataArray:
+  - level: 1
+    requiredXP: 0
+    requiredXPBefore: 0
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 0
+    levelUpBonusLTLucky: 0
+    levelUpBonusVIPPoints: 0
+  - level: 2
+    requiredXP: 10000
+    requiredXPBefore: 10000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1000
+    levelUpBonusLTLucky: 10000
+    levelUpBonusVIPPoints: 10
+  - level: 3
+    requiredXP: 20000
+    requiredXPBefore: 20000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1000
+    levelUpBonusLTLucky: 10000
+    levelUpBonusVIPPoints: 10
+  - level: 4
+    requiredXP: 50000
+    requiredXPBefore: 50000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1000
+    levelUpBonusLTLucky: 10000
+    levelUpBonusVIPPoints: 10
+  - level: 5
+    requiredXP: 100000
+    requiredXPBefore: 100000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1000
+    levelUpBonusLTLucky: 10000
+    levelUpBonusVIPPoints: 10
+  - level: 6
+    requiredXP: 150000
+    requiredXPBefore: 150000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1000
+    levelUpBonusLTLucky: 30000
+    levelUpBonusVIPPoints: 10
+  - level: 7
+    requiredXP: 300000
+    requiredXPBefore: 300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1000
+    levelUpBonusLTLucky: 30000
+    levelUpBonusVIPPoints: 10
+  - level: 8
+    requiredXP: 500000
+    requiredXPBefore: 500000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1000
+    levelUpBonusLTLucky: 30000
+    levelUpBonusVIPPoints: 10
+  - level: 9
+    requiredXP: 800000
+    requiredXPBefore: 800000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1000
+    levelUpBonusLTLucky: 30000
+    levelUpBonusVIPPoints: 10
+  - level: 10
+    requiredXP: 1100000
+    requiredXPBefore: 1100000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1000
+    levelUpBonusLTLucky: 30000
+    levelUpBonusVIPPoints: 10
+  - level: 11
+    requiredXP: 1400000
+    requiredXPBefore: 1400000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1500
+    levelUpBonusLTLucky: 45000
+    levelUpBonusVIPPoints: 10
+  - level: 12
+    requiredXP: 1800000
+    requiredXPBefore: 1800000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1500
+    levelUpBonusLTLucky: 45000
+    levelUpBonusVIPPoints: 10
+  - level: 13
+    requiredXP: 2200000
+    requiredXPBefore: 2200000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1500
+    levelUpBonusLTLucky: 45000
+    levelUpBonusVIPPoints: 10
+  - level: 14
+    requiredXP: 2700000
+    requiredXPBefore: 2700000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1500
+    levelUpBonusLTLucky: 45000
+    levelUpBonusVIPPoints: 10
+  - level: 15
+    requiredXP: 3200000
+    requiredXPBefore: 3200000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1500
+    levelUpBonusLTLucky: 45000
+    levelUpBonusVIPPoints: 10
+  - level: 16
+    requiredXP: 3700000
+    requiredXPBefore: 3700000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1500
+    levelUpBonusLTLucky: 45000
+    levelUpBonusVIPPoints: 10
+  - level: 17
+    requiredXP: 4300000
+    requiredXPBefore: 4300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1500
+    levelUpBonusLTLucky: 45000
+    levelUpBonusVIPPoints: 10
+  - level: 18
+    requiredXP: 4900000
+    requiredXPBefore: 4900000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1500
+    levelUpBonusLTLucky: 45000
+    levelUpBonusVIPPoints: 10
+  - level: 19
+    requiredXP: 5600000
+    requiredXPBefore: 5600000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1500
+    levelUpBonusLTLucky: 45000
+    levelUpBonusVIPPoints: 10
+  - level: 20
+    requiredXP: 6300000
+    requiredXPBefore: 6300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 1500
+    levelUpBonusLTLucky: 45000
+    levelUpBonusVIPPoints: 10
+  - level: 21
+    requiredXP: 6915000
+    requiredXPBefore: 6915000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2000
+    levelUpBonusLTLucky: 60000
+    levelUpBonusVIPPoints: 10
+  - level: 22
+    requiredXP: 7560000
+    requiredXPBefore: 7560000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2000
+    levelUpBonusLTLucky: 60000
+    levelUpBonusVIPPoints: 10
+  - level: 23
+    requiredXP: 8235000
+    requiredXPBefore: 8235000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2000
+    levelUpBonusLTLucky: 60000
+    levelUpBonusVIPPoints: 10
+  - level: 24
+    requiredXP: 8940000
+    requiredXPBefore: 8940000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2000
+    levelUpBonusLTLucky: 60000
+    levelUpBonusVIPPoints: 10
+  - level: 25
+    requiredXP: 9675000
+    requiredXPBefore: 9675000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2000
+    levelUpBonusLTLucky: 60000
+    levelUpBonusVIPPoints: 10
+  - level: 26
+    requiredXP: 10440000
+    requiredXPBefore: 10440000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2000
+    levelUpBonusLTLucky: 60000
+    levelUpBonusVIPPoints: 10
+  - level: 27
+    requiredXP: 11235000
+    requiredXPBefore: 11235000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2000
+    levelUpBonusLTLucky: 60000
+    levelUpBonusVIPPoints: 10
+  - level: 28
+    requiredXP: 12060000
+    requiredXPBefore: 12060000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2000
+    levelUpBonusLTLucky: 60000
+    levelUpBonusVIPPoints: 10
+  - level: 29
+    requiredXP: 12915000
+    requiredXPBefore: 12915000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2000
+    levelUpBonusLTLucky: 60000
+    levelUpBonusVIPPoints: 10
+  - level: 30
+    requiredXP: 13800000
+    requiredXPBefore: 13800000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2000
+    levelUpBonusLTLucky: 60000
+    levelUpBonusVIPPoints: 10
+  - level: 31
+    requiredXP: 14715000
+    requiredXPBefore: 14715000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2500
+    levelUpBonusLTLucky: 75000
+    levelUpBonusVIPPoints: 10
+  - level: 32
+    requiredXP: 15660000
+    requiredXPBefore: 15660000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2500
+    levelUpBonusLTLucky: 75000
+    levelUpBonusVIPPoints: 10
+  - level: 33
+    requiredXP: 16635000
+    requiredXPBefore: 16635000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2500
+    levelUpBonusLTLucky: 75000
+    levelUpBonusVIPPoints: 10
+  - level: 34
+    requiredXP: 17640000
+    requiredXPBefore: 17640000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2500
+    levelUpBonusLTLucky: 75000
+    levelUpBonusVIPPoints: 10
+  - level: 35
+    requiredXP: 18675000
+    requiredXPBefore: 18675000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2500
+    levelUpBonusLTLucky: 75000
+    levelUpBonusVIPPoints: 10
+  - level: 36
+    requiredXP: 19740000
+    requiredXPBefore: 19740000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2500
+    levelUpBonusLTLucky: 75000
+    levelUpBonusVIPPoints: 10
+  - level: 37
+    requiredXP: 20835000
+    requiredXPBefore: 20835000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2500
+    levelUpBonusLTLucky: 75000
+    levelUpBonusVIPPoints: 10
+  - level: 38
+    requiredXP: 21960000
+    requiredXPBefore: 21960000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2500
+    levelUpBonusLTLucky: 75000
+    levelUpBonusVIPPoints: 10
+  - level: 39
+    requiredXP: 23115000
+    requiredXPBefore: 23115000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2500
+    levelUpBonusLTLucky: 75000
+    levelUpBonusVIPPoints: 10
+  - level: 40
+    requiredXP: 24300000
+    requiredXPBefore: 24300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 2500
+    levelUpBonusLTLucky: 75000
+    levelUpBonusVIPPoints: 10
+  - level: 41
+    requiredXP: 25515000
+    requiredXPBefore: 25515000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 3000
+    levelUpBonusLTLucky: 90000
+    levelUpBonusVIPPoints: 10
+  - level: 42
+    requiredXP: 26760000
+    requiredXPBefore: 26760000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 3000
+    levelUpBonusLTLucky: 90000
+    levelUpBonusVIPPoints: 10
+  - level: 43
+    requiredXP: 28035000
+    requiredXPBefore: 28035000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 3000
+    levelUpBonusLTLucky: 90000
+    levelUpBonusVIPPoints: 10
+  - level: 44
+    requiredXP: 29340000
+    requiredXPBefore: 29340000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 3000
+    levelUpBonusLTLucky: 90000
+    levelUpBonusVIPPoints: 10
+  - level: 45
+    requiredXP: 30675000
+    requiredXPBefore: 30675000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 3000
+    levelUpBonusLTLucky: 90000
+    levelUpBonusVIPPoints: 10
+  - level: 46
+    requiredXP: 32040000
+    requiredXPBefore: 32040000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 3000
+    levelUpBonusLTLucky: 90000
+    levelUpBonusVIPPoints: 10
+  - level: 47
+    requiredXP: 33435000
+    requiredXPBefore: 33435000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 3000
+    levelUpBonusLTLucky: 90000
+    levelUpBonusVIPPoints: 10
+  - level: 48
+    requiredXP: 34860000
+    requiredXPBefore: 34860000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 3000
+    levelUpBonusLTLucky: 90000
+    levelUpBonusVIPPoints: 10
+  - level: 49
+    requiredXP: 36315000
+    requiredXPBefore: 36315000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 3000
+    levelUpBonusLTLucky: 90000
+    levelUpBonusVIPPoints: 10
+  - level: 50
+    requiredXP: 37800000
+    requiredXPBefore: 37800000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 3000
+    levelUpBonusLTLucky: 90000
+    levelUpBonusVIPPoints: 10
+  - level: 51
+    requiredXP: 39315000
+    requiredXPBefore: 39315000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 4000
+    levelUpBonusLTLucky: 120000
+    levelUpBonusVIPPoints: 10
+  - level: 52
+    requiredXP: 40860000
+    requiredXPBefore: 40860000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 4000
+    levelUpBonusLTLucky: 120000
+    levelUpBonusVIPPoints: 10
+  - level: 53
+    requiredXP: 42435000
+    requiredXPBefore: 42435000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 4000
+    levelUpBonusLTLucky: 120000
+    levelUpBonusVIPPoints: 10
+  - level: 54
+    requiredXP: 44040000
+    requiredXPBefore: 44040000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 4000
+    levelUpBonusLTLucky: 120000
+    levelUpBonusVIPPoints: 10
+  - level: 55
+    requiredXP: 45675000
+    requiredXPBefore: 45675000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 4000
+    levelUpBonusLTLucky: 120000
+    levelUpBonusVIPPoints: 10
+  - level: 56
+    requiredXP: 47340000
+    requiredXPBefore: 47340000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 4000
+    levelUpBonusLTLucky: 120000
+    levelUpBonusVIPPoints: 10
+  - level: 57
+    requiredXP: 49035000
+    requiredXPBefore: 49035000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 4000
+    levelUpBonusLTLucky: 120000
+    levelUpBonusVIPPoints: 10
+  - level: 58
+    requiredXP: 50760000
+    requiredXPBefore: 50760000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 4000
+    levelUpBonusLTLucky: 120000
+    levelUpBonusVIPPoints: 10
+  - level: 59
+    requiredXP: 52515000
+    requiredXPBefore: 52515000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 4000
+    levelUpBonusLTLucky: 120000
+    levelUpBonusVIPPoints: 10
+  - level: 60
+    requiredXP: 54300000
+    requiredXPBefore: 54300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 4000
+    levelUpBonusLTLucky: 120000
+    levelUpBonusVIPPoints: 10
+  - level: 61
+    requiredXP: 56115000
+    requiredXPBefore: 56115000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5000
+    levelUpBonusLTLucky: 150000
+    levelUpBonusVIPPoints: 10
+  - level: 62
+    requiredXP: 57960000
+    requiredXPBefore: 57960000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5000
+    levelUpBonusLTLucky: 150000
+    levelUpBonusVIPPoints: 10
+  - level: 63
+    requiredXP: 59835000
+    requiredXPBefore: 59835000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5000
+    levelUpBonusLTLucky: 150000
+    levelUpBonusVIPPoints: 10
+  - level: 64
+    requiredXP: 61740000
+    requiredXPBefore: 61740000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5000
+    levelUpBonusLTLucky: 150000
+    levelUpBonusVIPPoints: 10
+  - level: 65
+    requiredXP: 63675000
+    requiredXPBefore: 63675000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5000
+    levelUpBonusLTLucky: 150000
+    levelUpBonusVIPPoints: 10
+  - level: 66
+    requiredXP: 65640000
+    requiredXPBefore: 65640000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5000
+    levelUpBonusLTLucky: 150000
+    levelUpBonusVIPPoints: 10
+  - level: 67
+    requiredXP: 67635000
+    requiredXPBefore: 67635000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5000
+    levelUpBonusLTLucky: 150000
+    levelUpBonusVIPPoints: 10
+  - level: 68
+    requiredXP: 69660000
+    requiredXPBefore: 69660000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5000
+    levelUpBonusLTLucky: 150000
+    levelUpBonusVIPPoints: 10
+  - level: 69
+    requiredXP: 71715000
+    requiredXPBefore: 71715000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5000
+    levelUpBonusLTLucky: 150000
+    levelUpBonusVIPPoints: 10
+  - level: 70
+    requiredXP: 73800000
+    requiredXPBefore: 73800000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5000
+    levelUpBonusLTLucky: 150000
+    levelUpBonusVIPPoints: 10
+  - level: 71
+    requiredXP: 75915000
+    requiredXPBefore: 75915000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5500
+    levelUpBonusLTLucky: 157500
+    levelUpBonusVIPPoints: 10
+  - level: 72
+    requiredXP: 78060000
+    requiredXPBefore: 78060000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5500
+    levelUpBonusLTLucky: 159750
+    levelUpBonusVIPPoints: 10
+  - level: 73
+    requiredXP: 80235000
+    requiredXPBefore: 80235000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5500
+    levelUpBonusLTLucky: 162000
+    levelUpBonusVIPPoints: 10
+  - level: 74
+    requiredXP: 82440000
+    requiredXPBefore: 82440000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5500
+    levelUpBonusLTLucky: 164250
+    levelUpBonusVIPPoints: 10
+  - level: 75
+    requiredXP: 84675000
+    requiredXPBefore: 84675000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5500
+    levelUpBonusLTLucky: 166500
+    levelUpBonusVIPPoints: 10
+  - level: 76
+    requiredXP: 86940000
+    requiredXPBefore: 86940000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5500
+    levelUpBonusLTLucky: 168750
+    levelUpBonusVIPPoints: 10
+  - level: 77
+    requiredXP: 89235000
+    requiredXPBefore: 89235000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5500
+    levelUpBonusLTLucky: 171000
+    levelUpBonusVIPPoints: 10
+  - level: 78
+    requiredXP: 91560000
+    requiredXPBefore: 91560000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5500
+    levelUpBonusLTLucky: 173250
+    levelUpBonusVIPPoints: 10
+  - level: 79
+    requiredXP: 93915000
+    requiredXPBefore: 93915000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5500
+    levelUpBonusLTLucky: 175500
+    levelUpBonusVIPPoints: 10
+  - level: 80
+    requiredXP: 96300000
+    requiredXPBefore: 96300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 5500
+    levelUpBonusLTLucky: 177750
+    levelUpBonusVIPPoints: 10
+  - level: 81
+    requiredXP: 98715000
+    requiredXPBefore: 98715000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 6000
+    levelUpBonusLTLucky: 180000
+    levelUpBonusVIPPoints: 10
+  - level: 82
+    requiredXP: 101160000
+    requiredXPBefore: 101160000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 6000
+    levelUpBonusLTLucky: 182250
+    levelUpBonusVIPPoints: 10
+  - level: 83
+    requiredXP: 103635000
+    requiredXPBefore: 103635000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 6000
+    levelUpBonusLTLucky: 184500
+    levelUpBonusVIPPoints: 10
+  - level: 84
+    requiredXP: 106140000
+    requiredXPBefore: 106140000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 6000
+    levelUpBonusLTLucky: 186750
+    levelUpBonusVIPPoints: 10
+  - level: 85
+    requiredXP: 108675000
+    requiredXPBefore: 108675000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 6000
+    levelUpBonusLTLucky: 189000
+    levelUpBonusVIPPoints: 10
+  - level: 86
+    requiredXP: 111240000
+    requiredXPBefore: 111240000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 6000
+    levelUpBonusLTLucky: 191250
+    levelUpBonusVIPPoints: 10
+  - level: 87
+    requiredXP: 113835000
+    requiredXPBefore: 113835000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 6000
+    levelUpBonusLTLucky: 193500
+    levelUpBonusVIPPoints: 10
+  - level: 88
+    requiredXP: 116460000
+    requiredXPBefore: 116460000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 6000
+    levelUpBonusLTLucky: 195750
+    levelUpBonusVIPPoints: 10
+  - level: 89
+    requiredXP: 119115000
+    requiredXPBefore: 119115000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 6000
+    levelUpBonusLTLucky: 198000
+    levelUpBonusVIPPoints: 10
+  - level: 90
+    requiredXP: 121800000
+    requiredXPBefore: 121800000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 6000
+    levelUpBonusLTLucky: 200250
+    levelUpBonusVIPPoints: 10
+  - level: 91
+    requiredXP: 124515000
+    requiredXPBefore: 124515000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7000
+    levelUpBonusLTLucky: 202500
+    levelUpBonusVIPPoints: 10
+  - level: 92
+    requiredXP: 127260000
+    requiredXPBefore: 127260000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7000
+    levelUpBonusLTLucky: 204750
+    levelUpBonusVIPPoints: 10
+  - level: 93
+    requiredXP: 130035000
+    requiredXPBefore: 130035000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7000
+    levelUpBonusLTLucky: 207000
+    levelUpBonusVIPPoints: 10
+  - level: 94
+    requiredXP: 132840000
+    requiredXPBefore: 132840000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7000
+    levelUpBonusLTLucky: 209250
+    levelUpBonusVIPPoints: 10
+  - level: 95
+    requiredXP: 135675000
+    requiredXPBefore: 135675000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7000
+    levelUpBonusLTLucky: 211500
+    levelUpBonusVIPPoints: 10
+  - level: 96
+    requiredXP: 138540000
+    requiredXPBefore: 138540000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7000
+    levelUpBonusLTLucky: 213750
+    levelUpBonusVIPPoints: 10
+  - level: 97
+    requiredXP: 141435000
+    requiredXPBefore: 141435000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7000
+    levelUpBonusLTLucky: 216000
+    levelUpBonusVIPPoints: 10
+  - level: 98
+    requiredXP: 144360000
+    requiredXPBefore: 144360000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7000
+    levelUpBonusLTLucky: 218250
+    levelUpBonusVIPPoints: 10
+  - level: 99
+    requiredXP: 147315000
+    requiredXPBefore: 147315000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7000
+    levelUpBonusLTLucky: 220500
+    levelUpBonusVIPPoints: 10
+  - level: 100
+    requiredXP: 150300000
+    requiredXPBefore: 150300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7000
+    levelUpBonusLTLucky: 222750
+    levelUpBonusVIPPoints: 10
+  - level: 101
+    requiredXP: 153300000
+    requiredXPBefore: 153300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 102
+    requiredXP: 156300000
+    requiredXPBefore: 156300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 103
+    requiredXP: 159300000
+    requiredXPBefore: 159300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 104
+    requiredXP: 162300000
+    requiredXPBefore: 162300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 105
+    requiredXP: 165300000
+    requiredXPBefore: 165300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 106
+    requiredXP: 168300000
+    requiredXPBefore: 168300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 107
+    requiredXP: 171300000
+    requiredXPBefore: 171300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 108
+    requiredXP: 174300000
+    requiredXPBefore: 174300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 109
+    requiredXP: 177300000
+    requiredXPBefore: 177300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 110
+    requiredXP: 180300000
+    requiredXPBefore: 180300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 111
+    requiredXP: 183300000
+    requiredXPBefore: 183300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 112
+    requiredXP: 186300000
+    requiredXPBefore: 186300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 113
+    requiredXP: 189300000
+    requiredXPBefore: 189300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 114
+    requiredXP: 192300000
+    requiredXPBefore: 192300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 115
+    requiredXP: 195300000
+    requiredXPBefore: 195300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 116
+    requiredXP: 198300000
+    requiredXPBefore: 198300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 117
+    requiredXP: 201300000
+    requiredXPBefore: 201300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 118
+    requiredXP: 204300000
+    requiredXPBefore: 204300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 119
+    requiredXP: 207300000
+    requiredXPBefore: 207300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 120
+    requiredXP: 210300000
+    requiredXPBefore: 210300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 121
+    requiredXP: 213300000
+    requiredXPBefore: 213300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 122
+    requiredXP: 216300000
+    requiredXPBefore: 216300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 123
+    requiredXP: 219300000
+    requiredXPBefore: 219300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 124
+    requiredXP: 222300000
+    requiredXPBefore: 222300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 125
+    requiredXP: 225300000
+    requiredXPBefore: 225300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 126
+    requiredXP: 228300000
+    requiredXPBefore: 228300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 127
+    requiredXP: 231300000
+    requiredXPBefore: 231300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 128
+    requiredXP: 234300000
+    requiredXPBefore: 234300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 129
+    requiredXP: 237300000
+    requiredXPBefore: 237300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 130
+    requiredXP: 240300000
+    requiredXPBefore: 240300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 131
+    requiredXP: 243300000
+    requiredXPBefore: 243300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 132
+    requiredXP: 246300000
+    requiredXPBefore: 246300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 133
+    requiredXP: 249300000
+    requiredXPBefore: 249300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 134
+    requiredXP: 252300000
+    requiredXPBefore: 252300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 135
+    requiredXP: 255300000
+    requiredXPBefore: 255300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 136
+    requiredXP: 258300000
+    requiredXPBefore: 258300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 137
+    requiredXP: 261300000
+    requiredXPBefore: 261300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 138
+    requiredXP: 264300000
+    requiredXPBefore: 264300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 139
+    requiredXP: 267300000
+    requiredXPBefore: 267300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 140
+    requiredXP: 270300000
+    requiredXPBefore: 270300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 141
+    requiredXP: 273300000
+    requiredXPBefore: 273300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 142
+    requiredXP: 276300000
+    requiredXPBefore: 276300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 143
+    requiredXP: 279300000
+    requiredXPBefore: 279300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 144
+    requiredXP: 282300000
+    requiredXPBefore: 282300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 145
+    requiredXP: 285300000
+    requiredXPBefore: 285300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 146
+    requiredXP: 288300000
+    requiredXPBefore: 288300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 147
+    requiredXP: 291300000
+    requiredXPBefore: 291300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 148
+    requiredXP: 294300000
+    requiredXPBefore: 294300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 149
+    requiredXP: 297300000
+    requiredXPBefore: 297300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 150
+    requiredXP: 300300000
+    requiredXPBefore: 300300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 151
+    requiredXP: 303300000
+    requiredXPBefore: 303300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 152
+    requiredXP: 306300000
+    requiredXPBefore: 306300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 153
+    requiredXP: 309300000
+    requiredXPBefore: 309300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 154
+    requiredXP: 312300000
+    requiredXPBefore: 312300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 155
+    requiredXP: 315300000
+    requiredXPBefore: 315300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 156
+    requiredXP: 318300000
+    requiredXPBefore: 318300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 157
+    requiredXP: 321300000
+    requiredXPBefore: 321300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 158
+    requiredXP: 324300000
+    requiredXPBefore: 324300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 159
+    requiredXP: 327300000
+    requiredXPBefore: 327300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 160
+    requiredXP: 330300000
+    requiredXPBefore: 330300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 161
+    requiredXP: 333300000
+    requiredXPBefore: 333300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 162
+    requiredXP: 336300000
+    requiredXPBefore: 336300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 163
+    requiredXP: 339300000
+    requiredXPBefore: 339300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 164
+    requiredXP: 342300000
+    requiredXPBefore: 342300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 165
+    requiredXP: 345300000
+    requiredXPBefore: 345300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 166
+    requiredXP: 348300000
+    requiredXPBefore: 348300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 167
+    requiredXP: 351300000
+    requiredXPBefore: 351300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 168
+    requiredXP: 354300000
+    requiredXPBefore: 354300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 169
+    requiredXP: 357300000
+    requiredXPBefore: 357300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 170
+    requiredXP: 360300000
+    requiredXPBefore: 360300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 171
+    requiredXP: 363300000
+    requiredXPBefore: 363300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 172
+    requiredXP: 366300000
+    requiredXPBefore: 366300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 173
+    requiredXP: 369300000
+    requiredXPBefore: 369300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 174
+    requiredXP: 372300000
+    requiredXPBefore: 372300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 175
+    requiredXP: 375300000
+    requiredXPBefore: 375300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 176
+    requiredXP: 378300000
+    requiredXPBefore: 378300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 177
+    requiredXP: 381300000
+    requiredXPBefore: 381300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 178
+    requiredXP: 384300000
+    requiredXPBefore: 384300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 179
+    requiredXP: 387300000
+    requiredXPBefore: 387300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 180
+    requiredXP: 390300000
+    requiredXPBefore: 390300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 181
+    requiredXP: 393300000
+    requiredXPBefore: 393300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 182
+    requiredXP: 396300000
+    requiredXPBefore: 396300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 183
+    requiredXP: 399300000
+    requiredXPBefore: 399300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 184
+    requiredXP: 402300000
+    requiredXPBefore: 402300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 185
+    requiredXP: 405300000
+    requiredXPBefore: 405300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 186
+    requiredXP: 408300000
+    requiredXPBefore: 408300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 187
+    requiredXP: 411300000
+    requiredXPBefore: 411300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 188
+    requiredXP: 414300000
+    requiredXPBefore: 414300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 189
+    requiredXP: 417300000
+    requiredXPBefore: 417300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 190
+    requiredXP: 420300000
+    requiredXPBefore: 420300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 191
+    requiredXP: 423300000
+    requiredXPBefore: 423300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 192
+    requiredXP: 426300000
+    requiredXPBefore: 426300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 193
+    requiredXP: 429300000
+    requiredXPBefore: 429300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 194
+    requiredXP: 432300000
+    requiredXPBefore: 432300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 195
+    requiredXP: 435300000
+    requiredXPBefore: 435300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 196
+    requiredXP: 438300000
+    requiredXPBefore: 438300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 197
+    requiredXP: 441300000
+    requiredXPBefore: 441300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 198
+    requiredXP: 444300000
+    requiredXPBefore: 444300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 199
+    requiredXP: 447300000
+    requiredXPBefore: 447300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 200
+    requiredXP: 450300000
+    requiredXPBefore: 450300000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10
+  - level: 201
+    requiredXP: 3000000
+    requiredXPBefore: 3000000
+    xPBetMultiplier: 1
+    levelUpBonusCredits: 7500
+    levelUpBonusLTLucky: 225000
+    levelUpBonusVIPPoints: 10

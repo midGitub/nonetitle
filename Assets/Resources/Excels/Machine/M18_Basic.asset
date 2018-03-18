@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M18_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M18.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 3,3,3
+  - key: HasSlide
+    val: 0
+  - key: SmallGameTypes
+    val: None
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: IsBonusValidOnNonPayline
+    val: 1
+  - key: ReelSkin
+    val: M18/M18_Reelback
+  - key: Background
+    val: 
+  - key: PayLine
+    val: M18/M18_PayLine
+  - key: HighLight
+    val: 
+  - key: BackgroundPrefab
+    val: Game/BackgroundM18
+  - key: BackgroundEffectPrefab
+    val: 
+  - key: BackgroundUp
+    val: M18/M18_BackgroundUp
+  - key: BackgroundDown
+    val: M18/M18_BackgroundDown
+  - key: BackgroundLeft
+    val: M18/M18_BackgroundLeft
+  - key: BackgroundRight
+    val: M18/M18_BackgroundLeft
+  - key: JackpotScore
+    val: Game/jackpotFourPool_M18
+  - key: ReelShadowUp
+    val: M18/M18_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1
+  - key: ReelShadowDown
+    val: M18/M18_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1
+  - key: SuperSymbolLightEffect
+    val: M18/FX_M18_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: LeastBet
+    val: 50
+  - key: JackpotMinBet
+    val: 10000
+  - key: SymbolUnitDistanceFactor
+    val: 0.8
+  - key: NormalHitRate
+    val: 0.161
+  - key: LuckyHitRate
+    val: 0.21
+  - key: NormalRTP
+    val: 0.893
+  - key: LuckyRTP
+    val: 2.06
+  - key: IsJackpot
+    val: 1
+  - key: IsPaylineStrongSpecialEffect
+    val: 0
+  - key: NearHitProbs
+    val: 0.2,0.3,0.5
+  - key: MachineBGM
+    val: 
+  - key: JackpotTips
+    val: Map/Tip/JackpotTips
+  - key: JackpotSelect
+    val: Map/Jackpot/JackpotSelect
+  - key: SpinReelSoundNumber
+    val: 3
+  - key: ReelFrameOffsets
+    val: 0,-100,0
+  - key: SpinSpeed
+    val: 30
+  - key: ReelSpinTimes
+    val: 0.4,0.46,0.51,0.4
+  - key: UserBlurImage
+    val: 1

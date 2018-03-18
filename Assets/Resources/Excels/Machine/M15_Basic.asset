@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M15_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M15.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 8,8,8
+  - key: HasSlide
+    val: 0
+  - key: IsMultiLine
+    val: 1
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: ReelSkin
+    val: M15/M15_ReelBack
+  - key: IsReelBackSlice
+    val: 1
+  - key: ReelSkinFrame
+    val: M15/M15_ReelUp
+  - key: MultiFrameAsset
+    val: Game/MultiLineFrameM15
+  - key: Background
+    val: 
+  - key: PayLine
+    val: M15/M15_PayLine
+  - key: HighLight
+    val: M15/M15_HighLight
+  - key: BackgroundPrefab
+    val: Game/BackgroundM15
+  - key: BackgroundUp
+    val: M15/M15_BackgroundUp
+  - key: BackgroundDown
+    val: M15/M15_BackgroundDown
+  - key: BackgroundLeft
+    val: M15/M15_BackgroundLeft
+  - key: BackgroundRight
+    val: M15/M15_BackgroundRight
+  - key: ReelShadowUp
+    val: M15/M15_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1;5;1;-32
+  - key: ReelShadowDown
+    val: M15/M15_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1;4.3;1;35
+  - key: HypeMachineEffect
+    val: M2/M2_HypeMachineEffect
+  - key: SuperSymbolLightEffect
+    val: M15/FX_M15_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: TriggerType
+    val: Payout
+  - key: SmallGameTypes
+    val: Wheel
+  - key: WheelSheetNames
+    val: Wheel,Wheel2
+  - key: WheelPrefabNameDict
+    val: 1,Game/M15/M15_MachineWheelDouble,2,Game/M15/M15_MachineWheelPink,3,Game/M15/M15_MachineWheelBlue
+  - key: SymbolUnitDistanceFactor
+    val: 0.8
+  - key: NormalHitRate
+    val: 0.209
+  - key: LuckyHitRate
+    val: 0.2
+  - key: NormalRTP
+    val: 0.826
+  - key: LuckyRTP
+    val: 2.379
+  - key: NearHitProbs
+    val: 0.3,0.3,0.4
+  - key: SpinSpeed
+    val: 24
+  - key: ReelSpinTimes
+    val: 0.4,0.46,0.51,0.4
+  - key: NormalBlurFactor
+    val: 2

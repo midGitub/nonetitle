@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fcb0154263bd4f1fac66ede1fb9317b, type: 3}
+  m_Name: M20_LuckyNearHit
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M20.xls
+  WorksheetName: LuckyNearHit
+  dataArray:
+  - id: 1
+    symbols:
+    - High7
+    payoutType: 1
+    count: 3
+    overallHit: 0.03
+    reel1Wild:
+    - 0.03
+    - 0.07
+    reel2Wild:
+    - 0.03
+    - 0.07
+    reel3Wild:
+    - 0.03
+    - 0.07
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    fix1ReelOverallHit: 0
+    fix2ReelOverallHit: 0
+    fix1Hit: 0
+    fix2Hit: 0
+    multiLine: 0
+  - id: 2
+    symbols:
+    - Mid7
+    payoutType: 1
+    count: 3
+    overallHit: 0.03
+    reel1Wild:
+    - 0.03
+    - 0.07
+    reel2Wild:
+    - 0.03
+    - 0.07
+    reel3Wild:
+    - 0.03
+    - 0.07
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    fix1ReelOverallHit: 0
+    fix2ReelOverallHit: 0
+    fix1Hit: 0
+    fix2Hit: 0
+    multiLine: 0
+  - id: 3
+    symbols:
+    - TripleBar
+    payoutType: 1
+    count: 3
+    overallHit: 0.03
+    reel1Wild:
+    - 0.03
+    - 0.07
+    reel2Wild:
+    - 0.03
+    - 0.07
+    reel3Wild:
+    - 0.03
+    - 0.07
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    fix1ReelOverallHit: 0
+    fix2ReelOverallHit: 0
+    fix1Hit: 0
+    fix2Hit: 0
+    multiLine: 0
+  - id: 4
+    symbols:
+    - DoubleBar
+    payoutType: 1
+    count: 3
+    overallHit: 0.03
+    reel1Wild:
+    - 0.03
+    - 0.07
+    reel2Wild:
+    - 0.03
+    - 0.07
+    reel3Wild:
+    - 0.03
+    - 0.07
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    fix1ReelOverallHit: 0
+    fix2ReelOverallHit: 0
+    fix1Hit: 0
+    fix2Hit: 0
+    multiLine: 0
+  - id: 5
+    symbols:
+    - SingleBar
+    payoutType: 1
+    count: 3
+    overallHit: 0.03
+    reel1Wild:
+    - 0.03
+    - 0.07
+    reel2Wild:
+    - 0.03
+    - 0.07
+    reel3Wild:
+    - 0.03
+    - 0.07
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    fix1ReelOverallHit: 0
+    fix2ReelOverallHit: 0
+    fix1Hit: 0
+    fix2Hit: 0
+    multiLine: 0
+  - id: 6
+    symbols:
+    - High7
+    - Mid7
+    payoutType: 2
+    count: 3
+    overallHit: 0.03
+    reel1Wild:
+    - 0.03
+    - 0.07
+    reel2Wild:
+    - 0.03
+    - 0.07
+    reel3Wild:
+    - 0.03
+    - 0.07
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    fix1ReelOverallHit: 0
+    fix2ReelOverallHit: 0
+    fix1Hit: 0
+    fix2Hit: 0
+    multiLine: 0
+  - id: 7
+    symbols:
+    - TripleBar
+    - DoubleBar
+    - SingleBar
+    payoutType: 2
+    count: 3
+    overallHit: 0.03
+    reel1Wild:
+    - 0.03
+    - 0.07
+    reel2Wild:
+    - 0.03
+    - 0.07
+    reel3Wild:
+    - 0.03
+    - 0.07
+    reel4Wild: []
+    slide1: 0
+    slide2: 0
+    slide3: 0
+    fix1ReelOverallHit: 0
+    fix2ReelOverallHit: 0
+    fix1Hit: 0
+    fix2Hit: 0
+    multiLine: 0

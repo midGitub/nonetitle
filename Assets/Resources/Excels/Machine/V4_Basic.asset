@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: V4_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/V4.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: '*Logic General Config*'
+    val: 
+  - key: ReelCount
+    val: 3
+  - key: IsMultiLine
+    val: 1
+  - key: NearHitProbs
+    val: 0.3,0.3,0.4
+  - key: '*Logic SmallGame Config*'
+    val: 
+  - key: HasSlide
+    val: 0
+  - key: TriggerType
+    val: Payout
+  - key: SmallGameTypes
+    val: Wheel
+  - key: WheelSheetNames
+    val: Wheel
+  - key: '*Render General Config*'
+    val: 
+  - key: ReelStartPos
+    val: 6,6,6
+  - key: SymbolUnitDistanceFactor
+    val: 0.8
+  - key: ReelSkin
+    val: V4/V4_ReelBack
+  - key: MultiFrameAsset
+    val: Game/MultiLineFrameV4
+  - key: PayLine
+    val: V4/V4_PayLine_1
+  - key: BackgroundPrefab
+    val: Game/BackgroundV4
+  - key: ReelShadowUp
+    val: V4/V4_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1;5;1.015;-42
+  - key: ReelShadowDown
+    val: V4/V4_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1;5;1.015;37
+  - key: SuperSymbolLightEffect
+    val: V4/FX_V4_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: SpinSpeed
+    val: 24
+  - key: ReelSpinTimes
+    val: 0.4,0.46,0.51,0.4
+  - key: '*Render SmallGame Config*'
+    val: 
+  - key: WheelPrefabNameDict
+    val: 1,Game/V4/V4_MachineWheelBlue
+  - key: NormalBlurFactor
+    val: 2

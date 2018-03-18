@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M12_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M12.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 4,7,4
+  - key: HasSlide
+    val: 0
+  - key: SmallGameTypes
+    val: FreeSpin
+  - key: FreeSpinType
+    val: SpinUntilLose
+  - key: IsFreeSpinFixBonus
+    val: 1
+  - key: FreeSpinTriggerCount
+    val: 2
+  - key: FreeSpinTriggerSymbolNames
+    val: WildLeft,WildRight
+  - key: FreeSpinHitsNonWin
+    val: 1,0.9,0.8,0.6
+  - key: SmallGameEffect
+    val: M12/FX_M12_freespin
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: ReelSkin
+    val: M12/M12_ReelBack
+  - key: Background
+    val: 
+  - key: PayLine
+    val: M12/M12_PayLine
+  - key: HighLight
+    val: 
+  - key: BackgroundPrefab
+    val: Game/BackgroundM12
+  - key: BackgroundUp
+    val: M12/M12_BackgroundUp
+  - key: BackgroundDown
+    val: M12/M12_BackgroundDown
+  - key: BackgroundLeft
+    val: M12/M12_BackgroundLeft
+  - key: BackgroundRight
+    val: M12/M12_BackgroundRight
+  - key: ReelShadowUp
+    val: M12/M12_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1
+  - key: ReelShadowDown
+    val: M12/M12_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1
+  - key: HypeMachineEffect
+    val: M12/M12_HypeMachineEffect
+  - key: SuperSymbolLightEffect
+    val: M12/FX_M12_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: NormalHitRate
+    val: 0.18353
+  - key: LuckyHitRate
+    val: 0.23012
+  - key: NormalRTP
+    val: 0.87534589842847
+  - key: LuckyRTP
+    val: 1.9052712421643
+  - key: NearHitProbs
+    val: 0.2,0.3,0.5
+  - key: PostSpinWaitTimeWhenRespin
+    val: 3.8
+  - key: DragonMachineReelEffect
+    val: M12/FX_M12_Freespin_FrameLight
+  - key: SpecialBGM
+    val: M12_Freespin_Start,M12_Freespin_Loop
+  - key: IsSpecialMachine
+    val: 1
+  - key: CanPlaySpecialSymbolEffect
+    val: 1
+  - key: SpecialAudio
+    val: M12Box_Win
+  - key: RespinReelSpecialEffect
+    val: 1
+  - key: FreespinHintDelay
+    val: 2.5
+  - key: FreespinHintAudio
+    val: M12_FreeSpinSwitch
+  - key: NormalBlurFactor
+    val: 2

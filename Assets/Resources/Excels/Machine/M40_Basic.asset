@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M40_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M40.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 4,4,4
+  - key: HasSlide
+    val: 0
+  - key: SmallGameTypes
+    val: TapBox
+  - key: TapBoxPuzzleType
+    val: PuzzleTapBox
+  - key: SmallGamePrefab
+    val: Game/TapBox
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: ReelSkin
+    val: M40/M40_ReelBack
+  - key: Background
+    val: 
+  - key: PayLine
+    val: M40/M40_PayLine
+  - key: HighLight
+    val: 
+  - key: BackgroundPrefab
+    val: Game/BackgroundM40
+  - key: BackgroundUp
+    val: M40/M40_BackgroundUp
+  - key: BackgroundDown
+    val: M40/M40_BackgroundDown
+  - key: BackgroundLeft
+    val: M40/M40_BackgroundLeft
+  - key: BackgroundRight
+    val: M40/M40_BackgroundRight
+  - key: ReelShadowUp
+    val: M40/M40_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1;7;1.01;-41.6
+  - key: ReelShadowDown
+    val: M40/M40_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1;4.1;1.02;28
+  - key: BackgroundEffectPrefab
+    val: M40/FX_M40_SceneEffect
+  - key: HypeMachineEffect
+    val: M2/M2_HypeMachineEffect
+  - key: SuperSymbolLightEffect
+    val: M40/FX_M40_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: CollectSlider
+    val: Game/M40Slider
+  - key: TriggerType
+    val: Collect
+  - key: CollectSymbols
+    val: Candy
+  - key: CollectCount
+    val: 10
+  - key: CollectionProcessType
+    val: SingleLocation
+  - key: CollectFlyDuration
+    val: 0.7
+  - key: CollectAnimatorDuration
+    val: 0.5
+  - key: TapBoxWinProbsOfNormal
+    val: 1,0.9,0.8,0.6
+  - key: TapBoxWinProbsOfLucky
+    val: 1,0.9,0.8,0.7
+  - key: TapBoxWinRatios
+    val: 1,2,5,10,20,50,100,500
+  - key: TapBoxRatioProbsOfNormal
+    val: 0.2,0.3,0.3,0.15,0.03,0.01,0.0099,0.0001
+  - key: TapBoxRatioProbsOfLucky
+    val: 0.1,0.2,0.3,0.3,0.05,0.04,0.0099,0.0001
+  - key: CollectEffect
+    val: M40/FX_M40_Collect
+  - key: CollectHintEffect
+    val: M40/FX_M40_CollectHint
+  - key: NormalCollectRate
+    val: 0.15
+  - key: LuckyCollectRate
+    val: 0.2
+  - key: NormalHitRate
+    val: 0.131
+  - key: LuckyHitRate
+    val: 0.211
+  - key: NormalRTP
+    val: 0.8494
+  - key: LuckyRTP
+    val: 2.0289
+  - key: NearHitProbs
+    val: 0.3,0.2,0.5
+  - key: BackgroundDecoratePrefab
+    val: Game/M40_BackgroundDecorate
+  - key: CollectFlyAudio
+    val: CollectGlass
+  - key: BackgroundEffectStartOn
+    val: 1
+  - key: NormalBlurFactor
+    val: 2

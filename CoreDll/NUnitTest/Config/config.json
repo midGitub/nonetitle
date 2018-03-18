@@ -1,0 +1,53 @@
+{
+	"MachineNames" :
+	[
+		"M1",
+		"M6"
+	],
+
+	"Users" :
+	{
+		"User1" :
+		{
+			"InitLucky" : 100000,
+			"InitCredits" : 20000,
+			"SpinCount" : 1000,
+			"BetAmount" : 500,
+			"IsRandomSeed" : 0,
+			"StartSeed" : 1
+		},
+
+		"User2" :
+		{
+			"InitLucky" : 0,
+			"InitCredits" : 20000,
+			"SpinCount" : 1000,
+			"BetAmount" : 100,
+			"IsRandomSeed" : 1,
+			"StartSeed" : 0
+		}
+	},
+
+	"Cases" :
+	[
+		{
+			"MachineName" : "M1",
+			"UserName" : "User1"
+		},
+
+		{
+			"MachineName" : "M1",
+			"UserName" : "User2"
+		},
+
+		{
+			"MachineName" : "M6",
+			"UserName" : "User1"
+		},
+
+		{
+			"MachineName" : "M6",
+			"UserName" : "User2"
+		}
+	]
+}

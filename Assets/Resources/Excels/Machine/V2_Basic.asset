@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: V2_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/V2.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 4,7,4
+  - key: HasSlide
+    val: 0
+  - key: SmallGameTypes
+    val: None
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: ReelSkin
+    val: V2/V2_ReelBack
+  - key: IsReelBackSlice
+    val: 1
+  - key: Background
+    val: 
+  - key: PayLine
+    val: M1/M1_PayLine
+  - key: HighLight
+    val: 
+  - key: BackgroundPrefab
+    val: Game/BackgroundV2
+  - key: BackgroundUp
+    val: V2/V2_BackgroundUp
+  - key: BackgroundDown
+    val: V2/V2_BackgroundDown
+  - key: BackgroundLeft
+    val: V2/V2_BackgroundLeft
+  - key: BackgroundRight
+    val: V2/V2_BackgroundRight
+  - key: ReelShadowUp
+    val: V2/V2_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1;5;1;-32
+  - key: ReelShadowDown
+    val: V2/V2_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1;5;1.009;28.9
+  - key: HypeMachineEffect
+    val: M2/M2_HypeMachineEffect
+  - key: SuperSymbolLightEffect
+    val: V2/FX_V2_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: NormalHitRate
+    val: 0.14072
+  - key: LuckyHitRate
+    val: 0.20934
+  - key: NormalRTP
+    val: 0.8355
+  - key: LuckyRTP
+    val: 2.2507
+  - key: NearHitProbs
+    val: 0.2,0.3,0.5
+  - key: BackgroundEffectPrefab
+    val: V2/FX_V2_SceneEffect
+  - key: BackgroundEffectStartOn
+    val: 1
+  - key: PeriodRatioBets
+    val: 999,10001
+  - key: NormalBlurFactor
+    val: 2

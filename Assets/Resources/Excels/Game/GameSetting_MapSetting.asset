@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b767ae8b48e44deabd59d19e3879a4, type: 3}
+  m_Name: GameSetting_MapSetting
+  m_EditorClassIdentifier: 
+  SheetName: 
+  WorksheetName: 
+  dataArray:
+  - key: MachineAssetUrlDebug
+    val: https://s3.amazonaws.com/us.cj.down/slots-debug/machineassets/
+  - key: MachineAssetUrlRelease
+    val: https://s3.amazonaws.com/us.cj.down/slots-release/machineassets/
+  - key: MapEffect
+    val: 
+  - key: IsSkipVerifyPurchase
+    val: 0
+  - key: MachineComment_DayInterval
+    val: 2
+  - key: MachineComment_TimesTopLimitPerDay
+    val: 3
+  - key: MachineComment_MinInterval
+    val: 30
+  - key: MachineComment_FirstNoCommentDayPeriod
+    val: 1
+  - key: MachineComment_RewardVal
+    val: 1000
+  - key: BackFlowRewardCoinsBaseNumber
+    val: 1000
+  - key: BackFlowRewardLuckyBaseNumber
+    val: 10000
+  - key: BackFlowRewardLimitedDay
+    val: 4
+  - key: BackFlowRewardPushHour
+    val: 20
+  - key: MinSpinCountOfPopTimeLimitStore
+    val: 50
+  - key: DoubleLevelUpDay
+    val: 6
+  - key: DoubleLevelUpOn
+    val: 1
+  - key: HalloweenDay
+    val: 2017-10-31
+  - key: HalloweenOn
+    val: 1
+  - key: NewMachine
+    val: Poster_President
+  - key: NewMachineName
+    val: M38
+  - key: DefaultScrollSecond
+    val: 3
+  - key: NewMachinePosition
+    val: 16
+  - key: BlackFridayOn
+    val: 1
+  - key: BlackFridayDate
+    val: 2017-11-24
+  - key: BlackFridayComingDate
+    val: 2017-11-23 23:15:00
+  - key: BlackFridayNotifyDate
+    val: '2017-11-24 9:00:00 '
+  - key: TotalSpinCountToOpenScoreApp
+    val: 50
+  - key: ChristmasComingDate
+    val: 2017-12-24 00:00:00
+  - key: ChristmasEndDate
+    val: 2017-12-25 23:59:59
+  - key: ChristmasNotifyDate
+    val: 2017-12-26 09:00:00
+  - key: ChristmasMaxWinUiCooldownHour
+    val: 3
+  - key: ChristmasBonusNotifyDate
+    val: 2017-12-24 20:30:00
+  - key: ActivePromotion
+    val: BlackFriday,Christmas1,Christmas2,Christmas3,Christmas4,Presidentday,Mardigras
+  - key: ActivePromotionLastDay
+    val: 1,2,2,2,2,3,1
+  - key: ActivePromotionAdvanceDay
+    val: 1,1,0,2,2,1,1
+  - key: PauseMinutesOfReloadGame
+    val: 120
+  - key: PauseMinutesOnNewDayOfReloadGame
+    val: 30
+  - key: DoubleHourBonusStartDate
+    val: 2017-12-22 00:00:00
+  - key: DoubleHourBonusEndDate
+    val: 2018-1-4 23:59:59
+  - key: DoubleHourBonusNotifyDate
+    val: 2017-12-21 23:00:00
+  - key: DoubleHourBonusCooldownHour
+    val: 3
+  - key: DoubleHourBonusEndNotifyDate
+    val: 2017-12-26 15:00:00
+  - key: notifyName
+    val: advanceChris,advanceChris,advanceChris,InChris,InChris,InChris,InChris
+  - key: notifyDate
+    val: 2017-12-21 23:00:00,2017-12-27 23:00:00,2017-12-31 23:00:00,2017-12-23 09:00:00,2017-12-25
+      09:00:00,2017-12-29 09:00:00,2018-01-02 09:00:00
+  - key: Christmas1On
+    val: 1
+  - key: Christmas1Date
+    val: 2017-12-22
+  - key: Christmas2On
+    val: 1
+  - key: Christmas2Date
+    val: 2017-12-24
+  - key: Christmas3On
+    val: 1
+  - key: Christmas3Date
+    val: 2017-12-28
+  - key: Christmas4On
+    val: 1
+  - key: Christmas4Date
+    val: 2018-01-01
+  - key: MaxWinActivityDateList
+    val: 2017-12-22 00:00:00,2017-12-24 00:00:00~2017-12-24 00:00:00,2017-12-26 00:00:00~2017-12-26
+      00:00:00,2017-12-28 00:00:00~2017-12-28 00:00:00,2017-12-30 00:00:00~2017-12-30
+      00:00:00,2018-1-1 00:00:00~2018-1-1 00:00:00,2018-1-3 00:00:00~2018-1-3 00:00:00,2018-1-5
+      00:00:00
+  - key: PayUserSpinMonitorIntervalTime
+    val: 600
+  - key: AnnunciationRobotLvupInterTime
+    val: 30
+  - key: AnnunciationRobotUdidStart
+    val: 1000000
+  - key: AnnunciationRobotUdidEnd
+    val: 1099999
+  - key: AnnunciationRobotVipLvRatioList
+    val: 1,0.4~2,0.2~3,0.1~4,0.1~5,0.1~6,0.1
+  - key: AnnunciationEnable
+    val: 1
+  - key: AnnunciationEnableRobotVipLvUp
+    val: 1
+  - key: AnnunciationUpdateIntervalTime
+    val: 10
+  - key: EnableTinyRoom
+    val: 1
+  - key: EnableVipRoom
+    val: 1
+  - key: PresidentdayDate
+    val: 2018-2-17
+  - key: EnableFreePropertyTrack
+    val: 1
+  - key: MardigrasDate
+    val: 2018-2-13

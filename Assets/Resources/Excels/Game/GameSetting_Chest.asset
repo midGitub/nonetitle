@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c24eb63b7c704b52a770b8e9fdd6e0f, type: 3}
+  m_Name: GameSetting_Chest
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Game/GameSetting.xls
+  WorksheetName: Chest
+  dataArray:
+  - money: 0
+    cDTime: 300
+    reward: 64000000c8000000f4010000e8030000
+    weights: 0a000000030000000100000001000000
+    lTLucky: 0
+  - money: 1
+    cDTime: 300
+    reward: 64000000c8000000f4010000e8030000
+    weights: 0a000000030000000100000001000000
+    lTLucky: 0
+  - money: 5
+    cDTime: 300
+    reward: 64000000c8000000f4010000e8030000
+    weights: 0a000000030000000100000001000000
+    lTLucky: 0
+  - money: 10
+    cDTime: 300
+    reward: 64000000c8000000f4010000e8030000
+    weights: 0a000000030000000100000001000000
+    lTLucky: 0
+  - money: 50
+    cDTime: 300
+    reward: 64000000c8000000f4010000e8030000
+    weights: 0a000000030000000100000001000000
+    lTLucky: 0
+  - money: 150
+    cDTime: 300
+    reward: 64000000c8000000f4010000e8030000
+    weights: 0a000000030000000100000001000000
+    lTLucky: 0
+  - money: 500
+    cDTime: 300
+    reward: 64000000c8000000f4010000e8030000
+    weights: 0a000000030000000100000001000000
+    lTLucky: 0
+  - money: 1000
+    cDTime: 300
+    reward: 64000000c8000000f4010000e8030000
+    weights: 0a000000030000000100000001000000
+    lTLucky: 0
+  - money: 5000
+    cDTime: 300
+    reward: 64000000c8000000f4010000e8030000
+    weights: 0a000000030000000100000001000000
+    lTLucky: 0
+  - money: 10000
+    cDTime: 300
+    reward: 64000000c8000000f4010000e8030000
+    weights: 0a000000030000000100000001000000
+    lTLucky: 0

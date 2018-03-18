@@ -1,0 +1,528 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8a420af0d46a4aad87ffd77dd2c34f7, type: 3}
+  m_Name: M10_Wheel
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M10.xls
+  WorksheetName: Wheel
+  dataArray:
+  - iD: 1
+    ratio:
+    - 50
+    - 10
+    prob: 2
+    angle:
+    - 45
+    - 45
+  - iD: 2
+    ratio:
+    - 50
+    - 2
+    prob: 10
+    angle:
+    - 45
+    - 90
+  - iD: 3
+    ratio:
+    - 50
+    - 5
+    prob: 5
+    angle:
+    - 45
+    - 135
+  - iD: 4
+    ratio:
+    - 50
+    - 3
+    prob: 5
+    angle:
+    - 45
+    - 180
+  - iD: 5
+    ratio:
+    - 50
+    - 6
+    prob: 5
+    angle:
+    - 45
+    - 225
+  - iD: 6
+    ratio:
+    - 50
+    - 2
+    prob: 10
+    angle:
+    - 45
+    - 270
+  - iD: 7
+    ratio:
+    - 50
+    - 4
+    prob: 5
+    angle:
+    - 45
+    - 315
+  - iD: 8
+    ratio:
+    - 50
+    - 3
+    prob: 5
+    angle:
+    - 45
+    - 360
+  - iD: 9
+    ratio:
+    - 2
+    - 10
+    prob: 35
+    angle:
+    - 90
+    - 45
+  - iD: 10
+    ratio:
+    - 2
+    - 2
+    prob: 2
+    angle:
+    - 90
+    - 90
+  - iD: 11
+    ratio:
+    - 2
+    - 5
+    prob: 20
+    angle:
+    - 90
+    - 135
+  - iD: 12
+    ratio:
+    - 2
+    - 3
+    prob: 5
+    angle:
+    - 90
+    - 180
+  - iD: 13
+    ratio:
+    - 2
+    - 6
+    prob: 25
+    angle:
+    - 90
+    - 225
+  - iD: 14
+    ratio:
+    - 2
+    - 2
+    prob: 2
+    angle:
+    - 90
+    - 270
+  - iD: 15
+    ratio:
+    - 2
+    - 4
+    prob: 10
+    angle:
+    - 90
+    - 315
+  - iD: 16
+    ratio:
+    - 2
+    - 3
+    prob: 5
+    angle:
+    - 90
+    - 360
+  - iD: 17
+    ratio:
+    - 10
+    - 10
+    prob: 10
+    angle:
+    - 135
+    - 45
+  - iD: 18
+    ratio:
+    - 10
+    - 2
+    prob: 40
+    angle:
+    - 135
+    - 90
+  - iD: 19
+    ratio:
+    - 10
+    - 5
+    prob: 30
+    angle:
+    - 135
+    - 135
+  - iD: 20
+    ratio:
+    - 10
+    - 3
+    prob: 60
+    angle:
+    - 135
+    - 180
+  - iD: 21
+    ratio:
+    - 10
+    - 6
+    prob: 25
+    angle:
+    - 135
+    - 225
+  - iD: 22
+    ratio:
+    - 10
+    - 2
+    prob: 40
+    angle:
+    - 135
+    - 270
+  - iD: 23
+    ratio:
+    - 10
+    - 4
+    prob: 40
+    angle:
+    - 135
+    - 315
+  - iD: 24
+    ratio:
+    - 10
+    - 3
+    prob: 60
+    angle:
+    - 135
+    - 360
+  - iD: 25
+    ratio:
+    - 5
+    - 10
+    prob: 30
+    angle:
+    - 180
+    - 45
+  - iD: 26
+    ratio:
+    - 5
+    - 2
+    prob: 20
+    angle:
+    - 180
+    - 90
+  - iD: 27
+    ratio:
+    - 5
+    - 5
+    prob: 50
+    angle:
+    - 180
+    - 135
+  - iD: 28
+    ratio:
+    - 5
+    - 3
+    prob: 30
+    angle:
+    - 180
+    - 180
+  - iD: 29
+    ratio:
+    - 5
+    - 6
+    prob: 60
+    angle:
+    - 180
+    - 225
+  - iD: 30
+    ratio:
+    - 5
+    - 2
+    prob: 20
+    angle:
+    - 180
+    - 270
+  - iD: 31
+    ratio:
+    - 5
+    - 4
+    prob: 40
+    angle:
+    - 180
+    - 315
+  - iD: 32
+    ratio:
+    - 5
+    - 3
+    prob: 30
+    angle:
+    - 180
+    - 360
+  - iD: 33
+    ratio:
+    - 25
+    - 10
+    prob: 5
+    angle:
+    - 225
+    - 45
+  - iD: 34
+    ratio:
+    - 25
+    - 2
+    prob: 30
+    angle:
+    - 225
+    - 90
+  - iD: 35
+    ratio:
+    - 25
+    - 5
+    prob: 5
+    angle:
+    - 225
+    - 135
+  - iD: 36
+    ratio:
+    - 25
+    - 3
+    prob: 20
+    angle:
+    - 225
+    - 180
+  - iD: 37
+    ratio:
+    - 25
+    - 6
+    prob: 10
+    angle:
+    - 225
+    - 225
+  - iD: 38
+    ratio:
+    - 25
+    - 2
+    prob: 30
+    angle:
+    - 225
+    - 270
+  - iD: 39
+    ratio:
+    - 25
+    - 4
+    prob: 10
+    angle:
+    - 225
+    - 315
+  - iD: 40
+    ratio:
+    - 25
+    - 3
+    prob: 20
+    angle:
+    - 225
+    - 360
+  - iD: 41
+    ratio:
+    - 3
+    - 10
+    prob: 60
+    angle:
+    - 270
+    - 45
+  - iD: 42
+    ratio:
+    - 3
+    - 2
+    prob: 5
+    angle:
+    - 270
+    - 90
+  - iD: 43
+    ratio:
+    - 3
+    - 5
+    prob: 30
+    angle:
+    - 270
+    - 135
+  - iD: 44
+    ratio:
+    - 3
+    - 3
+    prob: 10
+    angle:
+    - 270
+    - 180
+  - iD: 45
+    ratio:
+    - 3
+    - 6
+    prob: 35
+    angle:
+    - 270
+    - 225
+  - iD: 46
+    ratio:
+    - 3
+    - 2
+    prob: 5
+    angle:
+    - 270
+    - 270
+  - iD: 47
+    ratio:
+    - 3
+    - 4
+    prob: 25
+    angle:
+    - 270
+    - 315
+  - iD: 48
+    ratio:
+    - 3
+    - 3
+    prob: 10
+    angle:
+    - 270
+    - 360
+  - iD: 49
+    ratio:
+    - 15
+    - 10
+    prob: 10
+    angle:
+    - 315
+    - 45
+  - iD: 50
+    ratio:
+    - 15
+    - 2
+    prob: 60
+    angle:
+    - 315
+    - 90
+  - iD: 51
+    ratio:
+    - 15
+    - 5
+    prob: 20
+    angle:
+    - 315
+    - 135
+  - iD: 52
+    ratio:
+    - 15
+    - 3
+    prob: 35
+    angle:
+    - 315
+    - 180
+  - iD: 53
+    ratio:
+    - 15
+    - 6
+    prob: 10
+    angle:
+    - 315
+    - 225
+  - iD: 54
+    ratio:
+    - 15
+    - 2
+    prob: 60
+    angle:
+    - 315
+    - 270
+  - iD: 55
+    ratio:
+    - 15
+    - 4
+    prob: 25
+    angle:
+    - 315
+    - 315
+  - iD: 56
+    ratio:
+    - 15
+    - 3
+    prob: 35
+    angle:
+    - 315
+    - 360
+  - iD: 57
+    ratio:
+    - 8
+    - 10
+    prob: 15
+    angle:
+    - 360
+    - 45
+  - iD: 58
+    ratio:
+    - 8
+    - 2
+    prob: 30
+    angle:
+    - 360
+    - 90
+  - iD: 59
+    ratio:
+    - 8
+    - 5
+    prob: 40
+    angle:
+    - 360
+    - 135
+  - iD: 60
+    ratio:
+    - 8
+    - 3
+    prob: 50
+    angle:
+    - 360
+    - 180
+  - iD: 61
+    ratio:
+    - 8
+    - 6
+    prob: 30
+    angle:
+    - 360
+    - 225
+  - iD: 62
+    ratio:
+    - 8
+    - 2
+    prob: 30
+    angle:
+    - 360
+    - 270
+  - iD: 63
+    ratio:
+    - 8
+    - 4
+    prob: 60
+    angle:
+    - 360
+    - 315
+  - iD: 64
+    ratio:
+    - 8
+    - 3
+    prob: 50
+    angle:
+    - 360
+    - 360

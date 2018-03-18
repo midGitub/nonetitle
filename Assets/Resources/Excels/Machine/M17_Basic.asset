@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M17_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M17.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 4,4,4
+  - key: HasSlide
+    val: 0
+  - key: IsMultiLine
+    val: 1
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: ReelSkin
+    val: M17/M17_ReelBack
+  - key: IsReelBackSlice
+    val: 1
+  - key: Background
+    val: 
+  - key: PayLine
+    val: M17/M17_PayLine
+  - key: HighLight
+    val: M17/M17_HighLight
+  - key: BackgroundPrefab
+    val: Game/BackgroundM17
+  - key: BackgroundUp
+    val: M17/M17_BackgroundUp
+  - key: BackgroundDown
+    val: M17/M17_BackgroundDown
+  - key: BackgroundLeft
+    val: M17/M17_BackgroundLeft
+  - key: BackgroundRight
+    val: M17/M17_BackgroundRight
+  - key: ReelShadowUp
+    val: M17/M17_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1
+  - key: ReelShadowDown
+    val: M17/M17_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1
+  - key: SuperSymbolLightEffect
+    val: M17/FX_M17_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: SymbolUnitDistanceFactor
+    val: 0.8
+  - key: NormalHitRate
+    val: 0.209
+  - key: LuckyHitRate
+    val: 0.2
+  - key: NormalRTP
+    val: 0.826
+  - key: LuckyRTP
+    val: 2.379
+  - key: NearHitProbs
+    val: 0.3,0.3,0.4
+  - key: SmallGameTypes
+    val: FreeSpin
+  - key: TriggerType
+    val: Payout
+  - key: FreeSpinType
+    val: SpinUntilLose
+  - key: IsFreeSpinFixBonus
+    val: 0
+  - key: FreeSpinTriggerCount
+    val: 3
+  - key: FreeSpinTriggerSymbolNames
+    val: Bonus
+  - key: FreeSpinHits
+    val: 1,0.9,0.8,0.6,0.5
+  - key: LuckyFreeSpinHits
+    val: 1,0.9,0.8,0.6
+  - key: FreeSpinHitsNonWin
+    val: 1,0.9,0.8,0.6
+  - key: SmallGameEffect
+    val: M17/FX_M17_FreeSpin
+  - key: FreespinHintDelay
+    val: 1
+  - key: FreespinHintAudio
+    val: M17_FreeSpinSwitch
+  - key: ReelNormalWinEffectOffsets
+    val: -9,0,0,0,9,0
+  - key: ReelBigWinEffectOffsets
+    val: -9,0,0,0,9,0
+  - key: SpinSpeed
+    val: 24
+  - key: ReelSpinTimes
+    val: 0.4,0.46,0.51,0.4
+  - key: NormalBlurFactor
+    val: 2

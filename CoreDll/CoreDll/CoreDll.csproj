@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C83608C0-CC4C-4C5D-9D26-23CCEF5CE31D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CoreDll</RootNamespace>
+    <AssemblyName>CoreDll</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;CORE_DLL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="ES2">
+      <HintPath>Plugins\ES2.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>Plugins\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\..\Assets\Scripts\CitrusFramework\Utilities\MiniJSON.cs">
+      <Link>Utilities\MiniJSON.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\CoreCollectData.cs">
+      <Link>Core\CoreCollectData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\CoreDefine.cs">
+      <Link>Core\CoreDefine.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\CoreLuckyManager.cs">
+      <Link>Core\CoreLuckyManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\CoreMachine.cs">
+      <Link>Core\CoreMachine.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\CoreReel.cs">
+      <Link>Core\CoreReel.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\CoreSpinData.cs">
+      <Link>Core\CoreSpinData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\CoreSpinInput.cs">
+      <Link>Core\CoreSpinInput.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\CoreSpinResult.cs">
+      <Link>Core\CoreSpinResult.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\CoreSymbol.cs">
+      <Link>Core\CoreSymbol.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\CoreUtility.cs">
+      <Link>Core\CoreUtility.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Checker\CoreBaseCheckResult.cs">
+      <Link>Core\Checker\CoreBaseCheckResult.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Checker\CoreBaseChecker.cs">
+      <Link>Core\Checker\CoreBaseChecker.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Checker\CoreCheckResult.cs">
+      <Link>Core\Checker\CoreCheckResult.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Checker\CoreChecker.cs">
+      <Link>Core\Checker\CoreChecker.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Checker\CoreMultiLineCheckResult.cs">
+      <Link>Core\Checker\CoreMultiLineCheckResult.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Checker\CoreMultiLineChecker.cs">
+      <Link>Core\Checker\CoreMultiLineChecker.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\CoreAssetManager.cs">
+      <Link>Core\Data\CoreAssetManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Core\CoreConfig.cs">
+      <Link>Core\Data\Core\CoreConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Core\AutoGenerated\LuckyData.cs">
+      <Link>Core\Data\Core\AutoGenerated\LuckyData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Core\AutoGenerated\LuckySheet.cs">
+      <Link>Core\Data\Core\AutoGenerated\LuckySheet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Core\AutoGenerated\MiscData.cs">
+      <Link>Core\Data\Core\AutoGenerated\MiscData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Core\AutoGenerated\MiscSheet.cs">
+      <Link>Core\Data\Core\AutoGenerated\MiscSheet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Core\SheetWrapper\LuckyConfig.cs">
+      <Link>Core\Data\Core\SheetWrapper\LuckyConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Core\SheetWrapper\MiscConfig.cs">
+      <Link>Core\Data\Core\SheetWrapper\MiscConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\MachineConfig.cs">
+      <Link>Core\Data\Machine\MachineConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\BasicData.cs">
+      <Link>Core\Data\Machine\AutoGenerated\BasicData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\BasicSheet.cs">
+      <Link>Core\Data\Machine\AutoGenerated\BasicSheet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\NearHitData.cs">
+      <Link>Core\Data\Machine\AutoGenerated\NearHitData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\NearHitDistData.cs">
+      <Link>Core\Data\Machine\AutoGenerated\NearHitDistData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\NearHitDistSheet.cs">
+      <Link>Core\Data\Machine\AutoGenerated\NearHitDistSheet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\NearHitSheet.cs">
+      <Link>Core\Data\Machine\AutoGenerated\NearHitSheet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\PaylineData.cs">
+      <Link>Core\Data\Machine\AutoGenerated\PaylineData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\PaylineSheet.cs">
+      <Link>Core\Data\Machine\AutoGenerated\PaylineSheet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\PayoutData.cs">
+      <Link>Core\Data\Machine\AutoGenerated\PayoutData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\PayoutDistData.cs">
+      <Link>Core\Data\Machine\AutoGenerated\PayoutDistData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\PayoutDistSheet.cs">
+      <Link>Core\Data\Machine\AutoGenerated\PayoutDistSheet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\PayoutSheet.cs">
+      <Link>Core\Data\Machine\AutoGenerated\PayoutSheet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\ReelData.cs">
+      <Link>Core\Data\Machine\AutoGenerated\ReelData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\ReelSheet.cs">
+      <Link>Core\Data\Machine\AutoGenerated\ReelSheet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\RewardResultData.cs">
+      <Link>Core\Data\Machine\AutoGenerated\RewardResultData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\RewardResultSheet.cs">
+      <Link>Core\Data\Machine\AutoGenerated\RewardResultSheet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\SymbolData.cs">
+      <Link>Core\Data\Machine\AutoGenerated\SymbolData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\SymbolSheet.cs">
+      <Link>Core\Data\Machine\AutoGenerated\SymbolSheet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\WheelData.cs">
+      <Link>Core\Data\Machine\AutoGenerated\WheelData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\WheelSheet.cs">
+      <Link>Core\Data\Machine\AutoGenerated\WheelSheet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\BaseJoyConfig.cs">
+      <Link>Core\Data\Machine\SheetWrapper\BaseJoyConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\BaseJoyDistConfig.cs">
+      <Link>Core\Data\Machine\SheetWrapper\BaseJoyDistConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\BasicConfig.cs">
+      <Link>Core\Data\Machine\SheetWrapper\BasicConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\IJoyData.cs">
+      <Link>Core\Data\Machine\SheetWrapper\IJoyData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\IJoyDistData.cs">
+      <Link>Core\Data\Machine\SheetWrapper\IJoyDistData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\NearHitConfig.cs">
+      <Link>Core\Data\Machine\SheetWrapper\NearHitConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\NearHitDistConfig.cs">
+      <Link>Core\Data\Machine\SheetWrapper\NearHitDistConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\PaylineConfig.cs">
+      <Link>Core\Data\Machine\SheetWrapper\PaylineConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\PayoutConfig.cs">
+      <Link>Core\Data\Machine\SheetWrapper\PayoutConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\PayoutDistConfig.cs">
+      <Link>Core\Data\Machine\SheetWrapper\PayoutDistConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\ReelConfig.cs">
+      <Link>Core\Data\Machine\SheetWrapper\ReelConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\RewardResultConfig.cs">
+      <Link>Core\Data\Machine\SheetWrapper\RewardResultConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\SymbolConfig.cs">
+      <Link>Core\Data\Machine\SheetWrapper\SymbolConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\WheelConfig.cs">
+      <Link>Core\Data\Machine\SheetWrapper\WheelConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Generator\CoreGenerator.cs">
+      <Link>Core\Generator\CoreGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Generator\CoreMultiLineGenerator.cs">
+      <Link>Core\Generator\CoreMultiLineGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Generator\ICoreGenerator.cs">
+      <Link>Core\Generator\ICoreGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Jackpot\JackpotBonusPool.cs">
+      <Link>Core\Jackpot\JackpotBonusPool.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Jackpot\JackpotBonusPoolManager.cs">
+      <Link>Core\Jackpot\JackpotBonusPoolManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Jackpot\JackpotData.cs">
+      <Link>Core\Jackpot\JackpotData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Jackpot\JackpotDefine.cs">
+      <Link>Core\Jackpot\JackpotDefine.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Jackpot\JackpotHelper.cs">
+      <Link>Core\Jackpot\JackpotHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Jackpot\JackpotPoolFactory.cs">
+      <Link>Core\Jackpot\JackpotPoolFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\PlayModule\CorePlayModule.cs">
+      <Link>Core\PlayModule\CorePlayModule.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\PlayModule\CorePlayModuleFactory.cs">
+      <Link>Core\PlayModule\CorePlayModuleFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\PlayModule\CorePlayModuleFixWild.cs">
+      <Link>Core\PlayModule\CorePlayModuleFixWild.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\PlayModule\CorePlayModuleFreeSpin.cs">
+      <Link>Core\PlayModule\CorePlayModuleFreeSpin.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\PlayModule\CorePlayModuleJackpot.cs">
+      <Link>Core\PlayModule\CorePlayModuleJackpot.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\PlayModule\CorePlayModuleNormal.cs">
+      <Link>Core\PlayModule\CorePlayModuleNormal.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\PlayModule\CorePlayModuleRewind.cs">
+      <Link>Core\PlayModule\CorePlayModuleRewind.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\PlayModule\CorePlayModuleWheel.cs">
+      <Link>Core\PlayModule\CorePlayModuleWheel.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\UnitTest\CoreRTPChecker.cs">
+      <Link>Core\UnitTest\CoreRTPChecker.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\UserData\UserBasicData_Core.cs">
+      <Link>Core\UserData\UserBasicData_Core.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\UserData\UserDataBase.cs">
+      <Link>Core\UserData\UserDataBase.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\UserData\UserDeviceLocalData_Core.cs">
+      <Link>Core\UserData\UserDeviceLocalData_Core.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\UserData\UserMachineData_Core.cs">
+      <Link>Core\UserData\UserMachineData_Core.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\UserData\UserTempData_Core.cs">
+      <Link>Core\UserData\UserTempData_Core.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Utility\CoreDebugUtility.cs">
+      <Link>Core\Utility\CoreDebugUtility.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Utility\ListUtility.cs">
+      <Link>Core\Utility\ListUtility.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Utility\MathUtility.cs">
+      <Link>Core\Utility\MathUtility.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Utility\SimpleSingleton.cs">
+      <Link>Core\Utility\SimpleSingleton.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Utility\StringExtension.cs">
+      <Link>Core\Utility\StringExtension.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Utility\StringUtility.cs">
+      <Link>Core\Utility\StringUtility.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Utility\Random\IRandomGenerator.cs">
+      <Link>Core\Utility\Random\IRandomGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Utility\Random\LCG.cs">
+      <Link>Core\Utility\Random\LCG.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Utility\Random\RandomUtility.cs">
+      <Link>Core\Utility\Random\RandomUtility.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Scripts\Core\Utility\Random\RollHelper.cs">
+      <Link>Core\Utility\Random\RollHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\ExcelQuery.cs">
+      <Link>ExcelQuery\ExcelQuery.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\ExcelQueryUtility.cs">
+      <Link>ExcelQuery\ExcelQueryUtility.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\IExcelSheet.cs">
+      <Link>ExcelQuery\IExcelSheet.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Utilities\" />
+    <Folder Include="Core\" />
+    <Folder Include="ExcelQuery\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Assets\Scripts\Core\.DS_Store">
+      <Link>Core\.DS_Store</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Checker.meta">
+      <Link>Core\Checker.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\CoreCollectData.cs.meta">
+      <Link>Core\CoreCollectData.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\CoreDefine.cs.meta">
+      <Link>Core\CoreDefine.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\CoreLuckyManager.cs.meta">
+      <Link>Core\CoreLuckyManager.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\CoreMachine.cs.meta">
+      <Link>Core\CoreMachine.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\CoreReel.cs.meta">
+      <Link>Core\CoreReel.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\CoreSpinData.cs.meta">
+      <Link>Core\CoreSpinData.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\CoreSpinInput.cs.meta">
+      <Link>Core\CoreSpinInput.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\CoreSpinResult.cs.meta">
+      <Link>Core\CoreSpinResult.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\CoreSymbol.cs.meta">
+      <Link>Core\CoreSymbol.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\CoreUtility.cs.meta">
+      <Link>Core\CoreUtility.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data.meta">
+      <Link>Core\Data.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Generator.meta">
+      <Link>Core\Generator.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Jackpot.meta">
+      <Link>Core\Jackpot.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\PlayModule.meta">
+      <Link>Core\PlayModule.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\UnitTest.meta">
+      <Link>Core\UnitTest.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\UserData.meta">
+      <Link>Core\UserData.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Utility.meta">
+      <Link>Core\Utility.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Checker\CoreBaseCheckResult.cs.meta">
+      <Link>Core\Checker\CoreBaseCheckResult.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Checker\CoreBaseChecker.cs.meta">
+      <Link>Core\Checker\CoreBaseChecker.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Checker\CoreCheckResult.cs.meta">
+      <Link>Core\Checker\CoreCheckResult.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Checker\CoreChecker.cs.meta">
+      <Link>Core\Checker\CoreChecker.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Checker\CoreMultiLineCheckResult.cs.meta">
+      <Link>Core\Checker\CoreMultiLineCheckResult.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Checker\CoreMultiLineChecker.cs.meta">
+      <Link>Core\Checker\CoreMultiLineChecker.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\.DS_Store">
+      <Link>Core\Data\.DS_Store</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Core.meta">
+      <Link>Core\Data\Core.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\CoreAssetManager.cs.meta">
+      <Link>Core\Data\CoreAssetManager.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine.meta">
+      <Link>Core\Data\Machine.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Core\.DS_Store">
+      <Link>Core\Data\Core\.DS_Store</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Core\AutoGenerated.meta">
+      <Link>Core\Data\Core\AutoGenerated.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Core\CoreConfig.cs.meta">
+      <Link>Core\Data\Core\CoreConfig.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Core\SheetWrapper.meta">
+      <Link>Core\Data\Core\SheetWrapper.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Core\AutoGenerated\LuckyData.cs.meta">
+      <Link>Core\Data\Core\AutoGenerated\LuckyData.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Core\AutoGenerated\LuckySheet.cs.meta">
+      <Link>Core\Data\Core\AutoGenerated\LuckySheet.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Core\AutoGenerated\MiscData.cs.meta">
+      <Link>Core\Data\Core\AutoGenerated\MiscData.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Core\AutoGenerated\MiscSheet.cs.meta">
+      <Link>Core\Data\Core\AutoGenerated\MiscSheet.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Core\SheetWrapper\LuckyConfig.cs.meta">
+      <Link>Core\Data\Core\SheetWrapper\LuckyConfig.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Core\SheetWrapper\MiscConfig.cs.meta">
+      <Link>Core\Data\Core\SheetWrapper\MiscConfig.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\.DS_Store">
+      <Link>Core\Data\Machine\.DS_Store</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated.meta">
+      <Link>Core\Data\Machine\AutoGenerated.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\MachineConfig.cs.meta">
+      <Link>Core\Data\Machine\MachineConfig.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper.meta">
+      <Link>Core\Data\Machine\SheetWrapper.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\.DS_Store">
+      <Link>Core\Data\Machine\AutoGenerated\.DS_Store</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\BasicData.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\BasicData.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\BasicSheet.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\BasicSheet.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\NearHitData.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\NearHitData.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\NearHitDistData.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\NearHitDistData.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\NearHitDistSheet.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\NearHitDistSheet.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\NearHitSheet.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\NearHitSheet.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\PaylineData.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\PaylineData.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\PaylineSheet.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\PaylineSheet.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\PayoutData.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\PayoutData.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\PayoutDistData.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\PayoutDistData.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\PayoutDistSheet.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\PayoutDistSheet.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\PayoutSheet.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\PayoutSheet.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\ReelData.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\ReelData.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\ReelSheet.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\ReelSheet.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\RewardResultData.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\RewardResultData.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\RewardResultSheet.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\RewardResultSheet.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\SymbolData.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\SymbolData.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\SymbolSheet.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\SymbolSheet.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\WheelData.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\WheelData.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\AutoGenerated\WheelSheet.cs.meta">
+      <Link>Core\Data\Machine\AutoGenerated\WheelSheet.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\BaseJoyConfig.cs.meta">
+      <Link>Core\Data\Machine\SheetWrapper\BaseJoyConfig.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\BaseJoyDistConfig.cs.meta">
+      <Link>Core\Data\Machine\SheetWrapper\BaseJoyDistConfig.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\BasicConfig.cs.meta">
+      <Link>Core\Data\Machine\SheetWrapper\BasicConfig.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\IJoyData.cs.meta">
+      <Link>Core\Data\Machine\SheetWrapper\IJoyData.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\IJoyDistData.cs.meta">
+      <Link>Core\Data\Machine\SheetWrapper\IJoyDistData.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\NearHitConfig.cs.meta">
+      <Link>Core\Data\Machine\SheetWrapper\NearHitConfig.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\NearHitDistConfig.cs.meta">
+      <Link>Core\Data\Machine\SheetWrapper\NearHitDistConfig.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\PaylineConfig.cs.meta">
+      <Link>Core\Data\Machine\SheetWrapper\PaylineConfig.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\PayoutConfig.cs.meta">
+      <Link>Core\Data\Machine\SheetWrapper\PayoutConfig.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\PayoutDistConfig.cs.meta">
+      <Link>Core\Data\Machine\SheetWrapper\PayoutDistConfig.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\ReelConfig.cs.meta">
+      <Link>Core\Data\Machine\SheetWrapper\ReelConfig.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\RewardResultConfig.cs.meta">
+      <Link>Core\Data\Machine\SheetWrapper\RewardResultConfig.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\SymbolConfig.cs.meta">
+      <Link>Core\Data\Machine\SheetWrapper\SymbolConfig.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Data\Machine\SheetWrapper\WheelConfig.cs.meta">
+      <Link>Core\Data\Machine\SheetWrapper\WheelConfig.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Generator\CoreGenerator.cs.meta">
+      <Link>Core\Generator\CoreGenerator.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Generator\CoreMultiLineGenerator.cs.meta">
+      <Link>Core\Generator\CoreMultiLineGenerator.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Generator\ICoreGenerator.cs.meta">
+      <Link>Core\Generator\ICoreGenerator.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Jackpot\JackpotBonusPool.cs.meta">
+      <Link>Core\Jackpot\JackpotBonusPool.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Jackpot\JackpotBonusPoolManager.cs.meta">
+      <Link>Core\Jackpot\JackpotBonusPoolManager.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Jackpot\JackpotData.cs.meta">
+      <Link>Core\Jackpot\JackpotData.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Jackpot\JackpotDefine.cs.meta">
+      <Link>Core\Jackpot\JackpotDefine.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Jackpot\JackpotHelper.cs.meta">
+      <Link>Core\Jackpot\JackpotHelper.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Jackpot\JackpotPoolFactory.cs.meta">
+      <Link>Core\Jackpot\JackpotPoolFactory.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\PlayModule\CorePlayModule.cs.meta">
+      <Link>Core\PlayModule\CorePlayModule.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\PlayModule\CorePlayModuleFactory.cs.meta">
+      <Link>Core\PlayModule\CorePlayModuleFactory.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\PlayModule\CorePlayModuleFixWild.cs.meta">
+      <Link>Core\PlayModule\CorePlayModuleFixWild.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\PlayModule\CorePlayModuleFreeSpin.cs.meta">
+      <Link>Core\PlayModule\CorePlayModuleFreeSpin.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\PlayModule\CorePlayModuleJackpot.cs.meta">
+      <Link>Core\PlayModule\CorePlayModuleJackpot.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\PlayModule\CorePlayModuleNormal.cs.meta">
+      <Link>Core\PlayModule\CorePlayModuleNormal.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\PlayModule\CorePlayModuleRewind.cs.meta">
+      <Link>Core\PlayModule\CorePlayModuleRewind.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\PlayModule\CorePlayModuleWheel.cs.meta">
+      <Link>Core\PlayModule\CorePlayModuleWheel.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\UnitTest\CoreRTPChecker.cs.meta">
+      <Link>Core\UnitTest\CoreRTPChecker.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\UserData\UserBasicData_Core.cs.meta">
+      <Link>Core\UserData\UserBasicData_Core.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\UserData\UserDataBase.cs.meta">
+      <Link>Core\UserData\UserDataBase.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\UserData\UserDeviceLocalData_Core.cs.meta">
+      <Link>Core\UserData\UserDeviceLocalData_Core.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\UserData\UserMachineData_Core.cs.meta">
+      <Link>Core\UserData\UserMachineData_Core.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\UserData\UserTempData_Core.cs.meta">
+      <Link>Core\UserData\UserTempData_Core.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Utility\.DS_Store">
+      <Link>Core\Utility\.DS_Store</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Utility\CoreDebugUtility.cs.meta">
+      <Link>Core\Utility\CoreDebugUtility.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Utility\ListUtility.cs.meta">
+      <Link>Core\Utility\ListUtility.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Utility\MathUtility.cs.meta">
+      <Link>Core\Utility\MathUtility.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Utility\Random.meta">
+      <Link>Core\Utility\Random.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Utility\SimpleSingleton.cs.meta">
+      <Link>Core\Utility\SimpleSingleton.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Utility\StringExtension.cs.meta">
+      <Link>Core\Utility\StringExtension.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Utility\StringUtility.cs.meta">
+      <Link>Core\Utility\StringUtility.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Utility\Random\IRandomGenerator.cs.meta">
+      <Link>Core\Utility\Random\IRandomGenerator.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Utility\Random\LCG.cs.meta">
+      <Link>Core\Utility\Random\LCG.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Utility\Random\RandomUtility.cs.meta">
+      <Link>Core\Utility\Random\RandomUtility.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Scripts\Core\Utility\Random\RollHelper.cs.meta">
+      <Link>Core\Utility\Random\RollHelper.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\ExcelQuery.cs.meta">
+      <Link>ExcelQuery\ExcelQuery.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\ExcelQueryUtility.cs.meta">
+      <Link>ExcelQuery\ExcelQueryUtility.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\IExcelSheet.cs.meta">
+      <Link>ExcelQuery\IExcelSheet.cs.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\Library.meta">
+      <Link>ExcelQuery\Library.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\ICSharpCode.SharpZipLib.dll">
+      <Link>ExcelQuery\Library\ICSharpCode.SharpZipLib.dll</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\ICSharpCode.SharpZipLib.dll.meta">
+      <Link>ExcelQuery\Library\ICSharpCode.SharpZipLib.dll.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\NPOI.2.1.1.txt">
+      <Link>ExcelQuery\Library\NPOI.2.1.1.txt</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\NPOI.2.1.1.txt.meta">
+      <Link>ExcelQuery\Library\NPOI.2.1.1.txt.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\NPOI.OOXML.dll">
+      <Link>ExcelQuery\Library\NPOI.OOXML.dll</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\NPOI.OOXML.dll.meta">
+      <Link>ExcelQuery\Library\NPOI.OOXML.dll.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\NPOI.OpenXml4Net.dll">
+      <Link>ExcelQuery\Library\NPOI.OpenXml4Net.dll</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\NPOI.OpenXml4Net.dll.meta">
+      <Link>ExcelQuery\Library\NPOI.OpenXml4Net.dll.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\NPOI.OpenXmlFormats.dll">
+      <Link>ExcelQuery\Library\NPOI.OpenXmlFormats.dll</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\NPOI.OpenXmlFormats.dll.meta">
+      <Link>ExcelQuery\Library\NPOI.OpenXmlFormats.dll.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\NPOI.XML">
+      <Link>ExcelQuery\Library\NPOI.XML</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\NPOI.XML.meta">
+      <Link>ExcelQuery\Library\NPOI.XML.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\NPOI.dll">
+      <Link>ExcelQuery\Library\NPOI.dll</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\NPOI.dll.meta">
+      <Link>ExcelQuery\Library\NPOI.dll.meta</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\Release Notes.txt">
+      <Link>ExcelQuery\Library\Release Notes.txt</Link>
+    </None>
+    <None Include="..\..\Assets\Editor\QuickSheet\ExcelQuery\Library\Release Notes.txt.meta">
+      <Link>ExcelQuery\Library\Release Notes.txt.meta</Link>
+    </None>
+  </ItemGroup>
+</Project>

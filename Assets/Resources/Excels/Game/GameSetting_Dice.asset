@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d16aa04a3bdbf40e2af5327bf34a8f79, type: 3}
+  m_Name: GameSetting_Dice
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Game/GameSetting.xls
+  WorksheetName: Dice
+  dataArray:
+  - diceType: 1
+    diceNum: 1
+    minRatio: 40
+    minreward: 2000
+    maxreward: 20000
+    gameResult: 010000000200000003000000040000000500000006000000
+    probability: 0.3,0.3,0.2,0.1,0.05,0.05
+    iAPId: 21
+    payUserIAPId: 28
+  - diceType: 2
+    diceNum: 2
+    minRatio: 40
+    minreward: 20001
+    maxreward: 50000
+    gameResult: 02000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c000000
+    probability: 0.2,0.2,0.1,0.1,0.1,0.1,0.05,0.05,0.05,0.03,0.02
+    iAPId: 24
+    payUserIAPId: 24
+  - diceType: 3
+    diceNum: 2
+    minRatio: 40
+    minreward: 50001
+    maxreward: 100000
+    gameResult: 02000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c000000
+    probability: 0.2,0.2,0.1,0.1,0.1,0.1,0.05,0.05,0.05,0.03,0.02
+    iAPId: 25
+    payUserIAPId: 25
+  - diceType: 4
+    diceNum: 2
+    minRatio: 40
+    minreward: 100001
+    maxreward: 500000
+    gameResult: 02000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c000000
+    probability: 0.6,0.2,0.1,0.04,0.02,0.01,0.01,0.005,0.005,0.005,0.005
+    iAPId: 22
+    payUserIAPId: 22
+  - diceType: 5
+    diceNum: 2
+    minRatio: 40
+    minreward: 500001
+    maxreward: 1000000
+    gameResult: 02000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c000000
+    probability: 0.8,0.1,0.04,0.023,0.02,0.008,0.005,0.002,0.001,0.0005,0.0005
+    iAPId: 22
+    payUserIAPId: 22
+  - diceType: 6
+    diceNum: 2
+    minRatio: 40
+    minreward: 1000001
+    maxreward: 3000000
+    gameResult: 02000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c000000
+    probability: 0.9,0.05,0.03,0.01,0.005,0.003,0.001,0.0005,0.0003,0.0001,0.0001
+    iAPId: 26
+    payUserIAPId: 26
+  - diceType: 7
+    diceNum: 2
+    minRatio: 40
+    minreward: 3000001
+    maxreward: 5000000
+    gameResult: 02000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c000000
+    probability: 0.9,0.05,0.03,0.01,0.005,0.003,0.001,0.0005,0.0003,0.0001,0.0001
+    iAPId: 27
+    payUserIAPId: 27

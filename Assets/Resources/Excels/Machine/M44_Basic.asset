@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M44_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M44.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: '*Logic General Config*'
+    val: 
+  - key: ReelCount
+    val: 5
+  - key: IsMultiLine
+    val: 1
+  - key: MultiLineMethod
+    val: SymbolProb
+  - key: ForceWinPayoutId
+    val: 1
+  - key: ForceWinThresholdForNormal
+    val: 100
+  - key: ForceWinThresholdForLucky
+    val: 60
+  - key: '*Logic SmallGame Config*'
+    val: 
+  - key: TriggerType
+    val: Payout
+  - key: SmallGameTypes
+    val: Wheel
+  - key: WheelSheetNames
+    val: Wheel
+  - key: WheelPrefabNameDict
+    val: 1,Game/M44/M44_MachineWheel
+  - key: '*Render General Config*'
+    val: 
+  - key: ReelStartPos
+    val: 10,7,10,7,10
+  - key: SymbolUnitDistanceFactor
+    val: 1
+  - key: ReelSpinTimes
+    val: 0.48,0.42,0.42,0.42,0.42
+  - key: ReelSkin
+    val: M44/M44_ReelBack
+  - key: MultiFrameAsset
+    val: Game/MultiLineFrameM44
+  - key: MultiLineBackAsset
+    val: Game/MultiLineBackM44
+  - key: IsReelBackSlice
+    val: 1
+  - key: BackgroundPrefab
+    val: Game/BackgroundM44
+  - key: BackgroundEffectPrefab
+    val: M44/FX_M44_SceneEffect
+  - key: BackgroundEffectStartOn
+    val: 1
+  - key: ShowBackgroundEffectType
+    val: None
+  - key: ReelShadowUp
+    val: M44/M44_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1;2;0.88;-130
+  - key: ReelShadowDown
+    val: M44/M44_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1;3;0.9;132
+  - key: SuperSymbolLightEffect
+    val: M44/FX_M44_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: BackgroundDecoratePrefab
+    val: Game/M44/M44_BackgroundDecorate
+  - key: ReelFrameOffsets
+    val: -20.0,-100.0,0.0
+  - key: ReelFrameTopBoard
+    val: Game/M44/ReelFrameUpBoard_M44
+  - key: DarkSymbolColors
+    val: 1,1,1,0.35
+  - key: HypeAudios
+    val: HypeSpin1Reel,HypeSpin2Reel
+  - key: MultiLineHypeThreshold
+    val: 100
+  - key: '*Render SmallGame Config*'
+    val: 
+  - key: SmallGameEffect
+    val: M44/FX_M44_Wheel
+  - key: NormalBlurFactor
+    val: 3

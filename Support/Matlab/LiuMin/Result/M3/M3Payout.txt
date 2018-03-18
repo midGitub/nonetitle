@@ -1,0 +1,12 @@
+Id	Symbols	PayoutType	Count	Ratio	RewindHits	OverallHit	LongLuckySubtractFactor	IsFixed	Reel1Wild	Reel2Wild	Reel3Wild	*StandardHit	IsShortLucky
+1	Wildx3,Wildx3,Wildx3	Ordered	3	3000	0,0,0	0.00001	1	TRUE	1,0	1,0	1,0	0	FALSE
+2	Wildx2,Wildx2,Wildx2	Ordered	3	1000	0,0,0	0.00002	1	TRUE	0,1	0,1	0,1	0	FALSE
+3	Wildx3,Wildx2	Any	3	20	0,0,0	0.00005	1	FALSE	0.3,0.7	0.3,0.7	0.3,0.7	0	FALSE
+4	High7	All	3	25	0.2,0.1,0	0.0005	1	FALSE	0.03,0.07	0.03,0.07	0.03,0.07	7	TRUE
+5	7Bar	All	3	10	0.2,0.1,0	0.0012	1	FALSE	0.03,0.07	0.03,0.07	0.03,0.07	7	TRUE
+6	TripleBar	All	3	7	0.2,0.1,0	0.004	1	FALSE	0.03,0.07	0.03,0.07	0.03,0.07	7	TRUE
+7	DoubleBar	All	3	5	0.2,0.1,0	0.008	1	FALSE	0.03,0.07	0.03,0.07	0.03,0.07	7	TRUE
+8	SingleBar	All	3	3	0.2,0,0	0.015	1	FALSE	0.03,0.07	0.03,0.07	0.03,0.07	7	FALSE
+9	High7,7Bar	Any	3	5	0.2,0.1,0	0.012	1	FALSE	0.03,0.07	0.03,0.07	0.03,0.07	7	TRUE
+10	SingleBar,7Bar	Any	3	2	0.2,0.3,0.3	0.02	1	FALSE	0.03,0.07	0.03,0.07	0.03,0.07	7	FALSE
+11	TripleBar,DoubleBar,SingleBar,7Bar	Any	3	1	0.2,0.3,0.3	0.08	1	FALSE	0.03,0.07	0.03,0.07	0.03,0.07	7	FALSE

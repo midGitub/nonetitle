@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe1ddb90139c94684a23b75489f3bb49, type: 3}
+  m_Name: MachineTemplate_RewardResult
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/MachineTemplate.xls
+  WorksheetName: RewardResult
+  dataArray:
+  - payoutId: 1
+    nearHitId: 0
+    payoutReward: 2
+    nearHitReward: 3
+    reel1: 2
+    reel2: 7
+    reel3: 15
+  - payoutId: 1
+    nearHitId: 0
+    payoutReward: 2
+    nearHitReward: 0
+    reel1: 4
+    reel2: 7
+    reel3: 2
+  - payoutId: 2
+    nearHitId: 0
+    payoutReward: 4
+    nearHitReward: 4
+    reel1: 2
+    reel2: 5
+    reel3: 22
+  - payoutId: 2
+    nearHitId: 0
+    payoutReward: 4
+    nearHitReward: 2
+    reel1: 5
+    reel2: 2
+    reel3: 22
+  - payoutId: 3
+    nearHitId: 0
+    payoutReward: 15
+    nearHitReward: 3
+    reel1: 12
+    reel2: 15
+    reel3: 7
+  - payoutId: 3
+    nearHitId: 0
+    payoutReward: 15
+    nearHitReward: 3
+    reel1: 12
+    reel2: 15
+    reel3: 2
+  - payoutId: 0
+    nearHitId: 3
+    payoutReward: 0
+    nearHitReward: 15
+    reel1: 3
+    reel2: 5
+    reel3: 7
+  - payoutId: 0
+    nearHitId: 3
+    payoutReward: 0
+    nearHitReward: 15
+    reel1: 2
+    reel2: 5
+    reel3: 8

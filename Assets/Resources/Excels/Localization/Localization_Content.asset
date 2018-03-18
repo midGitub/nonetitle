@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ff82a0e525d48b3bea198ce9b551d8, type: 3}
+  m_Name: Localization_Content
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Localization/Localization.xls
+  WorksheetName: Content
+  dataArray:
+  - key: notify_hourBonusTitle
+    eng: 'Free Credits! '
+  - key: notify_hourBonus
+    eng: Hourly Bonus is ready! Tap HERE to CLAIM!
+  - key: notify_hourBonus_ios
+    eng: "\U0001F381 Hourly Bonus \U0001F381 is ready! Tap HERE to CLAIM! \U0001F4B0"
+  - key: notify_dayBonusTitle
+    eng: 'Free Credits! '
+  - key: notify_dayBonus
+    eng: Daily Bonus is ready! Tap HERE to CLAIM!
+  - key: notify_dayBonus_ios
+    eng: "\U0001F381 Daily Bonus \U0001F381 is ready! Tap HERE to CLAIM! \U0001F4B0"
+  - key: notify_weekTitle
+    eng: Happy New Week!
+  - key: notify_week
+    eng: It's a new week! Start it off with some Huge Wins! PLAY NOW!
+  - key: notify_week_ios
+    eng: "It's a new week!\U0001F609 Start it off with some Huge Wins!\U0001F3B0 PLAY
+      NOW!"
+  - key: facebookLogin_hint1
+    eng: Get an instant 2,000 Credits
+  - key: facebookLogin_hint2
+    eng: Save Your Progress
+  - key: facebookLogin_hint3
+    eng: Send and Receive Free Gifts
+  - key: friend_noFriendToSend
+    eng: Sorry, you're out of friends to send gifts to
+  - key: friend_noFriendToCollect
+    eng: Sorry, you're out of friends to collect gifts from
+  - key: no_internet_warning
+    eng: 'No internet connection.
+
+      Please check your network setting and try again.'
+  - key: facebookSendGift
+    eng: FREE credits for you. Enjoy!
+  - key: facebookInviteFriend
+    eng: So fun! Get FREE credits and play with me!
+  - key: dice_extraCredits
+    eng: Plus <color=#fff143> {0} </color> Credits
+  - key: dice_infoTextLine2_oneDice
+    eng: '{0} '
+  - key: dice_infoTextLine2_twoDice
+    eng: '{0} '
+  - key: dice_infoTextLine3_oneDice
+    eng: "At Least Double Award\uFF01"
+  - key: dice_infoTextLine3_twoDice
+    eng: "Mutiply Your WIN\uFF01"
+  - key: dice_infoTextLine4_oneDice
+    eng: More Credits
+  - key: dice_infoTextLine4_twoDice
+    eng: Plus {0} Credits
+  - key: dice_infoTextLine5
+    eng: And<color=#fff143> {0} </color> VIP Points
+  - key: dice_infoTextLine6
+    eng: 'For Only<color=#7eff16> {0} </color>  '
+  - key: dice_infoTextLine7
+    eng: JUST for YOU!
+  - key: dice_rollText
+    eng: Roll
+  - key: dice_crazyDiceText
+    eng: Crazy Dice!
+  - key: dice_shareToFacebook
+    eng: Share to Facebook
+  - key: dice_CollectText
+    eng: Collect
+  - key: dice_winUpTo
+    eng: WIN UP TO
+  - key: dice_rollNow
+    eng: ROLL NOW!
+  - key: dice_notNow
+    eng: NOT NOW
+  - key: notify_backFlow
+    eng: Play Huge Win Slots today, and claim a MYSTERY BONUS.
+  - key: notify_backFlowTitle
+    eng: We've missed you so much
+  - key: notify_backFlowMessageFront
+    eng: We've missed you for
+  - key: notify_backFlowMessageEnd
+    eng: days.
+  - key: daybonus_dailybonus
+    eng: Daily Bonus
+  - key: daybonus_multiplier
+    eng: Multiplier
+  - key: daybonus_vipbonus
+    eng: VIP Bonus
+  - key: daybonus_wheel_of_luck
+    eng: Wheel Of Luck
+  - key: purchase_validating
+    eng: The previous purchase is still being processed. Please wait a while and try
+      it later.
+  - key: notify_doubleLevelUp
+    eng: "\U0001F4A5 Level Boom!\U0001F4A5 Double level up is open! \U0001F3B0 PLAY
+      NOW!"
+  - key: notify_doubleLevelUpTitle
+    eng: Double Level Up!
+  - key: bonusAd_win
+    eng: WIN X2
+  - key: bonusAd_nextSpin
+    eng: NEXT SPIN
+  - key: bonusAd_maxBet
+    eng: MAX BET
+  - key: bonusAd_free
+    eng: FREE
+  - key: bonusAd_forYou
+    eng: FOR YOU
+  - key: bonusAd_yourWinning
+    eng: 'YOUR WINNING '
+  - key: bonusAd_double
+    eng: DOUBLE
+  - key: bonusAd_endsIn
+    eng: 'Ends in:'
+  - key: bonusAd_watchVideo
+    eng: WATCH VIDEO
+  - key: bonusAd_maxBet_popup
+    eng: ' GET A FREE SPIN WITH'
+  - key: bonusAd_maxBet_type
+    eng: MAX BET!
+  - key: notify_HalloweenTitle
+    eng: CELEBRATE HALLOWEEN!
+  - key: notify_HalloweenComing
+    eng: "\U0001F383 Halloween is coming! We have some thing special for you! Keep
+      your eyes peeled!"
+  - key: notify_Halloween
+    eng: "\U0001F383 Celebrate Halloween! 2X Credits in every package!"
+  - key: notify_BlackFridayComingTitle
+    eng: Early Bird!
+  - key: notify_BlackFridayComing
+    eng: "\U0001F3C3 BLACK FRIDAY is coming! We have some thing special for you! Keep
+      your eyes peeled!"
+  - key: notify_BlackFridayTitle
+    eng: Black Friday Sale!
+  - key: notify_BlackFriday
+    eng: "\U0001F3C3 BLACK FRIDAY SALE! 2X Credits in every package!"
+  - key: notify_christmas_maxwin
+    eng: "\U0001F384 Merry Christmas! Collect \U0001F4A5 DOUBLE \U0001F4A5 BONUS and
+      Win DOUBLE PRIZE! \U0001F4B0"
+  - key: notify_christmas_title
+    eng: Merry Christmas!
+  - key: notify_christmas_bonus
+    eng: "\U0001F384 Merry Christmas! Click here to get \U0001F381 Christmas Gifts
+      \U0001F381 now! "
+  - key: notify_double_hour_bonus
+    eng: "\U0001F384 Merry Christmas! Collect \U0001F4A5 DOUBLE \U0001F4A5 BONUS and
+      Win DOUBLE PRIZE! \U0001F4B0"
+  - key: notify_double_hour_bonus_end
+    eng: "LAST CHANCE! COLLECT \U0001F4A5 DOUBLE \U0001F4A5 BONUS!"
+  - key: doublepay_title
+    eng: DOUBLE PAY FOR CHRISTMAS!
+  - key: doublepay_content_line1
+    eng: AT CHRISTMAS TIME, YOU CAN COLLECT DOUBLE HOURLY BONUS!
+  - key: doublepay_content_line2
+    eng: PLAY AND CELEBRATE CHRISTMAS!
+  - key: doublepay_symbol
+    eng: DOUBLE PAY
+  - key: chrismas_maxwin_popup_line1
+    eng: PLAYER WILL RECEIVE <size=90><color=green>2X</color></size> THEIR BIGGEST
+      WIN UNTIL 12/25 AT 11:59PM
+  - key: chrismas_maxwin_popup_line2
+    eng: <size=90><color=yellow>TOP7 PLAYER </color></size>WILL RECEIVE <size=90><color=green>3X</color></size>THEIR
+      BIGGEST WIN UNTIL 12/25 AT 11:59PM
+  - key: chrismas_maxwin_popup_remark
+    eng: You will be notified and credited by mailbox at {0} UTC
+  - key: notify_advanceChrisMessage
+    eng: "\U0001F384 Christmas is coming! \U0001F385 We have some thing special for
+      you! Keep your eyes peeled!"
+  - key: notify_advanceChrisTitle
+    eng: Early Bird!
+  - key: notify_InChrisMessage
+    eng: "\U0001F384 Merry Christmas! \U0001F4A5 2X \U0001F4A5 Credits on sale!"
+  - key: notify_InChrisTitle
+    eng: Merry Christmas!
+  - key: userData_chooseWarning
+    eng: Do you wanna give up the higher level progress?
+  - key: bonusAd_doubleWin_freeCredits
+    eng: '{0} FREE CREDITS'
+  - key: annunciation_vipLvUp
+    eng: CONGRATULATE <color=#00BFDB>{0}</color> ON UPGRADING TO <color=#FFAE00>VIP
+      LEVEL {1}</color>!
+  - key: annunciation_guest
+    eng: GUEST

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 620a5e58971ac47719f5a8a8b2a3c7d2, type: 3}
+  m_Name: GameSetting_GroupRepresent
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Game/GameSetting.xls
+  WorksheetName: GroupRepresent
+  dataArray:
+  - model: PayCount
+    presentValue: 000000000100000002000000
+    realValue: 0200000005000000
+  - model: PayAmout
+    presentValue: 0000000001000000020000000300000004000000
+    realValue: 02000000120000002d000000f4010000
+  - model: HistoryMaxPay
+    presentValue: 000000000100000002000000
+    realValue: 3100000063000000
+  - model: Spin
+    presentValue: 000000000100000002000000
+    realValue: c8000000f4010000
+  - model: Session
+    presentValue: 000000000100000002000000
+    realValue: 0300000005000000

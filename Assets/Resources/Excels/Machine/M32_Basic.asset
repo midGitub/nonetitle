@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M32_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M32.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 18,6,18
+  - key: HasSlide
+    val: 0
+  - key: SmallGameTypes
+    val: FreeSpin
+  - key: SmallGameEffect
+    val: FX_FreeSpinWord_M32
+  - key: FreeSpinType
+    val: SpinUntilLose
+  - key: IsFreeSpinFixBonus
+    val: 1
+  - key: FreeSpinTriggerCount
+    val: 1
+  - key: FreeSpinTriggerSymbolNames
+    val: BonusWild
+  - key: FreeSpinHitsNonWin
+    val: 1,0.9,0.8,0.6
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: IsBonusValidOnNonPayline
+    val: 1
+  - key: ReelSkin
+    val: M32/M32_ReelBack
+  - key: Background
+    val: 
+  - key: PayLine
+    val: M32/M32_PayLine
+  - key: HighLight
+    val: 
+  - key: BackgroundPrefab
+    val: Game/BackgroundM32
+  - key: BackgroundUp
+    val: M32/M32_BackgroundUp
+  - key: BackgroundDown
+    val: M32/M32_BackgroundDown
+  - key: BackgroundLeft
+    val: M32/M32_BackgroundLeft
+  - key: BackgroundRight
+    val: M32/M32_BackgroundRight
+  - key: ReelShadowUp
+    val: M32/M32_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1
+  - key: ReelShadowDown
+    val: M32/M32_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1
+  - key: SuperSymbolLightEffect
+    val: M32/FX_M32_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 1
+  - key: HasNormalWinReelSideEffect
+    val: 1
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: NormalHitRate
+    val: 0.1408
+  - key: LuckyHitRate
+    val: 0.1425
+  - key: NormalRTP
+    val: 0.7508
+  - key: LuckyRTP
+    val: 2.0172
+  - key: NearHitProbs
+    val: 0.2,0.3,0.5
+  - key: SpinReelSoundNumber
+    val: 3
+  - key: NormalBlurFactor
+    val: 2

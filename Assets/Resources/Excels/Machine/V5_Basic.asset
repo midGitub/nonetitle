@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: V5_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/V5.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: '*Logic General Config*'
+    val: 
+  - key: ReelCount
+    val: 3
+  - key: IsMultiLine
+    val: 1
+  - key: NearHitProbs
+    val: 0.3,0.3,0.4
+  - key: '*Logic SmallGame Config*'
+    val: 
+  - key: HasSlide
+    val: 0
+  - key: TriggerType
+    val: Payout
+  - key: SmallGameTypes
+    val: FreeSpin
+  - key: FreeSpinType
+    val: SpinUntilLose
+  - key: IsFreeSpinFixBonus
+    val: 0
+  - key: FreeSpinTriggerCount
+    val: 3
+  - key: FreeSpinTriggerSymbolNames
+    val: Bonus
+  - key: FreeSpinHits
+    val: 1,0.9,0.7,0.5
+  - key: LuckyFreeSpinHits
+    val: 1,0.9,0.8,0.7
+  - key: '*Render General Config*'
+    val: 
+  - key: ReelStartPos
+    val: 2,2,2
+  - key: SymbolUnitDistanceFactor
+    val: 0.8
+  - key: ReelSkin
+    val: V5/V5_ReelBack
+  - key: MultiFrameAsset
+    val: Game/MultiLineFrameV5
+  - key: PayLine
+    val: V5/V5_PayLine
+  - key: IsReelBackSlice
+    val: 1
+  - key: BackgroundPrefab
+    val: Game/BackgroundV5
+  - key: BackgroundEffectPrefab
+    val: V5/FX_V5_SceneEffect
+  - key: ReelShadowUp
+    val: V5/V5_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1;6;1.015;-37
+  - key: ReelShadowDown
+    val: V5/V5_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1;3;1.015;42
+  - key: SuperSymbolLightEffect
+    val: V5/FX_V5_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: ShowBackgroundEffectType
+    val: HighWin
+  - key: CloseBackgroundEffectType
+    val: None
+  - key: SpinSpeed
+    val: 24
+  - key: ReelSpinTimes
+    val: 0.4,0.46,0.51,0.4
+  - key: NormalBlurFactor
+    val: 2
+  - key: '*Render SmallGame Config*'
+    val: 
+  - key: JackpotScore
+    val: Game/JackpotSinglePool_V5
+  - key: IsJackpot
+    val: 1
+  - key: JackpotMinBet
+    val: 10000
+  - key: JackpotSelect
+    val: 
+  - key: JackpotTips
+    val: 
+  - key: JackpotPayoutIndexes
+    val: 63,64,65,66,67
+  - key: SmallGameEffect
+    val: V5/FX_V5_FreeSpin
+  - key: FreespinHintDelay
+    val: 1
+  - key: FreespinHintAudio
+    val: 
+  - key: FreespinBGM
+    val: 
+  - key: FreespinBackgroundEffectType
+    val: Freespin
+  - key: HideJackpotScoreWhenSmallGame
+    val: 1

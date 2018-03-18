@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 238ac65bc0c35478792f3c685c334e0e, type: 3}
+  m_Name: GameSetting_BetOption
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Game/GameSetting.xls
+  WorksheetName: BetOption
+  dataArray:
+  - key: type1
+    options: 3200000064000000f4010000e8030000881300001027000050c30000a086010020a1070040420f00404b4c0080969800
+    machines:
+    - M1
+    - M2
+    - M3
+    - M4
+    - M5
+    - M6
+    - M7
+    - M8
+    - M9
+    - M10
+    - M11
+    - M12
+    - M13
+    - M14
+    - M15
+    - M16
+    - M17
+    - M18
+    - M19
+    - M20
+    - M21
+    - M22
+    - M23
+    - M24
+    - M25
+    - M26
+    - M27
+    - M28
+    - M29
+    - M30
+    - M31
+    - M32
+    - M33
+    - M34
+    - M35
+    - M36
+    - M37
+    - M38
+    - M39
+    - M40
+  - key: type2
+    options: c2010000840300009411000028230000c8af0000905f0100d0dd0600a0bb0d0020aa440040548900
+    machines:
+    - M44
+  - key: type3
+    options: 64000000f4010000e8030000881300001027000050c30000a086010020a1070040420f00404b4c008096980080f0fa02
+    machines:
+    - V1
+    - V2
+  - key: type4
+    options: f4010000e8030000881300001027000050c30000a086010020a1070040420f00404b4c008096980080f0fa02
+    machines:
+    - V5
+    - V4
+  - key: type5
+    options: e8030000881300001027000050c30000a086010020a1070040420f00404b4c008096980080f0fa02
+    machines:
+    - V3

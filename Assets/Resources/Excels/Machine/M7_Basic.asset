@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M7_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M7.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 4,20,4
+  - key: HasSlide
+    val: 0
+  - key: SmallGameTypes
+    val: None
+  - key: IsMultiLine
+    val: 1
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: ReelSkin
+    val: M7/M7_ReelBack
+  - key: IsReelBackSlice
+    val: 1
+  - key: Background
+    val: 
+  - key: PayLine
+    val: M7/M7_PayLine
+  - key: HighLight
+    val: M7/M7_HighLight
+  - key: BackgroundPrefab
+    val: Game/BackgroundM7
+  - key: BackgroundUp
+    val: M7/M7_BackgroundUp
+  - key: BackgroundDown
+    val: M7/M7_BackgroundUp
+  - key: BackgroundLeft
+    val: M7/M7_BackgroundLeft
+  - key: BackgroundRight
+    val: M7/M7_BackgroundLeft
+  - key: ReelShadowUp
+    val: M7/M7_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1
+  - key: ReelShadowDown
+    val: M7/M7_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1
+  - key: HypeMachineEffect
+    val: M2/M2_HypeMachineEffect
+  - key: SuperSymbolLightEffect
+    val: M7/FX_M7_Spin_SuperSymbol_ReelLight
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: SymbolUnitDistanceFactor
+    val: 0.8
+  - key: NormalHitRate
+    val: 0.209
+  - key: LuckyHitRate
+    val: 0.2
+  - key: NormalRTP
+    val: 0.826
+  - key: LuckyRTP
+    val: 2.379
+  - key: NearHitProbs
+    val: 0.3,0.3,0.4
+  - key: SpinReelSoundNames
+    val: Machine_SpinReel1,Machine_SpinReel2,Machine_SpinReel3
+  - key: SpinSpeed
+    val: 24
+  - key: ReelSpinTimes
+    val: 0.4,0.46,0.51,0.4
+  - key: NormalBlurFactor
+    val: 2

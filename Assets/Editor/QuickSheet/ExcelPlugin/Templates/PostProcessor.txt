@@ -1,0 +1,51 @@
+﻿using UnityEngine;
+using UnityEditor;
+using System.Collections;
+using System.IO;
+using UnityQuickSheet;
+
+///
+/// !!! Machine generated code !!!
+///
+public class $AssetPostprocessorClass : AssetPostprocessor 
+{
+    private static readonly string importPath = "$IMPORT_PATH";
+    private static readonly string exportAssetPath = "$ASSET_PATH";
+    private static readonly string sheetName = "$WorkSheetName";
+    
+    static void OnPostprocessAllAssets (string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths)
+    {
+        foreach (string importFilePath in importedAssets) 
+        {
+            if(!importFilePath.StartsWith(importPath)
+				|| !importFilePath.EndsWith(".xls"))
+				continue;
+
+			ExcelQuery query = new ExcelQuery(importFilePath, sheetName);
+            if (query != null && query.IsValid())
+            {
+            	$DataClassName[] dataArray = query.Deserialize<$DataClassName>().ToArray();
+            	if(dataArray != null && dataArray.Length > 0)
+            	{
+            		string excelFileName = Path.GetFileNameWithoutExtension(importFilePath);
+					string assetFileName = excelFileName + "_" + sheetName + ".asset";
+					string assetFilePath = exportAssetPath + "/" + assetFileName;
+		                
+		            $WorkSheetClassName data = ($WorkSheetClassName)AssetDatabase.LoadAssetAtPath (assetFilePath, typeof($WorkSheetClassName));
+		            if (data == null) {
+		                data = ScriptableObject.CreateInstance<$WorkSheetClassName> ();
+		                data.SheetName = importFilePath;
+		                data.WorksheetName = sheetName;
+		                AssetDatabase.CreateAsset ((ScriptableObject)data, assetFilePath);
+		                //data.hideFlags = HideFlags.NotEditable;
+		            }
+
+		            data.dataArray = dataArray;
+	                ScriptableObject obj = AssetDatabase.LoadAssetAtPath (assetFilePath, typeof(ScriptableObject)) as ScriptableObject;
+	                EditorUtility.SetDirty (obj);
+	                AssetDatabase.SaveAssets();
+            	}
+            }
+        }
+    }
+}

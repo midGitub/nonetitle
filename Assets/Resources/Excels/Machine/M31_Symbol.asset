@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f9999f0eb68e499d999d210974bea2e, type: 3}
+  m_Name: M31_Symbol
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M31.xls
+  WorksheetName: Symbol
+  dataArray:
+  - name: Wheel
+    symbolType: 1
+    slideType: 0
+    artAsset: M31/M31_Wheel
+    jackpotCount: 0
+    multiplier: 0
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: 
+    winEffect3D: M31/FX_M31_Win_Wheel_HighLight
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: Wildx7
+    symbolType: 0
+    slideType: 0
+    artAsset: M31/M31_Wildx7
+    jackpotCount: 0
+    multiplier: 7
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: 
+    winEffect3D: M31/FX_M31_Win_Wildx7_HighLight
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: Red7
+    symbolType: 4
+    slideType: 0
+    artAsset: M31/M31_Red7
+    jackpotCount: 0
+    multiplier: 0
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: M31/FX_M31_Win_Mid7_HighLight
+    winEffect3D: 
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: Orange7
+    symbolType: 4
+    slideType: 0
+    artAsset: M31/M31_Orange7
+    jackpotCount: 0
+    multiplier: 0
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: M31/FX_M31_Win_High7_HighLight
+    winEffect3D: 
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: Yellow7
+    symbolType: 4
+    slideType: 0
+    artAsset: M31/M31_Yellow7
+    jackpotCount: 0
+    multiplier: 0
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: M31/FX_M31_Win_Yellow7_HighLight
+    winEffect3D: 
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: Green7
+    symbolType: 4
+    slideType: 0
+    artAsset: M31/M31_Green7
+    jackpotCount: 0
+    multiplier: 0
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: M31/FX_M31_Win_Green7_HighLight
+    winEffect3D: 
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: Cyan7
+    symbolType: 4
+    slideType: 0
+    artAsset: M31/M31_Cyan7
+    jackpotCount: 0
+    multiplier: 0
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: M31/FX_M31_Win_Cyan7_HighLight
+    winEffect3D: 
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: Blue7
+    symbolType: 4
+    slideType: 0
+    artAsset: M31/M31_Blue7
+    jackpotCount: 0
+    multiplier: 0
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: M31/FX_M31_Win_Blue7_HighLight
+    winEffect3D: 
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: Purple7
+    symbolType: 4
+    slideType: 0
+    artAsset: M31/M31_Purple7
+    jackpotCount: 0
+    multiplier: 0
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: M31/FX_M31_Win_Low7_HighLight
+    winEffect3D: 
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []
+  - name: Blank
+    symbolType: 7
+    slideType: 0
+    artAsset: Blank
+    jackpotCount: 0
+    multiplier: 0
+    canMirror: 0
+    mirrorReelIndexes: 
+    hasStrongSpecialEffect: 0
+    strongSpecialEffect: 
+    strongSpecialHintEffect: 
+    strongSpecialHintDelay: 0
+    strongSpecialHintSound: 
+    strongSpecialWinEffect: 
+    strongSpecialWinDelay: 0
+    strongSpecialWinSound: 
+    strongSpecialStartEffect: 
+    strongSpecialStartDelay: 0
+    strongSpecialStartSound: 
+    winEffect: 
+    winEffect3D: 
+    collectTrailEffect: 
+    collectAnimator: 
+    canApplyCollect: []
+    switchToSymbol: 
+    switchSymbolNames: []
+    switchSymbolProbs: []

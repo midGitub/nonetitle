@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb2d141cfaed95c4cb0906ba62f71084, type: 3}
+  m_Name: GameSetting_Compensation
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Game/GameSetting.xls
+  WorksheetName: Compensation
+  dataArray:
+  - type: Dice
+    content: Sorry for the crash after payments. The Dice Reward is already in your
+      account  and Here is {0} More For You!
+    extraCredits: 10000
+  - type: WheelOfLuck
+    content: Sorry for the crash after payments. The Highest Amount of the Wheel is
+      already in your account and Here is {0} Compensation For You!
+    extraCredits: 5000
+  - type: PiggyBank
+    content: Sorry for the crash after payments. Your piggy bank credits is already
+      in your account and Here is {0} More For You!
+    extraCredits: 10000
+  - type: Others
+    content: Sorry for the crash after payments.Credits you bought is already in your
+      account. Now we prepare {0} More as compensation!!
+    extraCredits: 10000

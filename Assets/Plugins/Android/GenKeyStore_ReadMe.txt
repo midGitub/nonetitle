@@ -1,0 +1,1 @@
+keytool -genkey -alias trojan -keyalg RSA -validity 20000 -keystore android.keystore

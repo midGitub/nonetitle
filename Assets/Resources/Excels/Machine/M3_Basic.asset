@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a30fb34cb4d8b4dc1803b6491855e88a, type: 3}
+  m_Name: M3_Basic
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Excels/Machine/M3.xls
+  WorksheetName: Basic
+  dataArray:
+  - key: ReelCount
+    val: 3
+  - key: ReelStartPos
+    val: 6,6,6
+  - key: HasSlide
+    val: 0
+  - key: SmallGameTypes
+    val: Rewind
+  - key: BetOptions
+    val: 50,100,500,1000,5000,10000,50000,100000,500000,1000000
+  - key: ReelSkin
+    val: M3/M3_ReelBack
+  - key: IsReelBackSlice
+    val: 1
+  - key: Background
+    val: 
+  - key: PayLine
+    val: M3/M3_PayLine
+  - key: HighLight
+    val: M3/M3_HighLight
+  - key: BackgroundPrefab
+    val: Game/BackgroundM3
+  - key: BackgroundEffectPrefab
+    val: M3/FX_M3_SceneEffect
+  - key: BackgroundEffectStartOn
+    val: 1
+  - key: BackgroundUp
+    val: M3/M3_BackgroundUp
+  - key: BackgroundDown
+    val: M3/M3_BackgroundDown
+  - key: BackgroundLeft
+    val: M3/M3_BackgroundLeft
+  - key: BackgroundRight
+    val: M3/M3_BackgroundLeft
+  - key: ReelShadowUp
+    val: M3/M3_ReelShadowUp
+  - key: ReelShadowUpProperty
+    val: 1;1;1;1
+  - key: ReelShadowDown
+    val: M3/M3_ReelShadowDown
+  - key: ReelShadowDownProperty
+    val: 1;1;1;1
+  - key: SuperSymbolLightEffect
+    val: M3/FX_M3_Spin_SuperSymbol_ReelLight
+  - key: RewindAnimations
+    val: M3_rewind1_Anim,M3_rewind2_Anim
+  - key: HasIdleReelSideEffect
+    val: 0
+  - key: HasSpinReelSideEffect
+    val: 0
+  - key: HasRespinReelSideEffect
+    val: 0
+  - key: HasNormalWinReelSideEffect
+    val: 0
+  - key: HasBigWinReelSurroundingsEffect
+    val: 0
+  - key: NormalHitRate
+    val: 0.1408
+  - key: LuckyHitRate
+    val: 0.1409
+  - key: NormalRTP
+    val: 0.6349
+  - key: LuckyRTP
+    val: 2.5576
+  - key: NearHitProbs
+    val: 0.2,0.3,0.5
+  - key: NormalBlurFactor
+    val: 2
